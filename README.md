@@ -64,7 +64,7 @@
 
 ## Localization
 
-Localization resource files is located in the "Properties" and "Forms".
+Localization resource files is located in the `Properties` and `Forms`.
 Files with interface translation after compiling the program are placed in subfolders with a two-letter language designation.
 The language of the program interface is determined automatically depending on the language of the operating system.
 
