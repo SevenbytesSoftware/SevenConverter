@@ -1,6 +1,6 @@
 ﻿# FREE CONVERTER FOR VIDEO AND AUDIO FILES - SEVEN CONVERTER
 
-**Seven Converter** - simple converter to convert media files to various formats. The program is distributed for free under the Apache 2.0 license. It uses an open source libraries FFMPEG (build by http://ffmpeg.zeranoe.com/). The main goal of the program was to create an easy-to-use interface over FFMPEG console utilities with a minimum of additional settings. The project used icons from the Open Icon Library.
+**Seven Converter** - simple tool to convert media files to various formats. The program is distributed for free under the Apache 2.0 license. It uses an open source libraries FFMPEG (build by http://ffmpeg.zeranoe.com/). The main goal of the program was to create an easy-to-use interface over FFMPEG console utilities with a minimum of additional settings. The project used icons from the Open Icon Library.
 
 ## Features
 
@@ -64,7 +64,7 @@
 
 ## Localization
 
-Localization resource files is located in the "Properties" and "Forms".
+Localization resource files is located in the `Properties` and `Forms`.
 Files with interface translation after compiling the program are placed in subfolders with a two-letter language designation.
 The language of the program interface is determined automatically depending on the language of the operating system.
 
