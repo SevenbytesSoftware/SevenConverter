@@ -45,7 +45,7 @@
 
 ## Download and Install
 
-1. You can download the archive with the latest version from https://github.com/SevenbytesSoftware/SevenConverter/releases/latest
+1. You can download the archive with the program from [latest builds](https://github.com/SevenbytesSoftware/SevenConverter/releases/latest).
 2. Unzip files from the zip archive to any convenient folder.
 3. Run file `SevenConverter.exe`.
 
@@ -80,8 +80,8 @@ https://www.apache.org/licenses/LICENSE-2.0
 
 Unless required by applicable law or agreed to in writing, software distributed under the License is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the specific language governing permissions and limitations under the License.
 
-You may also see the license in the file [LICENSE](https://github.com/L4OS/Primula/blob/master/LICENSE) in the source distribution.
+You may also see the license in the file [LICENSE](https://github.com/SevenbytesSoftware/SevenConverter/blob/master/LICENSE) in the source distribution.
 
 ## Contact
 
-You can contact the developers using the form at https://github.com/SevenbytesSoftware/SevenConverter/issues
+You can contact the developers using the [Issues](https://github.com/SevenbytesSoftware/SevenConverter/issues).
