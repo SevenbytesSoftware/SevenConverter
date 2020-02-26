@@ -1,6 +1,6 @@
 ﻿# FREE CONVERTER FOR VIDEO AND AUDIO FILES - SEVEN CONVERTER
 
-**Seven Converter** - simple converter to convert media files to various formats. The program is distributed for free under the Apache 2.0 license. It uses an open source libraries FFMPEG (build by http://ffmpeg.zeranoe.com/). The main goal of the program was to create an easy-to-use interface over FFMPEG console utilities with a minimum of additional settings. The project used icons from the Open Icon Library.
+**Seven Converter** - simple tool to convert media files to various formats. The program is distributed for free under the Apache 2.0 license. It uses an open source libraries FFMPEG (build by http://ffmpeg.zeranoe.com/). The main goal of the program was to create an easy-to-use interface over FFMPEG console utilities with a minimum of additional settings. The project used icons from the Open Icon Library.
 
 ## Features
 
