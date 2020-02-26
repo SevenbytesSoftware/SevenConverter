@@ -1,4 +1,6 @@
-﻿# FREE CONVERTER FOR VIDEO AND AUDIO FILES - SEVEN CONVERTER
+﻿# FREE VIDEO AND AUDIO CONVERTER - SEVEN CONVERTER
+ 
+ ![SevenConverter](https://raw.githubusercontent.com/SevenbytesSoftware/SevenConverter/master/assets/SevenConverter.PNG)
 
 **Seven Converter** - simple tool to convert media files to various formats. The program is distributed for free under the Apache 2.0 license. It uses an open source libraries FFMPEG (build by http://ffmpeg.zeranoe.com/). The main goal of the program was to create an easy-to-use interface over FFMPEG console utilities with a minimum of additional settings. The project used icons from the Open Icon Library.
 
@@ -43,7 +45,7 @@
 
 ## Download and Install
 
-1. You can download the archive with the latest version or find out other useful information about the program at http://converter.sevenbytes.ru
+1. You can download the archive with the latest version from https://github.com/SevenbytesSoftware/SevenConverter/releases/latest
 2. Unzip files from the zip archive to any convenient folder.
 3. Run file `SevenConverter.exe`.
 
@@ -68,6 +70,18 @@ Localization resource files is located in the `Properties` and `Forms`.
 Files with interface translation after compiling the program are placed in subfolders with a two-letter language designation.
 The language of the program interface is determined automatically depending on the language of the operating system.
 
+## Copyright, License
+
+SevenConverter is copyright (c) 2019 SevenBytes Software.
+
+Licensed under the Apache License, Version 2.0 (the "License"); you may not use this file except in compliance with the License. You may obtain a copy of the License at
+
+https://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing, software distributed under the License is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the specific language governing permissions and limitations under the License.
+
+You may also see the license in the file [LICENSE](https://github.com/L4OS/Primula/blob/master/LICENSE) in the source distribution.
+
 ## Contact
 
-You can contact the developers using the form at http://converter.sevenbytes.ru/contact
+You can contact the developers using the form at https://github.com/SevenbytesSoftware/SevenConverter/issues
