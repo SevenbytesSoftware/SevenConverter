@@ -72,7 +72,7 @@ The language of the program interface is determined automatically depending on t
 
 ## Copyright, License
 
-Seven Converter is copyright (c) 2019 SevenBytes Software.
+Seven Converter is copyright (c) 2013-2020 SevenBytes Software.
 
 Licensed under the Apache License, Version 2.0 (the "License"); you may not use this file except in compliance with the License. You may obtain a copy of the License at
 
