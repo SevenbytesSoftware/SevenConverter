@@ -15,7 +15,7 @@
 
 ## Video conversion
 
-- Source Video File Formats: *.avi; *.mov; *.mkv; *.mpg; *.3gp; *.flv; *.vob; *.mp4; *.ts; *.m2ts.
+- Source Video File Formats: `*.avi; *.mov; *.mkv; *.mpg; *.3gp; *.flv; *.vob; *.mp4; *.ts; *.m2ts`.
 - Convert to Video Formats: AVI, MOV, MKV, MP4.
 - Video Codecs: H.264, MJPEG, XVID, MPEG2.
 - Adaptive video bitrate.
@@ -34,7 +34,7 @@
 
 ## Audio conversion
 
-- Source Audio File Formats: *.mp3; *.m4a; *.wav; *.flac; *.ogg; *.ape; *.amr; *.acc.
+- Source Audio File Formats: `*.mp3; *.m4a; *.wav; *.flac; *.ogg; *.ape; *.amr; *.acc`.
 - Convert to audio formats: MP3, OGG Vorbis, FLAC, WAV.
 - Change the bitrate and sample rate of audio.
 
