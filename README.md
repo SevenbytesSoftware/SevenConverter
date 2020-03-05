@@ -2,7 +2,7 @@
  
  ![SevenConverter](https://raw.githubusercontent.com/SevenbytesSoftware/SevenConverter/master/assets/SevenConverter.PNG)
 
-**Seven Converter** - simple tool to convert media files to various formats. The program is distributed for free under the Apache 2.0 license. It uses an open source libraries FFMPEG (build by http://ffmpeg.zeranoe.com/). The main goal of the program was to create an easy-to-use interface over FFMPEG console utilities with a minimum of additional settings. The project used icons from the Open Icon Library.
+**Seven Converter** is a simple tool for converting media files into various formats. The program is distributed for free under the Apache 2.0 license. It uses an open source libraries FFMPEG (build by http://ffmpeg.zeranoe.com/). The main goal of the program was to create an easy-to-use interface over FFMPEG console utilities with a minimum of additional settings. The project used icons from the Open Icon Library.
 
 ## Features
 
