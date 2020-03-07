@@ -14,7 +14,8 @@ namespace SevenConverter
         public Main()
         {
             // for debug purposes
-            //Thread.CurrentThread.CurrentUICulture = CultureInfo.GetCultureInfo("ru-RU");
+            //System.Threading.Thread.CurrentThread.CurrentUICulture = 
+            //    System.Globalization.CultureInfo.GetCultureInfo("ru-RU");
             InitializeComponent();
         }
 
@@ -84,7 +85,6 @@ namespace SevenConverter
                     && Directory.Exists(tbDestFilePath.Text))
                 {
                     // Run
-                    statusProgress.Visible = true;
 
                     // single output file (joined)
                     if (cbJoin.Checked)
@@ -116,7 +116,6 @@ namespace SevenConverter
                     }
 
                     // done!
-                    statusProgress.Visible = false;
                     SystemSounds.Exclamation.Play();
                 }
                 else
