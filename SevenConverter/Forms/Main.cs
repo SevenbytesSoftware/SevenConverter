@@ -1,5 +1,4 @@
-﻿using SevenConverter.Forms;
-using SevenConverter.Utils;
+﻿using SevenConverter.Utils;
 using System;
 using System.Drawing;
 using System.IO;
@@ -15,7 +14,7 @@ namespace SevenConverter
         public Main()
         {
             // localization debug
-            //System.Threading.Thread.CurrentThread.CurrentUICulture = 
+            //System.Threading.Thread.CurrentThread.CurrentUICulture =
             //    System.Globalization.CultureInfo.GetCultureInfo("ru-RU");
             InitializeComponent();
         }

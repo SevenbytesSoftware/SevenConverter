@@ -142,7 +142,7 @@ namespace SevenConverter
 
                     // run ffmpeg
                     using (RunForm runForm = new RunForm())
-                    {                        
+                    {
                         runForm.Command = String.Concat("\"", Path.Combine(ffmpeg_path, Files.FFmpeg_Exe_Name), "\"");
                         runForm.Args = command.ToString();
                         runForm.ShowDialog();

@@ -39,7 +39,6 @@ namespace SevenConverter
 
                     command.AppendFormat(" -threads 0 \"{0}\"", destFile);
 
-
                     using (RunForm runForm = new RunForm())
                     {
                         runForm.Command = String.Concat("\"", Path.Combine(ffmpeg_path, Files.FFmpeg_Exe_Name), "\"");
