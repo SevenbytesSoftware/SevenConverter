@@ -1,4 +1,5 @@
-﻿using SevenConverter.Utils;
+﻿using SevenConverter.Forms;
+using SevenConverter.Utils;
 using System;
 using System.Drawing;
 using System.IO;
@@ -13,7 +14,7 @@ namespace SevenConverter
 
         public Main()
         {
-            // for debug purposes
+            // localization debug
             //System.Threading.Thread.CurrentThread.CurrentUICulture = 
             //    System.Globalization.CultureInfo.GetCultureInfo("ru-RU");
             InitializeComponent();
@@ -33,7 +34,6 @@ namespace SevenConverter
         private string config_path;
         private string ffmpeg_path, currentPath;
 
-        //private StringBuilder log;
         private Settings settings;
 
         private int videoPanelHeight;
@@ -65,6 +65,7 @@ namespace SevenConverter
         {
             TurnOffPanels();
             SaveConfig();
+
             if (listSoruceFiles.Items.Count > 0)
             {
                 if (!String.IsNullOrEmpty(tbDestFilePath.Text)
@@ -252,7 +253,15 @@ namespace SevenConverter
         private void OpenFolder_Click(object sender, EventArgs e)
         {
             if (Directory.Exists(tbDestFilePath.Text))
-                Execute.RunApp("explorer.exe", tbDestFilePath.Text);
+            {
+                try
+                {
+                    System.Diagnostics.Process.Start(tbDestFilePath.Text);
+                }
+                catch
+                {
+                }
+            }
         }
 
         private void PlayToolStripMenuItem_Click(object sender, EventArgs e)

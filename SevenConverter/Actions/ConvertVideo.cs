@@ -1,4 +1,5 @@
-﻿using SevenConverter.Utils;
+﻿using SevenConverter.Forms;
+using SevenConverter.Utils;
 using System;
 using System.IO;
 using System.Text;
@@ -140,10 +141,13 @@ namespace SevenConverter
                     command.AppendFormat(" -stats -scodec copy -threads 0 \"{0}\"", destFile);
 
                     // run ffmpeg
-                    result = Execute.RunApp(
-                        String.Concat("\"", Path.Combine(ffmpeg_path, Files.FFmpeg_Exe_Name), "\""),
-                        command.ToString()
-                        );
+                    using (RunForm runForm = new RunForm())
+                    {                        
+                        runForm.Command = String.Concat("\"", Path.Combine(ffmpeg_path, Files.FFmpeg_Exe_Name), "\"");
+                        runForm.Args = command.ToString();
+                        runForm.ShowDialog();
+                        result = !runForm.ErrorState;
+                    }
                 }
                 else
                     MessageBox.Show(String.Format(Properties.strings.FolderDoesNotExistParam, dest_path));

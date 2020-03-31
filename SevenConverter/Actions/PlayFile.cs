@@ -1,4 +1,5 @@
-﻿using SevenConverter.Utils;
+﻿using SevenConverter.Forms;
+using SevenConverter.Utils;
 using System;
 using System.IO;
 using System.Windows.Forms;
@@ -12,8 +13,15 @@ namespace SevenConverter
         private void PlayFile(string path)
         {
             if (File.Exists(path))
-                Execute.RunApp(String.Concat("\"", Path.Combine(ffmpeg_path, Files.FFplay_Exe_Name), "\""),
-                    String.Concat(" -autoexit -i \"", path, "\""));
+            {
+                using (RunForm runForm = new RunForm())
+                {
+                    runForm.Text = Properties.strings.Play;
+                    runForm.Command = String.Concat("\"", Path.Combine(ffmpeg_path, Files.FFplay_Exe_Name), "\"");
+                    runForm.Args = String.Concat(" -autoexit -i \"", path, "\"");
+                    runForm.ShowDialog();
+                }
+            }
         }
 
         #endregion Private Methods

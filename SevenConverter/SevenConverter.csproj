@@ -123,6 +123,12 @@
     <Compile Include="Forms\About.Designer.cs">
       <DependentUpon>About.cs</DependentUpon>
     </Compile>
+    <Compile Include="Forms\Run.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Run.Designer.cs">
+      <DependentUpon>Run.cs</DependentUpon>
+    </Compile>
     <Compile Include="Forms\Main.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -142,7 +148,6 @@
       <DependentUpon>strings.resx</DependentUpon>
     </Compile>
     <Compile Include="Utils\Files.cs" />
-    <Compile Include="Utils\Run.cs" />
     <Compile Include="Settings\Settings.cs" />
     <Compile Include="Utils\Tools.cs" />
     <EmbeddedResource Include="Forms\About.resx">
@@ -156,6 +161,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\Main.ru.resx">
       <DependentUpon>Main.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Run.resx">
+      <DependentUpon>Run.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Run.ru.resx">
+      <DependentUpon>Run.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

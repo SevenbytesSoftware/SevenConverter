@@ -129,17 +129,26 @@
   <data name="AudioFileFilter" xml:space="preserve">
     <value>Аудио файлы|*.mp3; *.m4a; *.wav; *.flac; *.ogg; *.ape; *.amr; *.aac|Все файлы|*.*</value>
   </data>
+  <data name="Close" xml:space="preserve">
+    <value>ЗАКРЫТЬ</value>
+  </data>
   <data name="Error" xml:space="preserve">
     <value>Ошибка</value>
   </data>
   <data name="FFMPEGNotFound" xml:space="preserve">
     <value>Ошибка: FFMPEG не найден!</value>
   </data>
+  <data name="FileInformation" xml:space="preserve">
+    <value>Информация о файле</value>
+  </data>
   <data name="FolderDoesNotExist" xml:space="preserve">
     <value>Папка для готовых файлов не существует!</value>
   </data>
   <data name="FolderDoesNotExistParam" xml:space="preserve">
     <value>Папка {0} не существует!</value>
+  </data>
+  <data name="Play" xml:space="preserve">
+    <value>Воспроизведение</value>
   </data>
   <data name="Version" xml:space="preserve">
     <value>Версия {0}</value>
