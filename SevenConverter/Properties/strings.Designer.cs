@@ -97,6 +97,15 @@ namespace SevenConverter.Properties {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to CLOSE.
+        /// </summary>
+        internal static string Close {
+            get {
+                return ResourceManager.GetString("Close", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Error.
         /// </summary>
         internal static string Error {
@@ -115,6 +124,15 @@ namespace SevenConverter.Properties {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to File Information.
+        /// </summary>
+        internal static string FileInformation {
+            get {
+                return ResourceManager.GetString("FileInformation", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Folder for results  does not exist!.
         /// </summary>
         internal static string FolderDoesNotExist {
@@ -129,6 +147,15 @@ namespace SevenConverter.Properties {
         internal static string FolderDoesNotExistParam {
             get {
                 return ResourceManager.GetString("FolderDoesNotExistParam", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Play.
+        /// </summary>
+        internal static string Play {
+            get {
+                return ResourceManager.GetString("Play", resourceCulture);
             }
         }
         

@@ -70,7 +70,6 @@
             this.cbAspect = new System.Windows.Forms.ComboBox();
             this.statusStrip = new System.Windows.Forms.StatusStrip();
             this.statusLabel = new System.Windows.Forms.ToolStripStatusLabel();
-            this.statusProgress = new System.Windows.Forms.ToolStripProgressBar();
             this.lblOutputFormat = new System.Windows.Forms.Label();
             this.cbFormat = new System.Windows.Forms.ComboBox();
             this.cbTrack = new System.Windows.Forms.ComboBox();
@@ -419,8 +418,7 @@
             // statusStrip
             // 
             this.statusStrip.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.statusLabel,
-            this.statusProgress});
+            this.statusLabel});
             resources.ApplyResources(this.statusStrip, "statusStrip");
             this.statusStrip.Name = "statusStrip";
             // 
@@ -429,13 +427,6 @@
             this.statusLabel.Name = "statusLabel";
             resources.ApplyResources(this.statusLabel, "statusLabel");
             this.statusLabel.Spring = true;
-            // 
-            // statusProgress
-            // 
-            this.statusProgress.Name = "statusProgress";
-            resources.ApplyResources(this.statusProgress, "statusProgress");
-            this.statusProgress.Style = System.Windows.Forms.ProgressBarStyle.Marquee;
-            this.statusProgress.Value = 50;
             // 
             // lblOutputFormat
             // 
@@ -639,7 +630,6 @@
         private System.Windows.Forms.ComboBox cbFramerate;
         private System.Windows.Forms.StatusStrip statusStrip;
         private System.Windows.Forms.ToolStripStatusLabel statusLabel;
-        private System.Windows.Forms.ToolStripProgressBar statusProgress;
         private System.Windows.Forms.Label lblOutputFormat;
         private System.Windows.Forms.ComboBox cbFormat;
         private System.Windows.Forms.ComboBox cbTrack;

@@ -129,17 +129,26 @@
   <data name="AudioFileFilter" xml:space="preserve">
     <value>Audio Files|*.mp3; *.m4a; *.wav; *.flac; *.ogg; *.ape; *.amr; *.aac|All Files|*.*</value>
   </data>
+  <data name="Close" xml:space="preserve">
+    <value>CLOSE</value>
+  </data>
   <data name="Error" xml:space="preserve">
     <value>Error</value>
   </data>
   <data name="FFMPEGNotFound" xml:space="preserve">
     <value>Error: FFMPEG not found!</value>
   </data>
+  <data name="FileInformation" xml:space="preserve">
+    <value>File Information</value>
+  </data>
   <data name="FolderDoesNotExist" xml:space="preserve">
     <value>Folder for results  does not exist!</value>
   </data>
   <data name="FolderDoesNotExistParam" xml:space="preserve">
     <value>Folder {0} does not exist!</value>
+  </data>
+  <data name="Play" xml:space="preserve">
+    <value>Play</value>
   </data>
   <data name="Version" xml:space="preserve">
     <value>Version {0}</value>

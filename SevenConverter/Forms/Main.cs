@@ -13,8 +13,9 @@ namespace SevenConverter
 
         public Main()
         {
-            // for debug purposes
-            //Thread.CurrentThread.CurrentUICulture = CultureInfo.GetCultureInfo("ru-RU");
+            // localization debug
+            //System.Threading.Thread.CurrentThread.CurrentUICulture =
+            //    System.Globalization.CultureInfo.GetCultureInfo("ru-RU");
             InitializeComponent();
         }
 
@@ -32,7 +33,6 @@ namespace SevenConverter
         private string config_path;
         private string ffmpeg_path, currentPath;
 
-        //private StringBuilder log;
         private Settings settings;
 
         private int videoPanelHeight;
@@ -64,6 +64,7 @@ namespace SevenConverter
         {
             TurnOffPanels();
             SaveConfig();
+
             if (listSoruceFiles.Items.Count > 0)
             {
                 if (!String.IsNullOrEmpty(tbDestFilePath.Text)
@@ -84,7 +85,6 @@ namespace SevenConverter
                     && Directory.Exists(tbDestFilePath.Text))
                 {
                     // Run
-                    statusProgress.Visible = true;
 
                     // single output file (joined)
                     if (cbJoin.Checked)
@@ -116,7 +116,6 @@ namespace SevenConverter
                     }
 
                     // done!
-                    statusProgress.Visible = false;
                     SystemSounds.Exclamation.Play();
                 }
                 else
@@ -253,7 +252,15 @@ namespace SevenConverter
         private void OpenFolder_Click(object sender, EventArgs e)
         {
             if (Directory.Exists(tbDestFilePath.Text))
-                Execute.RunApp("explorer.exe", tbDestFilePath.Text);
+            {
+                try
+                {
+                    System.Diagnostics.Process.Start(tbDestFilePath.Text);
+                }
+                catch
+                {
+                }
+            }
         }
 
         private void PlayToolStripMenuItem_Click(object sender, EventArgs e)
