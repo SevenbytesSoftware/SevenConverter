@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Diagnostics;
+using System.Drawing;
 using System.Text;
 using System.Windows.Forms;
 
@@ -66,7 +67,8 @@ namespace SevenConverter.Forms
 
         private void App_Exited(object sender, EventArgs e)
         {
-            ErrorState = app.ExitCode != 0;
+            if (app != null)
+                ErrorState = app.ExitCode != 0;
 
             Action close = () =>
             {
@@ -77,6 +79,8 @@ namespace SevenConverter.Forms
                 else
                 {
                     btnStop.Text = Properties.strings.Close;
+                    if (ErrorState)
+                        tbConsole.ForeColor = Color.Red;
                 }
             };
 
