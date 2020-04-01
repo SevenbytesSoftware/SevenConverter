@@ -17,7 +17,9 @@ namespace SevenConverter
             " -b:v 5M -minrate 5M -maxrate 5M -bufsize 2M",
             " -b:v 8M -minrate 8M -maxrate 8M -bufsize 2M",
             " -b:v 10M -minrate 10M -maxrate 10M -bufsize 2M",
-            " -b:v 10M -minrate 10M -maxrate 20M -bufsize 2M"
+            " -b:v 10M -minrate 10M -maxrate 20M -bufsize 2M",
+            " -b:v 20M -minrate 20M -maxrate 40M -bufsize 2M",
+            " -b:v 40M -minrate 40M -maxrate 80M -bufsize 2M"
         };
 
         private readonly string[] interlaced =
@@ -34,6 +36,7 @@ namespace SevenConverter
             "libx264",
             "h264_nvenc -global_quality 25",
             "h264_qsv -global_quality 25",
+            "libx265",
             "libxvid",
             "mpeg2video"
         };
@@ -56,12 +59,12 @@ namespace SevenConverter
                 if (Directory.Exists(dest_path))
                 {
                     StringBuilder command = new StringBuilder();
-                    command.AppendFormat("-hwaccel auto -i {0} -y -v error -vcodec ",
-                        quoted ? String.Concat("\"", sourceFile, "\"") : sourceFile);
+                    // input file and video codec
+                    command.AppendFormat("-hwaccel auto -i {0} -y -v error -vcodec {1}",
+                        quoted ? String.Concat("\"", sourceFile, "\"") : sourceFile,
+                        videoCodec[cbVideoCodec.SelectedIndex]);
 
-                    // video codec
-                    command.Append(videoCodec[cbVideoCodec.SelectedIndex]);
-
+ 
                     // TS format
                     if (cbFormat.SelectedIndex == 3)
                     {
@@ -115,10 +118,25 @@ namespace SevenConverter
                         command.AppendFormat(" -aspect {0}", cbAspect.Text);
                     }
 
-                    // scale
-                    if (cbLines.SelectedIndex > 0)
+                    if (cbLines.SelectedIndex > 0 || cbHDR.SelectedIndex > 0)
                     {
-                        command.AppendFormat(" -vf scale=-1:{0}", cbLines.Text);
+                        string rows = String.Empty;
+                        string delim = String.Empty;
+                        
+                        // scale
+                        if (cbLines.SelectedIndex > 0)
+                        {
+                            rows = String.Format("scale=-1:{0}", cbLines.Text);
+                        }
+
+                        string hdr = String.Empty;
+                        if (cbHDR.SelectedIndex == 1)
+                        {
+                            delim = ",";
+                            hdr = "zscale=t=linear:npl=100,format=gbrpf32le,zscale=p=bt709,tonemap=tonemap=hable:desat=0,zscale=t=bt709:m=bt709:r=tv,format=yuv420p";
+                        }
+
+                        command.AppendFormat(" -vf {0}{1}{2}", rows, delim, hdr);
                     }
 
                     // bitrate
@@ -184,6 +202,10 @@ namespace SevenConverter
             label12.Visible = true;
             cbBitrate.Visible = true;
             cbBitrate.SelectedIndex = 0;
+
+            label1.Visible = true;
+            cbHDR.Visible = true;
+            cbHDR.SelectedIndex = 0;
 
             btnVideoSet.Visible = true;
 

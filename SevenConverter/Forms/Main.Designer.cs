@@ -82,6 +82,8 @@
             this.btnFolder = new System.Windows.Forms.Button();
             this.listSoruceFiles = new System.Windows.Forms.ListView();
             this.toolTip1 = new System.Windows.Forms.ToolTip(this.components);
+            this.cbHDR = new System.Windows.Forms.ComboBox();
+            this.label1 = new System.Windows.Forms.Label();
             this.contextMenuFile.SuspendLayout();
             this.pnlAudio.SuspendLayout();
             this.pnlVideo.SuspendLayout();
@@ -117,7 +119,8 @@
             resources.GetString("cbVideoCodec.Items3"),
             resources.GetString("cbVideoCodec.Items4"),
             resources.GetString("cbVideoCodec.Items5"),
-            resources.GetString("cbVideoCodec.Items6")});
+            resources.GetString("cbVideoCodec.Items6"),
+            resources.GetString("cbVideoCodec.Items7")});
             this.cbVideoCodec.Name = "cbVideoCodec";
             this.cbVideoCodec.SelectedIndexChanged += new System.EventHandler(this.CbVideoCodec_SelectedIndexChanged);
             // 
@@ -295,6 +298,8 @@
             // 
             this.pnlVideo.BackColor = System.Drawing.SystemColors.ControlLight;
             this.pnlVideo.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pnlVideo.Controls.Add(this.cbHDR);
+            this.pnlVideo.Controls.Add(this.label1);
             this.pnlVideo.Controls.Add(this.cbBitrate);
             this.pnlVideo.Controls.Add(this.label12);
             this.pnlVideo.Controls.Add(this.label10);
@@ -319,7 +324,9 @@
             resources.GetString("cbBitrate.Items2"),
             resources.GetString("cbBitrate.Items3"),
             resources.GetString("cbBitrate.Items4"),
-            resources.GetString("cbBitrate.Items5")});
+            resources.GetString("cbBitrate.Items5"),
+            resources.GetString("cbBitrate.Items6"),
+            resources.GetString("cbBitrate.Items7")});
             resources.ApplyResources(this.cbBitrate, "cbBitrate");
             this.cbBitrate.Name = "cbBitrate";
             // 
@@ -538,6 +545,21 @@
             this.listSoruceFiles.DragEnter += new System.Windows.Forms.DragEventHandler(this.ListSoruceFiles_DragEnter);
             this.listSoruceFiles.MouseClick += new System.Windows.Forms.MouseEventHandler(this.Main_MouseClick);
             // 
+            // cbHDR
+            // 
+            this.cbHDR.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.cbHDR.FormattingEnabled = true;
+            this.cbHDR.Items.AddRange(new object[] {
+            resources.GetString("cbHDR.Items"),
+            resources.GetString("cbHDR.Items1")});
+            resources.ApplyResources(this.cbHDR, "cbHDR");
+            this.cbHDR.Name = "cbHDR";
+            // 
+            // label1
+            // 
+            resources.ApplyResources(this.label1, "label1");
+            this.label1.Name = "label1";
+            // 
             // Main
             // 
             resources.ApplyResources(this, "$this");
@@ -637,6 +659,8 @@
         private System.Windows.Forms.ComboBox cbBitrate;
         private System.Windows.Forms.Label label12;
         private System.Windows.Forms.ToolTip toolTip1;
+        private System.Windows.Forms.ComboBox cbHDR;
+        private System.Windows.Forms.Label label1;
     }
 }
 

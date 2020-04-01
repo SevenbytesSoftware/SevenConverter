@@ -57,6 +57,7 @@ namespace SevenConverter
 
         private void BtnAudioSet_Click(object sender, EventArgs e)
         {
+            TurnOffPanels();
             Tools.ShowPanel(btnAudioSet, pnlAudio, !pnlAudio.Visible, audioPanelHeight);
         }
 
@@ -135,6 +136,7 @@ namespace SevenConverter
 
         private void BtnVideoSet_Click(object sender, EventArgs e)
         {
+            TurnOffPanels();
             Tools.ShowPanel(btnVideoSet, pnlVideo, !pnlVideo.Visible, videoPanelHeight);
         }
 
@@ -271,11 +273,13 @@ namespace SevenConverter
 
         private void PnlAudio_Click(object sender, EventArgs e)
         {
+            TurnOffPanels();
             Tools.ShowPanel(btnAudioSet, pnlAudio, false, audioPanelHeight);
         }
 
         private void PnlVideo_Click(object sender, EventArgs e)
         {
+            TurnOffPanels();
             Tools.ShowPanel(btnVideoSet, pnlVideo, false, videoPanelHeight);
         }
 

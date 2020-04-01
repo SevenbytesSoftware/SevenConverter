@@ -78,6 +78,9 @@ namespace SevenConverter
             btnAudioSet.Top = cbFormat.Top;
             btnVideoSet.Visible = false;
 
+            label1.Visible = false;
+            cbHDR.Visible = false;
+
             TurnOffPanels();
         }
 
