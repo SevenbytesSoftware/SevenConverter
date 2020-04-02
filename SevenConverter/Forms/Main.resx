@@ -117,20 +117,397 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="&gt;&gt;rbVideo.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="cbAspect.Items4" xml:space="preserve">
+    <value>16:10</value>
+  </data>
+  <data name="&gt;&gt;imageListButtons.Name" xml:space="preserve">
+    <value>imageListButtons</value>
+  </data>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="tbDestFilePath.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Bottom, Left, Right</value>
+  <data name="$this.StartPosition" type="System.Windows.Forms.FormStartPosition, System.Windows.Forms">
+    <value>CenterScreen</value>
+  </data>
+  <data name="btnFolder.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Right</value>
   </data>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="pnlAudio.Location" type="System.Drawing.Point, System.Drawing">
+    <value>177, 239</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="lblAudioTrack.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;label6.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="$this.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 8.25pt</value>
+  </data>
+  <data name="cbBitrate.Items5" xml:space="preserve">
+    <value>20000</value>
+  </data>
+  <data name="cbTrack.Items1" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;cbFramerate.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="lblFolder.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnStart.TabIndex" type="System.Int32, mscorlib">
+    <value>15</value>
+  </data>
+  <data name="lblOutputFormat.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="cbTrack.Size" type="System.Drawing.Size, System.Drawing">
+    <value>93, 21</value>
+  </data>
+  <data name="&gt;&gt;cbJoin.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="btnAudioSet.Location" type="System.Drawing.Point, System.Drawing">
+    <value>280, 382</value>
+  </data>
+  <data name="btnVideoSet.ToolTip" xml:space="preserve">
+    <value>Video Codec Properties</value>
+  </data>
+  <data name="cbFormat.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;rbAudio.Name" xml:space="preserve">
+    <value>rbAudio</value>
+  </data>
+  <data name="btnOpenFolder.ImageIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="label10.TabIndex" type="System.Int32, mscorlib">
+    <value>25</value>
+  </data>
+  <data name="lblAudioCodec.Size" type="System.Drawing.Size, System.Drawing">
+    <value>73, 13</value>
+  </data>
+  <data name="label6.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Right</value>
+  </data>
+  <data name="&gt;&gt;cbHDR.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="cbFramerate.Items9" xml:space="preserve">
+    <value>50</value>
+  </data>
+  <data name="&gt;&gt;label8.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="cbBitrate.Location" type="System.Drawing.Point, System.Drawing">
+    <value>99, 119</value>
+  </data>
+  <data name="&gt;&gt;cbAudioCodec.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblVideoCodec.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="cbAudioCodec.Items4" xml:space="preserve">
+    <value>No sound</value>
+  </data>
+  <data name="label7.Text" xml:space="preserve">
+    <value>Rows</value>
+  </data>
+  <data name="cbHDR.Items" xml:space="preserve">
+    <value>Auto</value>
+  </data>
+  <data name="pnlVideo.Location" type="System.Drawing.Point, System.Drawing">
+    <value>393, 119</value>
+  </data>
+  <data name="&gt;&gt;cbJoin.ZOrder" xml:space="preserve">
+    <value>22</value>
+  </data>
+  <data name="cbFormat.Size" type="System.Drawing.Size, System.Drawing">
+    <value>115, 21</value>
+  </data>
+  <data name="cbBitrate.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;lblFolder.Name" xml:space="preserve">
+    <value>lblFolder</value>
+  </data>
+  <data name="pnlVideo.Size" type="System.Drawing.Size, System.Drawing">
+    <value>206, 178</value>
+  </data>
+  <data name="pnlVideo.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;cbInterlaced.Parent" xml:space="preserve">
+    <value>pnlVideo</value>
+  </data>
+  <data name="cbVideoCodec.Size" type="System.Drawing.Size, System.Drawing">
+    <value>115, 21</value>
+  </data>
+  <data name="tbDestFilePath.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;rbAudio.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="cbAudioCodec.Items" xml:space="preserve">
+    <value>Source</value>
+  </data>
+  <data name="&gt;&gt;lblOutputFormat.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnAudioSet.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="label10.Size" type="System.Drawing.Size, System.Drawing">
+    <value>31, 13</value>
+  </data>
+  <data name="&gt;&gt;cbVideoCodec.Name" xml:space="preserve">
+    <value>cbVideoCodec</value>
+  </data>
+  <data name="lblVideoCodec.Size" type="System.Drawing.Size, System.Drawing">
+    <value>72, 13</value>
+  </data>
   <data name="tbDestFilePath.Location" type="System.Drawing.Point, System.Drawing">
     <value>159, 327</value>
   </data>
-  <data name="tbDestFilePath.Size" type="System.Drawing.Size, System.Drawing">
-    <value>391, 22</value>
+  <data name="label12.Size" type="System.Drawing.Size, System.Drawing">
+    <value>43, 13</value>
   </data>
-  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="tbDestFilePath.TabIndex" type="System.Int32, mscorlib">
-    <value>5</value>
+  <data name="btnAudioSet.ToolTip" xml:space="preserve">
+    <value>Audio Codec Properties</value>
+  </data>
+  <data name="&gt;&gt;pnlAudio.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;lblFolder.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="label9.Size" type="System.Drawing.Size, System.Drawing">
+    <value>61, 13</value>
+  </data>
+  <data name="btnFolder.ToolTip" xml:space="preserve">
+    <value>Select an output directory</value>
+  </data>
+  <data name="btnStart.ImageIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="cbTrack.Items4" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="label8.TabIndex" type="System.Int32, mscorlib">
+    <value>20</value>
+  </data>
+  <data name="&gt;&gt;label10.Name" xml:space="preserve">
+    <value>label10</value>
+  </data>
+  <data name="rbVideo.Size" type="System.Drawing.Size, System.Drawing">
+    <value>55, 17</value>
+  </data>
+  <data name="cbFormat.Items2" xml:space="preserve">
+    <value>MKV</value>
+  </data>
+  <data name="&gt;&gt;cbFormat.ZOrder" xml:space="preserve">
+    <value>15</value>
+  </data>
+  <data name="imageListButtons.ImageStream" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>
+        AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj00LjAuMC4w
+        LCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAAACZTeXN0
+        ZW0uV2luZG93cy5Gb3Jtcy5JbWFnZUxpc3RTdHJlYW1lcgEAAAAERGF0YQcCAgAAAAkDAAAADwMAAABw
+        CwAAAk1TRnQBSQFMAgEBBAEAAcABAQHIAQEBEAEAARABAAT/AQkBEAj/AUIBTQE2AQQGAAE2AQQCAAEo
+        AwABQAMAASADAAEBAQABCAYAAQgYAAGAAgABgAMAAoABAAGAAwABgAEAAYABAAKAAgADwAEAAcAB3AHA
+        AQAB8AHKAaYBAAEzBQABMwEAATMBAAEzAQACMwIAAxYBAAMcAQADIgEAAykBAANVAQADTQEAA0IBAAM5
+        AQABgAF8Af8BAAJQAf8BAAGTAQAB1gEAAf8B7AHMAQABxgHWAe8BAAHWAucBAAGQAakBrQIAAf8BMwMA
+        AWYDAAGZAwABzAIAATMDAAIzAgABMwFmAgABMwGZAgABMwHMAgABMwH/AgABZgMAAWYBMwIAAmYCAAFm
+        AZkCAAFmAcwCAAFmAf8CAAGZAwABmQEzAgABmQFmAgACmQIAAZkBzAIAAZkB/wIAAcwDAAHMATMCAAHM
+        AWYCAAHMAZkCAALMAgABzAH/AgAB/wFmAgAB/wGZAgAB/wHMAQABMwH/AgAB/wEAATMBAAEzAQABZgEA
+        ATMBAAGZAQABMwEAAcwBAAEzAQAB/wEAAf8BMwIAAzMBAAIzAWYBAAIzAZkBAAIzAcwBAAIzAf8BAAEz
+        AWYCAAEzAWYBMwEAATMCZgEAATMBZgGZAQABMwFmAcwBAAEzAWYB/wEAATMBmQIAATMBmQEzAQABMwGZ
+        AWYBAAEzApkBAAEzAZkBzAEAATMBmQH/AQABMwHMAgABMwHMATMBAAEzAcwBZgEAATMBzAGZAQABMwLM
+        AQABMwHMAf8BAAEzAf8BMwEAATMB/wFmAQABMwH/AZkBAAEzAf8BzAEAATMC/wEAAWYDAAFmAQABMwEA
+        AWYBAAFmAQABZgEAAZkBAAFmAQABzAEAAWYBAAH/AQABZgEzAgABZgIzAQABZgEzAWYBAAFmATMBmQEA
+        AWYBMwHMAQABZgEzAf8BAAJmAgACZgEzAQADZgEAAmYBmQEAAmYBzAEAAWYBmQIAAWYBmQEzAQABZgGZ
+        AWYBAAFmApkBAAFmAZkBzAEAAWYBmQH/AQABZgHMAgABZgHMATMBAAFmAcwBmQEAAWYCzAEAAWYBzAH/
+        AQABZgH/AgABZgH/ATMBAAFmAf8BmQEAAWYB/wHMAQABzAEAAf8BAAH/AQABzAEAApkCAAGZATMBmQEA
+        AZkBAAGZAQABmQEAAcwBAAGZAwABmQIzAQABmQEAAWYBAAGZATMBzAEAAZkBAAH/AQABmQFmAgABmQFm
+        ATMBAAGZATMBZgEAAZkBZgGZAQABmQFmAcwBAAGZATMB/wEAApkBMwEAApkBZgEAA5kBAAKZAcwBAAKZ
+        Af8BAAGZAcwCAAGZAcwBMwEAAWYBzAFmAQABmQHMAZkBAAGZAswBAAGZAcwB/wEAAZkB/wIAAZkB/wEz
+        AQABmQHMAWYBAAGZAf8BmQEAAZkB/wHMAQABmQL/AQABzAMAAZkBAAEzAQABzAEAAWYBAAHMAQABmQEA
+        AcwBAAHMAQABmQEzAgABzAIzAQABzAEzAWYBAAHMATMBmQEAAcwBMwHMAQABzAEzAf8BAAHMAWYCAAHM
+        AWYBMwEAAZkCZgEAAcwBZgGZAQABzAFmAcwBAAGZAWYB/wEAAcwBmQIAAcwBmQEzAQABzAGZAWYBAAHM
+        ApkBAAHMAZkBzAEAAcwBmQH/AQACzAIAAswBMwEAAswBZgEAAswBmQEAA8wBAALMAf8BAAHMAf8CAAHM
+        Af8BMwEAAZkB/wFmAQABzAH/AZkBAAHMAf8BzAEAAcwC/wEAAcwBAAEzAQAB/wEAAWYBAAH/AQABmQEA
+        AcwBMwIAAf8CMwEAAf8BMwFmAQAB/wEzAZkBAAH/ATMBzAEAAf8BMwH/AQAB/wFmAgAB/wFmATMBAAHM
+        AmYBAAH/AWYBmQEAAf8BZgHMAQABzAFmAf8BAAH/AZkCAAH/AZkBMwEAAf8BmQFmAQAB/wKZAQAB/wGZ
+        AcwBAAH/AZkB/wEAAf8BzAIAAf8BzAEzAQAB/wHMAWYBAAH/AcwBmQEAAf8CzAEAAf8BzAH/AQAC/wEz
+        AQABzAH/AWYBAAL/AZkBAAL/AcwBAAJmAf8BAAFmAf8BZgEAAWYC/wEAAf8CZgEAAf8BZgH/AQAC/wFm
+        AQABIQEAAaUBAANfAQADdwEAA4YBAAOWAQADywEAA7IBAAPXAQAD3QEAA+MBAAPqAQAD8QEAA/gBAAHw
+        AfsB/wEAAaQCoAEAA4ADAAH/AgAB/wMAAv8BAAH/AwAB/wEAAf8BAAL/AgAD//8A/wD/AP8ACwAB7D4A
+        AewB9wHsAQAB7AHtAewHAAPqARICEwESA+oBEgMADrQTAALsAQAB7ALvAewBkgEHAewGAAEHAvIB8wH3
+        AhQB7wHzAvIBBwIAAdwBCQwZAQkB3AYAARABAAEQCQAB7QHvAe0B9wG8AvACBwPsBAAB8AH2Av8B7wIR
+        Ae8D/wHwAgABtA4JAbQCAAH/AewBkgHvAQ4BAAEOAe8BkgHsAf8FAAHsAe8BBwHyAfQC8gH0AfIB7wH3
+        Ae8B7AMAAfAC9gH/AfcCDgHvAf8C9gG8AgABtA4JAbQCAAHsAfgB7AHvAfQBAAH0Ae8B7AH4AewFAAHs
+        Ae8C8QHtAuwB7QHwAfEBBwH3AewDAAHwAvYB/wH3Ag4B7wH/AvYBvAIAAbQOCQG0AgABkgHsBwAB7AGS
+        AwAC7AGSAbwB8gHtBAAB7QHxAQcB7AQAAfAD9gEbArwB8wP2AbwCAAG0AQkM3AEJAbQCAALvAQAB9AHr
+        AQ4B6wH0AQAC7wMAAewB7wG8AfABvAHsBAAB7AEHAbwBkgHsAwAB7wrzAe8CAAG0DtwBtAEAARABDgH0
+        AQABbQEHAf8BBwHrAQAB9AEOARADAAHsAZIB8AEHAewEAAHsAQcCvAHvAewCAAHqAe8B8AHxBPAC8QHv
+        AUMCAAG0AQkM1QEJAbQFAAEOAf8BAAH/AQ4IAAHsAvAB7QQAAe0B8AG8Ae0C7AIAAUQBEgGSBgcBkgFD
+        AwABtAHcCAkBnQFUAS0BVAGdAbQBAAEQAQ4B9AEAAW0BBwH/AQcBbQEAAfQBDgEQAwAB7AHvAvEBBwHt
+        AuwB7QEHAfAB7wHsBQABFQETAewE7wHsAhUDAAmzAZABLQEuAf8BNAEtAZACAALvAQAB9AFtAQ4BbQH0
+        AQAC7wQAAewB7wH3AQcC8QK8A/EBBwHsBgABFQEUAewCHAHsAUMB6wG8BAABswcJAU4BLQEuAf8BNQEu
+        AS0CAAGSAewHAAHsAZIFAAHsAQAB7AXxAe8B7QHvAe0HAAEVARQC6wFDAeoCBwQAAbMECQG0ArMBLQX/
+        AS0CAAHsAfgB7AHvAfQBAAH0Ae8B7AH4AewHAAHsAfAB9wHsArwB7AEAAuwIAAFDARQBFQERAQAB6gES
+        BAAGswIAAS0CVQH/AVYBVQEtAgAB/wHsAZIB7wEOAQABDgHvAZIB7AH/BwAB7AHtAewBAAHsAe8B7Q0A
+        AUMRAAFVAZcB/wGXAVUHAAEQAQABEBAAAewhAAFPAZcBTxIAAUIBTQE+BwABPgMAASgDAAFAAwABIAMA
+        AQEBAAEBBgABARYAA/+BAAH9B/8B+AGPAeABAwGAAQEC/wHIAQ8BwAEDAgAB/AF/AcABAwHAAQMCAAHB
+        AQcBwAEBAcABAwIAAcEBBwHAAQEBwAEDAgABzwHnAQMBwwHAAQMCAAHIAScBAwHBAcABAwIAAYgBIwGD
+        AsABAwIAAbkBOwHDAsABAwIAAYgBIwGAAQMB4AEHAgAByAEnAYABAwHwAQcBgAEAAc8B5wHQAQMB+AEH
+        AYABAAHBAQcB8AETAfwBJwGBAYABwQEHAfEBHwH/AX8B/wHBAfwBfwH/Ab8D/wHjAv8WAAs=
+</value>
+  </data>
+  <data name="label9.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;btnOpenFolder.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;cbHDR.Parent" xml:space="preserve">
+    <value>pnlVideo</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Seven Converter</value>
+  </data>
+  <data name="&gt;&gt;lblAudioCodec.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="lblOutputFormat.Size" type="System.Drawing.Size, System.Drawing">
+    <value>84, 13</value>
+  </data>
+  <data name="&gt;&gt;toolStripSeparator1.Name" xml:space="preserve">
+    <value>toolStripSeparator1</value>
+  </data>
+  <data name="&gt;&gt;cbAudioCodec.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="cbFormat.Location" type="System.Drawing.Point, System.Drawing">
+    <value>159, 355</value>
+  </data>
+  <data name="&gt;&gt;labelTitle.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblAudioTrack.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="cbAspect.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Right</value>
+  </data>
+  <data name="cbAudioCodec.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Left</value>
+  </data>
+  <data name="labelTitle.ToolTip" xml:space="preserve">
+    <value>About</value>
+  </data>
+  <data name="&gt;&gt;label8.Parent" xml:space="preserve">
+    <value>pnlVideo</value>
+  </data>
+  <data name="&gt;&gt;cbJoin.Name" xml:space="preserve">
+    <value>cbJoin</value>
+  </data>
+  <data name="pnlAudio.Size" type="System.Drawing.Size, System.Drawing">
+    <value>186, 68</value>
+  </data>
+  <data name="cbFormat.Items1" xml:space="preserve">
+    <value>MOV</value>
+  </data>
+  <data name="&gt;&gt;lblVideoCodec.ZOrder" xml:space="preserve">
+    <value>20</value>
+  </data>
+  <data name="cbQuality.Items2" xml:space="preserve">
+    <value>256k</value>
+  </data>
+  <data name="lblAudioTrack.TabIndex" type="System.Int32, mscorlib">
+    <value>27</value>
+  </data>
+  <data name="menuItemDeleteAll.Text" xml:space="preserve">
+    <value>Delete All</value>
+  </data>
+  <data name="btnVideoSet.Location" type="System.Drawing.Point, System.Drawing">
+    <value>280, 409</value>
+  </data>
+  <data name="label10.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;label7.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="cbTrack.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;label7.Parent" xml:space="preserve">
+    <value>pnlVideo</value>
+  </data>
+  <data name="cbAudioCodec.Items3" xml:space="preserve">
+    <value>PCM</value>
+  </data>
+  <data name="label8.Size" type="System.Drawing.Size, System.Drawing">
+    <value>41, 13</value>
+  </data>
+  <data name="label1.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;rbVideo.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label10.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lblOutputFormat.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="cbJoin.TabIndex" type="System.Int32, mscorlib">
+    <value>13</value>
+  </data>
+  <data name="&gt;&gt;rbAudio.ZOrder" xml:space="preserve">
+    <value>16</value>
+  </data>
+  <data name="label6.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnStart.Size" type="System.Drawing.Size, System.Drawing">
+    <value>63, 48</value>
+  </data>
+  <data name="rbVideo.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;cbQuality.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="cbFreq.Items2" xml:space="preserve">
+    <value>44100</value>
+  </data>
+  <data name="cbFreq.Items3" xml:space="preserve">
+    <value>48000</value>
+  </data>
+  <data name="btnFolder.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="cbFreq.Items1" xml:space="preserve">
+    <value>22050</value>
+  </data>
+  <data name="cbInterlaced.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Right</value>
+  </data>
+  <data name="&gt;&gt;label2.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="cbFramerate.Items4" xml:space="preserve">
+    <value>23.976</value>
   </data>
   <data name="&gt;&gt;tbDestFilePath.Name" xml:space="preserve">
     <value>tbDestFilePath</value>
@@ -138,21 +515,102 @@
   <data name="&gt;&gt;tbDestFilePath.Type" xml:space="preserve">
     <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;tbDestFilePath.Parent" xml:space="preserve">
+  <data name="&gt;&gt;label6.Name" xml:space="preserve">
+    <value>label6</value>
+  </data>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>6, 13</value>
+  </data>
+  <data name="&gt;&gt;btnStart.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;cbInterlaced.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="label9.TabIndex" type="System.Int32, mscorlib">
+    <value>23</value>
+  </data>
+  <data name="label7.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Right</value>
+  </data>
+  <data name="&gt;&gt;labelTitle.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="btnVideoSet.Size" type="System.Drawing.Size, System.Drawing">
+    <value>28, 21</value>
+  </data>
+  <data name="&gt;&gt;btnVideoSet.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
-  <data name="&gt;&gt;tbDestFilePath.ZOrder" xml:space="preserve">
-    <value>13</value>
+  <data name="lblOutputFormat.Text" xml:space="preserve">
+    <value>Output Format</value>
   </data>
-  <metadata name="imageList.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>150, 17</value>
-  </metadata>
+  <data name="rbAudio.Size" type="System.Drawing.Size, System.Drawing">
+    <value>56, 17</value>
+  </data>
+  <data name="cbFormat.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Left</value>
+  </data>
+  <data name="&gt;&gt;folderBrowserDialog.Type" xml:space="preserve">
+    <value>System.Windows.Forms.FolderBrowserDialog, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cbJoin.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;label12.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;cbVideoCodec.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;contextMenuFile.Name" xml:space="preserve">
+    <value>contextMenuFile</value>
+  </data>
+  <data name="label2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>8, 12</value>
+  </data>
+  <data name="cbFramerate.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="cbFramerate.Items11" xml:space="preserve">
+    <value>60</value>
+  </data>
+  <data name="&gt;&gt;pnlVideo.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="btnFolder.Location" type="System.Drawing.Point, System.Drawing">
+    <value>556, 327</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="labelTitle.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 16pt, style=Bold, Italic</value>
+  </data>
+  <data name="listSoruceFiles.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;cbHDR.Name" xml:space="preserve">
+    <value>cbHDR</value>
+  </data>
+  <data name="labelTitle.Text" xml:space="preserve">
+    <value>Seven Converter</value>
+  </data>
+  <data name="cbVideoCodec.Items4" xml:space="preserve">
+    <value>H.264 (Intel)</value>
+  </data>
+  <data name="rbVideo.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="cbLines.Items2" xml:space="preserve">
+    <value>360</value>
+  </data>
   <data name="imageList.ImageStream" mimetype="application/x-microsoft.net.object.binary.base64">
     <value>
         AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj00LjAuMC4w
         LCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAAACZTeXN0
-        ZW0uV2luZG93cy5Gb3Jtcy5JbWFnZUxpc3RTdHJlYW1lcgEAAAAERGF0YQcCAgAAAAkDAAAADwMAAADk
-        mgAAAk1TRnQBSQFMAgEBCQEAAWwBAgFsAQIBIAEAASABAAT/ASEBAAj/AUIBTQE2BwABNgMAASgDAAGA
+        ZW0uV2luZG93cy5Gb3Jtcy5JbWFnZUxpc3RTdHJlYW1lcgEAAAAERGF0YQcCAgAAAAkDAAAADwMAAADm
+        mgAAAk1TRnQBSQFMAgEBCQEAAWwBAgF0AQIBIAEAASABAAT/ASEBEAj/AUIBTQE2BwABNgMAASgDAAGA
         AwABYAMAAQEBAAEgBgABwEIAAhMBEgEYATcBOQEuAUgBUgFWATwBbQFaAWABQAF6AVoBYAFAAXoBUgFW
         ATwBbQE3ATkBLgFIAhIBEQEX/wDVAAERARIBEQEWAVsBYQFAAXsBjwGfAT8B0gGmAb4BMQH/AaYBvgEx
         Af8BpgG+ATEB/wGmAb4BMQH/AaYBvgExAf8BpgG+ATEB/wGmAb4BMQH/AaUBvQEyAf4BjgGfAUAB0QFa
@@ -812,1735 +1270,371 @@
         AfACAAEPAf8B8AEPAf8B8AEAAQEB/wGAAgABAwHwAgABDwH/AfABDwH/AfABAAEDAf8BwAIAAQMB8AIA
         AQ8B/wHwAQ8B/wHwAQABDwH/AcACAAEDAfACAAEPAf8B8AEPAf8B8AEQAR8B/wHgAgABBwHwAgABDwH/
         AfABDwH/AfABMAE/Af8B8AIAAQ8B8AIAAQ8B/wHwAQ8B/wHwAXABfwH/AfgCAAEfAfACAAEPAf8B8AEP
-        Af8C8QL/AfwCAAE/AfACAAEPAf8B8AEPAf8C8wL/Af4CAAH/AfACAAEPCf8BwAEDDv8B/AE/Ef8L
+        Af8C8QL/AfwCAAE/AfACAAEPAf8B8AEPAf8C8wL/Af4CAAH/AfACAAEPCf8BwAEDDv8B/AE/Ef8WAAs=
 </value>
   </data>
-  <data name="cbVideoCodec.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Bottom, Left</value>
+  <data name="cbFramerate.Items7" xml:space="preserve">
+    <value>29.97</value>
   </data>
-  <data name="cbVideoCodec.Items" xml:space="preserve">
-    <value>Source</value>
+  <data name="pnlAudio.ToolTip" xml:space="preserve">
+    <value />
   </data>
-  <data name="cbVideoCodec.Items1" xml:space="preserve">
-    <value>Mjpeg/Photo-JPEG</value>
-  </data>
-  <data name="cbVideoCodec.Items2" xml:space="preserve">
-    <value>H.264</value>
-  </data>
-  <data name="cbVideoCodec.Items3" xml:space="preserve">
-    <value>H.264 (NVIDIA)</value>
-  </data>
-  <data name="cbVideoCodec.Items4" xml:space="preserve">
-    <value>H.264 (Intel)</value>
-  </data>
-  <data name="cbVideoCodec.Items5" xml:space="preserve">
-    <value>H.265</value>
-  </data>
-  <data name="cbVideoCodec.Items6" xml:space="preserve">
-    <value>XVID</value>
-  </data>
-  <data name="cbVideoCodec.Items7" xml:space="preserve">
-    <value>MPEG2</value>
-  </data>
-  <data name="cbVideoCodec.Location" type="System.Drawing.Point, System.Drawing">
-    <value>159, 409</value>
-  </data>
-  <data name="cbVideoCodec.Size" type="System.Drawing.Size, System.Drawing">
-    <value>115, 21</value>
-  </data>
-  <data name="cbVideoCodec.TabIndex" type="System.Int32, mscorlib">
-    <value>11</value>
-  </data>
-  <data name="&gt;&gt;cbVideoCodec.Name" xml:space="preserve">
-    <value>cbVideoCodec</value>
-  </data>
-  <data name="&gt;&gt;cbVideoCodec.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;cbVideoCodec.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;cbVideoCodec.ZOrder" xml:space="preserve">
-    <value>14</value>
-  </data>
-  <data name="lblVideoCodec.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Bottom, Left</value>
-  </data>
-  <data name="lblVideoCodec.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="lblVideoCodec.Location" type="System.Drawing.Point, System.Drawing">
-    <value>12, 412</value>
-  </data>
-  <data name="lblVideoCodec.Size" type="System.Drawing.Size, System.Drawing">
-    <value>72, 13</value>
-  </data>
-  <data name="lblVideoCodec.TabIndex" type="System.Int32, mscorlib">
-    <value>9</value>
-  </data>
-  <data name="lblVideoCodec.Text" xml:space="preserve">
-    <value>Video Codec</value>
-  </data>
-  <data name="&gt;&gt;lblVideoCodec.Name" xml:space="preserve">
-    <value>lblVideoCodec</value>
-  </data>
-  <data name="&gt;&gt;lblVideoCodec.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;lblVideoCodec.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;lblVideoCodec.ZOrder" xml:space="preserve">
-    <value>20</value>
-  </data>
-  <data name="lblAudioCodec.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Bottom, Left</value>
-  </data>
-  <data name="lblAudioCodec.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="lblAudioCodec.Location" type="System.Drawing.Point, System.Drawing">
-    <value>12, 385</value>
-  </data>
-  <data name="lblAudioCodec.Size" type="System.Drawing.Size, System.Drawing">
-    <value>73, 13</value>
-  </data>
-  <data name="lblAudioCodec.TabIndex" type="System.Int32, mscorlib">
-    <value>11</value>
-  </data>
-  <data name="lblAudioCodec.Text" xml:space="preserve">
-    <value>Audio Codec</value>
-  </data>
-  <data name="&gt;&gt;lblAudioCodec.Name" xml:space="preserve">
-    <value>lblAudioCodec</value>
-  </data>
-  <data name="&gt;&gt;lblAudioCodec.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;lblAudioCodec.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;lblAudioCodec.ZOrder" xml:space="preserve">
-    <value>21</value>
-  </data>
-  <data name="cbAudioCodec.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Bottom, Left</value>
-  </data>
-  <data name="cbAudioCodec.Items" xml:space="preserve">
-    <value>Source</value>
-  </data>
-  <data name="cbAudioCodec.Items1" xml:space="preserve">
-    <value>MP3</value>
-  </data>
-  <data name="cbAudioCodec.Items2" xml:space="preserve">
-    <value>AC3</value>
-  </data>
-  <data name="cbAudioCodec.Items3" xml:space="preserve">
-    <value>PCM</value>
-  </data>
-  <data name="cbAudioCodec.Items4" xml:space="preserve">
-    <value>No sound</value>
-  </data>
-  <data name="cbAudioCodec.Location" type="System.Drawing.Point, System.Drawing">
-    <value>159, 382</value>
-  </data>
-  <data name="cbAudioCodec.Size" type="System.Drawing.Size, System.Drawing">
-    <value>115, 21</value>
-  </data>
-  <data name="cbAudioCodec.TabIndex" type="System.Int32, mscorlib">
-    <value>9</value>
-  </data>
-  <data name="&gt;&gt;cbAudioCodec.Name" xml:space="preserve">
-    <value>cbAudioCodec</value>
-  </data>
-  <data name="&gt;&gt;cbAudioCodec.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;cbAudioCodec.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;cbAudioCodec.ZOrder" xml:space="preserve">
-    <value>17</value>
-  </data>
-  <metadata name="toolTip1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>812, 17</value>
-  </metadata>
-  <data name="labelTitle.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Top, Right</value>
-  </data>
-  <data name="labelTitle.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="labelTitle.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Segoe UI, 16pt, style=Bold, Italic</value>
-  </data>
-  <data name="labelTitle.Location" type="System.Drawing.Point, System.Drawing">
-    <value>436, 3</value>
-  </data>
-  <data name="labelTitle.Size" type="System.Drawing.Size, System.Drawing">
-    <value>178, 30</value>
-  </data>
-  <data name="labelTitle.TabIndex" type="System.Int32, mscorlib">
-    <value>12</value>
-  </data>
-  <data name="labelTitle.Text" xml:space="preserve">
-    <value>Seven Converter</value>
-  </data>
-  <data name="labelTitle.ToolTip" xml:space="preserve">
-    <value>About</value>
-  </data>
-  <data name="&gt;&gt;labelTitle.Name" xml:space="preserve">
-    <value>labelTitle</value>
-  </data>
-  <data name="&gt;&gt;labelTitle.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;labelTitle.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;labelTitle.ZOrder" xml:space="preserve">
-    <value>12</value>
-  </data>
-  <metadata name="openFileDialog.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>17, 17</value>
-  </metadata>
-  <metadata name="contextMenuFile.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>253, 17</value>
-  </metadata>
-  <data name="contextMenuFile.Size" type="System.Drawing.Size, System.Drawing">
-    <value>125, 126</value>
-  </data>
-  <data name="&gt;&gt;contextMenuFile.Name" xml:space="preserve">
-    <value>contextMenuFile</value>
-  </data>
-  <data name="&gt;&gt;contextMenuFile.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ContextMenuStrip, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="menuItemAdd.Size" type="System.Drawing.Size, System.Drawing">
-    <value>124, 22</value>
-  </data>
-  <data name="menuItemAdd.Text" xml:space="preserve">
-    <value>Add files</value>
-  </data>
-  <data name="toolStripSeparator2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>121, 6</value>
-  </data>
-  <data name="menuItemInfo.Size" type="System.Drawing.Size, System.Drawing">
-    <value>124, 22</value>
-  </data>
-  <data name="menuItemInfo.Text" xml:space="preserve">
-    <value>File Info</value>
-  </data>
-  <data name="playToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>124, 22</value>
-  </data>
-  <data name="playToolStripMenuItem.Text" xml:space="preserve">
-    <value>Play</value>
-  </data>
-  <data name="toolStripSeparator1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>121, 6</value>
-  </data>
-  <data name="menuItemDelete.Size" type="System.Drawing.Size, System.Drawing">
-    <value>124, 22</value>
-  </data>
-  <data name="menuItemDelete.Text" xml:space="preserve">
-    <value>Delete</value>
-  </data>
-  <data name="menuItemDeleteAll.Size" type="System.Drawing.Size, System.Drawing">
-    <value>124, 22</value>
-  </data>
-  <data name="menuItemDeleteAll.Text" xml:space="preserve">
-    <value>Delete All</value>
-  </data>
-  <metadata name="imageListButtons.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>558, 17</value>
-  </metadata>
-  <data name="imageListButtons.ImageStream" mimetype="application/x-microsoft.net.object.binary.base64">
-    <value>
-        AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj00LjAuMC4w
-        LCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAAACZTeXN0
-        ZW0uV2luZG93cy5Gb3Jtcy5JbWFnZUxpc3RTdHJlYW1lcgEAAAAERGF0YQcCAgAAAAkDAAAADwMAAABu
-        CwAAAk1TRnQBSQFMAgEBBAEAAcABAQHAAQEBEAEAARABAAT/AQkBAAj/AUIBTQE2AQQGAAE2AQQCAAEo
-        AwABQAMAASADAAEBAQABCAYAAQgYAAGAAgABgAMAAoABAAGAAwABgAEAAYABAAKAAgADwAEAAcAB3AHA
-        AQAB8AHKAaYBAAEzBQABMwEAATMBAAEzAQACMwIAAxYBAAMcAQADIgEAAykBAANVAQADTQEAA0IBAAM5
-        AQABgAF8Af8BAAJQAf8BAAGTAQAB1gEAAf8B7AHMAQABxgHWAe8BAAHWAucBAAGQAakBrQIAAf8BMwMA
-        AWYDAAGZAwABzAIAATMDAAIzAgABMwFmAgABMwGZAgABMwHMAgABMwH/AgABZgMAAWYBMwIAAmYCAAFm
-        AZkCAAFmAcwCAAFmAf8CAAGZAwABmQEzAgABmQFmAgACmQIAAZkBzAIAAZkB/wIAAcwDAAHMATMCAAHM
-        AWYCAAHMAZkCAALMAgABzAH/AgAB/wFmAgAB/wGZAgAB/wHMAQABMwH/AgAB/wEAATMBAAEzAQABZgEA
-        ATMBAAGZAQABMwEAAcwBAAEzAQAB/wEAAf8BMwIAAzMBAAIzAWYBAAIzAZkBAAIzAcwBAAIzAf8BAAEz
-        AWYCAAEzAWYBMwEAATMCZgEAATMBZgGZAQABMwFmAcwBAAEzAWYB/wEAATMBmQIAATMBmQEzAQABMwGZ
-        AWYBAAEzApkBAAEzAZkBzAEAATMBmQH/AQABMwHMAgABMwHMATMBAAEzAcwBZgEAATMBzAGZAQABMwLM
-        AQABMwHMAf8BAAEzAf8BMwEAATMB/wFmAQABMwH/AZkBAAEzAf8BzAEAATMC/wEAAWYDAAFmAQABMwEA
-        AWYBAAFmAQABZgEAAZkBAAFmAQABzAEAAWYBAAH/AQABZgEzAgABZgIzAQABZgEzAWYBAAFmATMBmQEA
-        AWYBMwHMAQABZgEzAf8BAAJmAgACZgEzAQADZgEAAmYBmQEAAmYBzAEAAWYBmQIAAWYBmQEzAQABZgGZ
-        AWYBAAFmApkBAAFmAZkBzAEAAWYBmQH/AQABZgHMAgABZgHMATMBAAFmAcwBmQEAAWYCzAEAAWYBzAH/
-        AQABZgH/AgABZgH/ATMBAAFmAf8BmQEAAWYB/wHMAQABzAEAAf8BAAH/AQABzAEAApkCAAGZATMBmQEA
-        AZkBAAGZAQABmQEAAcwBAAGZAwABmQIzAQABmQEAAWYBAAGZATMBzAEAAZkBAAH/AQABmQFmAgABmQFm
-        ATMBAAGZATMBZgEAAZkBZgGZAQABmQFmAcwBAAGZATMB/wEAApkBMwEAApkBZgEAA5kBAAKZAcwBAAKZ
-        Af8BAAGZAcwCAAGZAcwBMwEAAWYBzAFmAQABmQHMAZkBAAGZAswBAAGZAcwB/wEAAZkB/wIAAZkB/wEz
-        AQABmQHMAWYBAAGZAf8BmQEAAZkB/wHMAQABmQL/AQABzAMAAZkBAAEzAQABzAEAAWYBAAHMAQABmQEA
-        AcwBAAHMAQABmQEzAgABzAIzAQABzAEzAWYBAAHMATMBmQEAAcwBMwHMAQABzAEzAf8BAAHMAWYCAAHM
-        AWYBMwEAAZkCZgEAAcwBZgGZAQABzAFmAcwBAAGZAWYB/wEAAcwBmQIAAcwBmQEzAQABzAGZAWYBAAHM
-        ApkBAAHMAZkBzAEAAcwBmQH/AQACzAIAAswBMwEAAswBZgEAAswBmQEAA8wBAALMAf8BAAHMAf8CAAHM
-        Af8BMwEAAZkB/wFmAQABzAH/AZkBAAHMAf8BzAEAAcwC/wEAAcwBAAEzAQAB/wEAAWYBAAH/AQABmQEA
-        AcwBMwIAAf8CMwEAAf8BMwFmAQAB/wEzAZkBAAH/ATMBzAEAAf8BMwH/AQAB/wFmAgAB/wFmATMBAAHM
-        AmYBAAH/AWYBmQEAAf8BZgHMAQABzAFmAf8BAAH/AZkCAAH/AZkBMwEAAf8BmQFmAQAB/wKZAQAB/wGZ
-        AcwBAAH/AZkB/wEAAf8BzAIAAf8BzAEzAQAB/wHMAWYBAAH/AcwBmQEAAf8CzAEAAf8BzAH/AQAC/wEz
-        AQABzAH/AWYBAAL/AZkBAAL/AcwBAAJmAf8BAAFmAf8BZgEAAWYC/wEAAf8CZgEAAf8BZgH/AQAC/wFm
-        AQABIQEAAaUBAANfAQADdwEAA4YBAAOWAQADywEAA7IBAAPXAQAD3QEAA+MBAAPqAQAD8QEAA/gBAAHw
-        AfsB/wEAAaQCoAEAA4ADAAH/AgAB/wMAAv8BAAH/AwAB/wEAAf8BAAL/AgAD//8A/wD/AP8ACwAB7D4A
-        AewB9wHsAQAB7AHtAewHAAPqARICEwESA+oBEgMADrQTAALsAQAB7ALvAewBkgEHAewGAAEHAvIB8wH3
-        AhQB7wHzAvIBBwIAAdwBCQwZAQkB3AYAARABAAEQCQAB7QHvAe0B9wG8AvACBwPsBAAB8AH2Av8B7wIR
-        Ae8D/wHwAgABtA4JAbQCAAH/AewBkgHvAQ4BAAEOAe8BkgHsAf8FAAHsAe8BBwHyAfQC8gH0AfIB7wH3
-        Ae8B7AMAAfAC9gH/AfcCDgHvAf8C9gG8AgABtA4JAbQCAAHsAfgB7AHvAfQBAAH0Ae8B7AH4AewFAAHs
-        Ae8C8QHtAuwB7QHwAfEBBwH3AewDAAHwAvYB/wH3Ag4B7wH/AvYBvAIAAbQOCQG0AgABkgHsBwAB7AGS
-        AwAC7AGSAbwB8gHtBAAB7QHxAQcB7AQAAfAD9gEbArwB8wP2AbwCAAG0AQkM3AEJAbQCAALvAQAB9AHr
-        AQ4B6wH0AQAC7wMAAewB7wG8AfABvAHsBAAB7AEHAbwBkgHsAwAB7wrzAe8CAAG0DtwBtAEAARABDgH0
-        AQABbQEHAf8BBwHrAQAB9AEOARADAAHsAZIB8AEHAewEAAHsAQcCvAHvAewCAAHqAe8B8AHxBPAC8QHv
-        AUMCAAG0AQkM1QEJAbQFAAEOAf8BAAH/AQ4IAAHsAvAB7QQAAe0B8AG8Ae0C7AIAAUQBEgGSBgcBkgFD
-        AwABtAHcCAkBnQFUAS0BVAGdAbQBAAEQAQ4B9AEAAW0BBwH/AQcBbQEAAfQBDgEQAwAB7AHvAvEBBwHt
-        AuwB7QEHAfAB7wHsBQABFQETAewE7wHsAhUDAAmzAZABLQEuAf8BNAEtAZACAALvAQAB9AFtAQ4BbQH0
-        AQAC7wQAAewB7wH3AQcC8QK8A/EBBwHsBgABFQEUAewCHAHsAUMB6wG8BAABswcJAU4BLQEuAf8BNQEu
-        AS0CAAGSAewHAAHsAZIFAAHsAQAB7AXxAe8B7QHvAe0HAAEVARQC6wFDAeoCBwQAAbMECQG0ArMBLQX/
-        AS0CAAHsAfgB7AHvAfQBAAH0Ae8B7AH4AewHAAHsAfAB9wHsArwB7AEAAuwIAAFDARQBFQERAQAB6gES
-        BAAGswIAAS0CVQH/AVYBVQEtAgAB/wHsAZIB7wEOAQABDgHvAZIB7AH/BwAB7AHtAewBAAHsAe8B7Q0A
-        AUMRAAFVAZcB/wGXAVUHAAEQAQABEBAAAewhAAFPAZcBTxIAAUIBTQE+BwABPgMAASgDAAFAAwABIAMA
-        AQEBAAEBBgABARYAA/+BAAH9B/8B+AGPAeABAwGAAQEC/wHIAQ8BwAEDAgAB/AF/AcABAwHAAQMCAAHB
-        AQcBwAEBAcABAwIAAcEBBwHAAQEBwAEDAgABzwHnAQMBwwHAAQMCAAHIAScBAwHBAcABAwIAAYgBIwGD
-        AsABAwIAAbkBOwHDAsABAwIAAYgBIwGAAQMB4AEHAgAByAEnAYABAwHwAQcBgAEAAc8B5wHQAQMB+AEH
-        AYABAAHBAQcB8AETAfwBJwGBAYABwQEHAfEBHwH/AX8B/wHBAfwBfwH/Ab8D/wHjAv8L
-</value>
+  <data name="statusStrip.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 438</value>
   </data>
   <data name="lblFolder.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Bottom, Left</value>
   </data>
-  <data name="lblFolder.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="lblFolder.Location" type="System.Drawing.Point, System.Drawing">
-    <value>12, 330</value>
-  </data>
-  <data name="lblFolder.Size" type="System.Drawing.Size, System.Drawing">
-    <value>146, 13</value>
-  </data>
-  <data name="lblFolder.TabIndex" type="System.Int32, mscorlib">
-    <value>12</value>
-  </data>
-  <data name="lblFolder.Text" xml:space="preserve">
-    <value>Specify an output directory</value>
-  </data>
-  <data name="&gt;&gt;lblFolder.Name" xml:space="preserve">
-    <value>lblFolder</value>
-  </data>
-  <data name="&gt;&gt;lblFolder.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;lblFolder.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;lblFolder.ZOrder" xml:space="preserve">
-    <value>10</value>
-  </data>
-  <data name="rbVideo.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="rbVideo.Location" type="System.Drawing.Point, System.Drawing">
-    <value>21, 12</value>
-  </data>
-  <data name="rbVideo.Size" type="System.Drawing.Size, System.Drawing">
-    <value>55, 17</value>
-  </data>
-  <data name="rbVideo.TabIndex" type="System.Int32, mscorlib">
-    <value>1</value>
+  <data name="rbAudio.Text" xml:space="preserve">
+    <value>Audio</value>
   </data>
   <data name="rbVideo.Text" xml:space="preserve">
     <value>Video</value>
   </data>
-  <data name="&gt;&gt;rbVideo.Name" xml:space="preserve">
-    <value>rbVideo</value>
+  <data name="cbVideoCodec.Items1" xml:space="preserve">
+    <value>Mjpeg/Photo-JPEG</value>
   </data>
-  <data name="&gt;&gt;rbVideo.Type" xml:space="preserve">
-    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="lblAudioCodec.Text" xml:space="preserve">
+    <value>Audio Codec</value>
   </data>
-  <data name="&gt;&gt;rbVideo.Parent" xml:space="preserve">
-    <value>$this</value>
+  <data name="&gt;&gt;menuItemDeleteAll.Name" xml:space="preserve">
+    <value>menuItemDeleteAll</value>
   </data>
-  <data name="&gt;&gt;rbVideo.ZOrder" xml:space="preserve">
-    <value>9</value>
-  </data>
-  <data name="rbAudio.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="rbAudio.Location" type="System.Drawing.Point, System.Drawing">
-    <value>96, 12</value>
-  </data>
-  <data name="rbAudio.Size" type="System.Drawing.Size, System.Drawing">
-    <value>56, 17</value>
-  </data>
-  <data name="rbAudio.TabIndex" type="System.Int32, mscorlib">
-    <value>2</value>
-  </data>
-  <data name="rbAudio.Text" xml:space="preserve">
-    <value>Audio</value>
-  </data>
-  <data name="&gt;&gt;rbAudio.Name" xml:space="preserve">
-    <value>rbAudio</value>
-  </data>
-  <data name="&gt;&gt;rbAudio.Type" xml:space="preserve">
-    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;rbAudio.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;rbAudio.ZOrder" xml:space="preserve">
-    <value>16</value>
-  </data>
-  <metadata name="folderBrowserDialog.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>395, 17</value>
-  </metadata>
-  <data name="cbQuality.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Top, Right</value>
-  </data>
-  <data name="cbQuality.Items" xml:space="preserve">
-    <value>64k</value>
-  </data>
-  <data name="cbQuality.Items1" xml:space="preserve">
-    <value>128k</value>
-  </data>
-  <data name="cbQuality.Items2" xml:space="preserve">
-    <value>256k</value>
-  </data>
-  <data name="cbQuality.Items3" xml:space="preserve">
-    <value>320k</value>
-  </data>
-  <data name="cbQuality.Location" type="System.Drawing.Point, System.Drawing">
-    <value>79, 9</value>
-  </data>
-  <data name="cbQuality.Size" type="System.Drawing.Size, System.Drawing">
-    <value>93, 21</value>
-  </data>
-  <data name="cbQuality.TabIndex" type="System.Int32, mscorlib">
+  <data name="&gt;&gt;listSoruceFiles.ZOrder" xml:space="preserve">
     <value>18</value>
-  </data>
-  <data name="&gt;&gt;cbQuality.Name" xml:space="preserve">
-    <value>cbQuality</value>
-  </data>
-  <data name="&gt;&gt;cbQuality.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;cbQuality.Parent" xml:space="preserve">
-    <value>pnlAudio</value>
-  </data>
-  <data name="&gt;&gt;cbQuality.ZOrder" xml:space="preserve">
-    <value>3</value>
-  </data>
-  <data name="cbFreq.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Top, Right</value>
-  </data>
-  <data name="cbFreq.Items" xml:space="preserve">
-    <value>11025</value>
-  </data>
-  <data name="cbFreq.Items1" xml:space="preserve">
-    <value>22050</value>
-  </data>
-  <data name="cbFreq.Items2" xml:space="preserve">
-    <value>44100</value>
-  </data>
-  <data name="cbFreq.Items3" xml:space="preserve">
-    <value>48000</value>
-  </data>
-  <data name="cbFreq.Location" type="System.Drawing.Point, System.Drawing">
-    <value>79, 36</value>
   </data>
   <data name="cbFreq.Size" type="System.Drawing.Size, System.Drawing">
     <value>93, 21</value>
   </data>
-  <data name="cbFreq.TabIndex" type="System.Int32, mscorlib">
-    <value>19</value>
-  </data>
-  <data name="&gt;&gt;cbFreq.Name" xml:space="preserve">
-    <value>cbFreq</value>
-  </data>
-  <data name="&gt;&gt;cbFreq.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;cbFreq.Parent" xml:space="preserve">
-    <value>pnlAudio</value>
-  </data>
-  <data name="&gt;&gt;cbFreq.ZOrder" xml:space="preserve">
-    <value>2</value>
-  </data>
-  <data name="cbJoin.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+  <data name="lblAudioCodec.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Bottom, Left</value>
-  </data>
-  <data name="cbJoin.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="cbJoin.Location" type="System.Drawing.Point, System.Drawing">
-    <value>339, 412</value>
-  </data>
-  <data name="cbJoin.Size" type="System.Drawing.Size, System.Drawing">
-    <value>85, 17</value>
-  </data>
-  <data name="cbJoin.TabIndex" type="System.Int32, mscorlib">
-    <value>13</value>
-  </data>
-  <data name="cbJoin.Text" xml:space="preserve">
-    <value>Merge Files</value>
-  </data>
-  <data name="&gt;&gt;cbJoin.Name" xml:space="preserve">
-    <value>cbJoin</value>
-  </data>
-  <data name="&gt;&gt;cbJoin.Type" xml:space="preserve">
-    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;cbJoin.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;cbJoin.ZOrder" xml:space="preserve">
-    <value>22</value>
-  </data>
-  <data name="&gt;&gt;label6.Name" xml:space="preserve">
-    <value>label6</value>
-  </data>
-  <data name="&gt;&gt;label6.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;label6.Parent" xml:space="preserve">
-    <value>pnlAudio</value>
-  </data>
-  <data name="&gt;&gt;label6.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;label2.Name" xml:space="preserve">
-    <value>label2</value>
-  </data>
-  <data name="&gt;&gt;label2.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;label2.Parent" xml:space="preserve">
-    <value>pnlAudio</value>
-  </data>
-  <data name="&gt;&gt;label2.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="pnlAudio.Location" type="System.Drawing.Point, System.Drawing">
-    <value>177, 239</value>
-  </data>
-  <data name="pnlAudio.Size" type="System.Drawing.Size, System.Drawing">
-    <value>186, 68</value>
-  </data>
-  <data name="pnlAudio.TabIndex" type="System.Int32, mscorlib">
-    <value>22</value>
-  </data>
-  <data name="pnlAudio.Visible" type="System.Boolean, mscorlib">
-    <value>False</value>
-  </data>
-  <data name="&gt;&gt;pnlAudio.Name" xml:space="preserve">
-    <value>pnlAudio</value>
-  </data>
-  <data name="&gt;&gt;pnlAudio.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;pnlAudio.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;pnlAudio.ZOrder" xml:space="preserve">
-    <value>6</value>
-  </data>
-  <data name="label6.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Top, Right</value>
-  </data>
-  <data name="label6.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="label6.Location" type="System.Drawing.Point, System.Drawing">
-    <value>8, 39</value>
-  </data>
-  <data name="label6.Size" type="System.Drawing.Size, System.Drawing">
-    <value>60, 13</value>
-  </data>
-  <data name="label6.TabIndex" type="System.Int32, mscorlib">
-    <value>21</value>
-  </data>
-  <data name="label6.Text" xml:space="preserve">
-    <value>Frequency</value>
-  </data>
-  <data name="&gt;&gt;label6.Name" xml:space="preserve">
-    <value>label6</value>
-  </data>
-  <data name="&gt;&gt;label6.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;label6.Parent" xml:space="preserve">
-    <value>pnlAudio</value>
-  </data>
-  <data name="&gt;&gt;label6.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="label2.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Top, Right</value>
-  </data>
-  <data name="label2.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="label2.Location" type="System.Drawing.Point, System.Drawing">
-    <value>8, 12</value>
-  </data>
-  <data name="label2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>43, 13</value>
-  </data>
-  <data name="label2.TabIndex" type="System.Int32, mscorlib">
-    <value>20</value>
-  </data>
-  <data name="label2.Text" xml:space="preserve">
-    <value>Quality</value>
-  </data>
-  <data name="&gt;&gt;label2.Name" xml:space="preserve">
-    <value>label2</value>
-  </data>
-  <data name="&gt;&gt;label2.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;label2.Parent" xml:space="preserve">
-    <value>pnlAudio</value>
-  </data>
-  <data name="&gt;&gt;label2.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="&gt;&gt;cbHDR.Name" xml:space="preserve">
-    <value>cbHDR</value>
-  </data>
-  <data name="&gt;&gt;cbHDR.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;cbHDR.Parent" xml:space="preserve">
-    <value>pnlVideo</value>
-  </data>
-  <data name="&gt;&gt;cbHDR.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;label1.Name" xml:space="preserve">
-    <value>label1</value>
-  </data>
-  <data name="&gt;&gt;label1.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;label1.Parent" xml:space="preserve">
-    <value>pnlVideo</value>
-  </data>
-  <data name="&gt;&gt;label1.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="&gt;&gt;cbBitrate.Name" xml:space="preserve">
-    <value>cbBitrate</value>
-  </data>
-  <data name="&gt;&gt;cbBitrate.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;cbBitrate.Parent" xml:space="preserve">
-    <value>pnlVideo</value>
   </data>
   <data name="&gt;&gt;cbBitrate.ZOrder" xml:space="preserve">
     <value>2</value>
   </data>
-  <data name="&gt;&gt;label12.Name" xml:space="preserve">
-    <value>label12</value>
+  <data name="cbFramerate.Items3" xml:space="preserve">
+    <value>20</value>
   </data>
-  <data name="&gt;&gt;label12.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="&gt;&gt;menuItemInfo.Name" xml:space="preserve">
+    <value>menuItemInfo</value>
   </data>
-  <data name="&gt;&gt;label12.Parent" xml:space="preserve">
-    <value>pnlVideo</value>
-  </data>
-  <data name="&gt;&gt;label12.ZOrder" xml:space="preserve">
-    <value>3</value>
-  </data>
-  <data name="&gt;&gt;label10.Name" xml:space="preserve">
-    <value>label10</value>
-  </data>
-  <data name="&gt;&gt;label10.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;label10.Parent" xml:space="preserve">
-    <value>pnlVideo</value>
-  </data>
-  <data name="&gt;&gt;label10.ZOrder" xml:space="preserve">
-    <value>4</value>
-  </data>
-  <data name="&gt;&gt;cbInterlaced.Name" xml:space="preserve">
-    <value>cbInterlaced</value>
-  </data>
-  <data name="&gt;&gt;cbInterlaced.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;cbInterlaced.Parent" xml:space="preserve">
-    <value>pnlVideo</value>
-  </data>
-  <data name="&gt;&gt;cbInterlaced.ZOrder" xml:space="preserve">
-    <value>5</value>
-  </data>
-  <data name="&gt;&gt;label9.Name" xml:space="preserve">
-    <value>label9</value>
-  </data>
-  <data name="&gt;&gt;label9.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;label9.Parent" xml:space="preserve">
-    <value>pnlVideo</value>
-  </data>
-  <data name="&gt;&gt;label9.ZOrder" xml:space="preserve">
-    <value>6</value>
-  </data>
-  <data name="&gt;&gt;cbFramerate.Name" xml:space="preserve">
-    <value>cbFramerate</value>
-  </data>
-  <data name="&gt;&gt;cbFramerate.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;cbFramerate.Parent" xml:space="preserve">
-    <value>pnlVideo</value>
-  </data>
-  <data name="&gt;&gt;cbFramerate.ZOrder" xml:space="preserve">
-    <value>7</value>
-  </data>
-  <data name="&gt;&gt;label7.Name" xml:space="preserve">
-    <value>label7</value>
-  </data>
-  <data name="&gt;&gt;label7.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;label7.Parent" xml:space="preserve">
-    <value>pnlVideo</value>
-  </data>
-  <data name="&gt;&gt;label7.ZOrder" xml:space="preserve">
-    <value>8</value>
-  </data>
-  <data name="&gt;&gt;label8.Name" xml:space="preserve">
-    <value>label8</value>
-  </data>
-  <data name="&gt;&gt;label8.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;label8.Parent" xml:space="preserve">
-    <value>pnlVideo</value>
-  </data>
-  <data name="&gt;&gt;label8.ZOrder" xml:space="preserve">
-    <value>9</value>
-  </data>
-  <data name="&gt;&gt;cbLines.Name" xml:space="preserve">
-    <value>cbLines</value>
-  </data>
-  <data name="&gt;&gt;cbLines.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;cbLines.Parent" xml:space="preserve">
-    <value>pnlVideo</value>
-  </data>
-  <data name="&gt;&gt;cbLines.ZOrder" xml:space="preserve">
-    <value>10</value>
-  </data>
-  <data name="&gt;&gt;cbAspect.Name" xml:space="preserve">
-    <value>cbAspect</value>
-  </data>
-  <data name="&gt;&gt;cbAspect.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;cbAspect.Parent" xml:space="preserve">
-    <value>pnlVideo</value>
-  </data>
-  <data name="&gt;&gt;cbAspect.ZOrder" xml:space="preserve">
-    <value>11</value>
-  </data>
-  <data name="pnlVideo.Location" type="System.Drawing.Point, System.Drawing">
-    <value>393, 119</value>
-  </data>
-  <data name="pnlVideo.Size" type="System.Drawing.Size, System.Drawing">
-    <value>206, 178</value>
-  </data>
-  <data name="pnlVideo.TabIndex" type="System.Int32, mscorlib">
-    <value>25</value>
-  </data>
-  <data name="pnlVideo.Visible" type="System.Boolean, mscorlib">
-    <value>False</value>
-  </data>
-  <data name="&gt;&gt;pnlVideo.Name" xml:space="preserve">
-    <value>pnlVideo</value>
+  <data name="lblVideoCodec.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 412</value>
   </data>
   <data name="&gt;&gt;pnlVideo.Type" xml:space="preserve">
     <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;pnlVideo.Parent" xml:space="preserve">
-    <value>$this</value>
+  <data name="&gt;&gt;cbTrack.ZOrder" xml:space="preserve">
+    <value>23</value>
   </data>
-  <data name="&gt;&gt;pnlVideo.ZOrder" xml:space="preserve">
-    <value>5</value>
+  <data name="label9.ToolTip" xml:space="preserve">
+    <value />
   </data>
-  <data name="cbHDR.Items" xml:space="preserve">
-    <value>Auto</value>
-  </data>
-  <data name="cbHDR.Items1" xml:space="preserve">
-    <value>Disable</value>
-  </data>
-  <data name="cbHDR.Location" type="System.Drawing.Point, System.Drawing">
-    <value>99, 146</value>
-  </data>
-  <data name="cbHDR.Size" type="System.Drawing.Size, System.Drawing">
-    <value>93, 21</value>
-  </data>
-  <data name="cbHDR.TabIndex" type="System.Int32, mscorlib">
-    <value>34</value>
-  </data>
-  <data name="&gt;&gt;cbHDR.Name" xml:space="preserve">
-    <value>cbHDR</value>
-  </data>
-  <data name="&gt;&gt;cbHDR.Type" xml:space="preserve">
+  <data name="&gt;&gt;cbQuality.Type" xml:space="preserve">
     <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;cbHDR.Parent" xml:space="preserve">
-    <value>pnlVideo</value>
+  <data name="btnOpenFolder.ToolTip" xml:space="preserve">
+    <value>Open an output directory</value>
   </data>
-  <data name="&gt;&gt;cbHDR.ZOrder" xml:space="preserve">
-    <value>0</value>
+  <data name="&gt;&gt;label12.Name" xml:space="preserve">
+    <value>label12</value>
   </data>
-  <data name="label1.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
+  <data name="&gt;&gt;label9.ZOrder" xml:space="preserve">
+    <value>6</value>
   </data>
-  <data name="label1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="label1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>9, 149</value>
-  </data>
-  <data name="label1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>30, 13</value>
-  </data>
-  <data name="label1.TabIndex" type="System.Int32, mscorlib">
-    <value>33</value>
-  </data>
-  <data name="label1.Text" xml:space="preserve">
-    <value>HDR</value>
-  </data>
-  <data name="&gt;&gt;label1.Name" xml:space="preserve">
-    <value>label1</value>
-  </data>
-  <data name="&gt;&gt;label1.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;label1.Parent" xml:space="preserve">
-    <value>pnlVideo</value>
-  </data>
-  <data name="&gt;&gt;label1.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="cbBitrate.Items" xml:space="preserve">
-    <value>Auto</value>
-  </data>
-  <data name="cbBitrate.Items1" xml:space="preserve">
-    <value>2000</value>
-  </data>
-  <data name="cbBitrate.Items2" xml:space="preserve">
-    <value>5000</value>
-  </data>
-  <data name="cbBitrate.Items3" xml:space="preserve">
-    <value>8000</value>
-  </data>
-  <data name="cbBitrate.Items4" xml:space="preserve">
-    <value>10000</value>
-  </data>
-  <data name="cbBitrate.Items5" xml:space="preserve">
-    <value>20000</value>
-  </data>
-  <data name="cbBitrate.Items6" xml:space="preserve">
-    <value>40000</value>
-  </data>
-  <data name="cbBitrate.Items7" xml:space="preserve">
-    <value>80000</value>
-  </data>
-  <data name="cbBitrate.Location" type="System.Drawing.Point, System.Drawing">
-    <value>99, 119</value>
-  </data>
-  <data name="cbBitrate.Size" type="System.Drawing.Size, System.Drawing">
-    <value>93, 21</value>
-  </data>
-  <data name="cbBitrate.TabIndex" type="System.Int32, mscorlib">
-    <value>32</value>
-  </data>
-  <data name="&gt;&gt;cbBitrate.Name" xml:space="preserve">
-    <value>cbBitrate</value>
-  </data>
-  <data name="&gt;&gt;cbBitrate.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;cbBitrate.Parent" xml:space="preserve">
-    <value>pnlVideo</value>
-  </data>
-  <data name="&gt;&gt;cbBitrate.ZOrder" xml:space="preserve">
-    <value>2</value>
-  </data>
-  <data name="label12.AutoSize" type="System.Boolean, mscorlib">
+  <data name="label8.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
   <data name="label12.Location" type="System.Drawing.Point, System.Drawing">
     <value>9, 122</value>
   </data>
-  <data name="label12.Size" type="System.Drawing.Size, System.Drawing">
-    <value>43, 13</value>
+  <data name="cbVideoCodec.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
   </data>
-  <data name="label12.TabIndex" type="System.Int32, mscorlib">
-    <value>31</value>
-  </data>
-  <data name="label12.Text" xml:space="preserve">
-    <value>Quality</value>
-  </data>
-  <data name="&gt;&gt;label12.Name" xml:space="preserve">
-    <value>label12</value>
-  </data>
-  <data name="&gt;&gt;label12.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;label12.Parent" xml:space="preserve">
+  <data name="&gt;&gt;cbFramerate.Parent" xml:space="preserve">
     <value>pnlVideo</value>
   </data>
-  <data name="&gt;&gt;label12.ZOrder" xml:space="preserve">
-    <value>3</value>
+  <data name="cbJoin.Size" type="System.Drawing.Size, System.Drawing">
+    <value>85, 17</value>
   </data>
-  <data name="label10.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Top, Right</value>
+  <data name="rbAudio.Location" type="System.Drawing.Point, System.Drawing">
+    <value>96, 12</value>
   </data>
-  <data name="label10.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="label10.Location" type="System.Drawing.Point, System.Drawing">
-    <value>9, 41</value>
-  </data>
-  <data name="label10.Size" type="System.Drawing.Size, System.Drawing">
-    <value>31, 13</value>
-  </data>
-  <data name="label10.TabIndex" type="System.Int32, mscorlib">
-    <value>25</value>
-  </data>
-  <data name="label10.Text" xml:space="preserve">
-    <value>Scan</value>
-  </data>
-  <data name="&gt;&gt;label10.Name" xml:space="preserve">
-    <value>label10</value>
-  </data>
-  <data name="&gt;&gt;label10.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;label10.Parent" xml:space="preserve">
+  <data name="&gt;&gt;label1.Parent" xml:space="preserve">
     <value>pnlVideo</value>
   </data>
-  <data name="&gt;&gt;label10.ZOrder" xml:space="preserve">
-    <value>4</value>
+  <data name="cbLines.Items1" xml:space="preserve">
+    <value>200</value>
   </data>
-  <data name="cbInterlaced.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Top, Right</value>
+  <data name="cbFramerate.Items2" xml:space="preserve">
+    <value>15</value>
   </data>
-  <data name="cbInterlaced.Items" xml:space="preserve">
-    <value>Auto</value>
+  <data name="&gt;&gt;cbFreq.Parent" xml:space="preserve">
+    <value>pnlAudio</value>
   </data>
-  <data name="cbInterlaced.Items1" xml:space="preserve">
-    <value>Progressive</value>
+  <data name="lblVideoCodec.ToolTip" xml:space="preserve">
+    <value />
   </data>
-  <data name="cbInterlaced.Items2" xml:space="preserve">
-    <value>Interlace 0</value>
+  <data name="cbFreq.Items" xml:space="preserve">
+    <value>11025</value>
   </data>
   <data name="cbInterlaced.Items3" xml:space="preserve">
     <value>Interlace 1</value>
   </data>
-  <data name="cbInterlaced.Location" type="System.Drawing.Point, System.Drawing">
-    <value>99, 38</value>
+  <data name="&gt;&gt;cbFreq.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="cbInterlaced.Size" type="System.Drawing.Size, System.Drawing">
+  <data name="&gt;&gt;lblFolder.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="label1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>30, 13</value>
+  </data>
+  <data name="cbQuality.Size" type="System.Drawing.Size, System.Drawing">
     <value>93, 21</value>
   </data>
-  <data name="cbInterlaced.TabIndex" type="System.Int32, mscorlib">
-    <value>24</value>
+  <data name="&gt;&gt;label8.Name" xml:space="preserve">
+    <value>label8</value>
+  </data>
+  <data name="&gt;&gt;lblVideoCodec.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="tbDestFilePath.Size" type="System.Drawing.Size, System.Drawing">
+    <value>391, 22</value>
+  </data>
+  <data name="btnAdd.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="&gt;&gt;menuItemDelete.Name" xml:space="preserve">
+    <value>menuItemDelete</value>
+  </data>
+  <data name="cbTrack.Items" xml:space="preserve">
+    <value>All</value>
+  </data>
+  <data name="cbFormat.Items" xml:space="preserve">
+    <value>AVI</value>
+  </data>
+  <data name="label10.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label8.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;label9.Name" xml:space="preserve">
+    <value>label9</value>
+  </data>
+  <data name="cbLines.Size" type="System.Drawing.Size, System.Drawing">
+    <value>93, 21</value>
+  </data>
+  <data name="cbAudioCodec.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnAudioSet.Size" type="System.Drawing.Size, System.Drawing">
+    <value>28, 21</value>
+  </data>
+  <data name="&gt;&gt;cbLines.ZOrder" xml:space="preserve">
+    <value>10</value>
   </data>
   <data name="&gt;&gt;cbInterlaced.Name" xml:space="preserve">
     <value>cbInterlaced</value>
   </data>
-  <data name="&gt;&gt;cbInterlaced.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="&gt;&gt;label1.Name" xml:space="preserve">
+    <value>label1</value>
   </data>
-  <data name="&gt;&gt;cbInterlaced.Parent" xml:space="preserve">
-    <value>pnlVideo</value>
+  <data name="btnVideoSet.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Left</value>
   </data>
-  <data name="&gt;&gt;cbInterlaced.ZOrder" xml:space="preserve">
-    <value>5</value>
+  <data name="cbAspect.Items8" xml:space="preserve">
+    <value>5:4</value>
   </data>
-  <data name="label9.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+  <data name="label7.TabIndex" type="System.Int32, mscorlib">
+    <value>21</value>
+  </data>
+  <data name="&gt;&gt;statusStrip.Name" xml:space="preserve">
+    <value>statusStrip</value>
+  </data>
+  <data name="&gt;&gt;label7.Name" xml:space="preserve">
+    <value>label7</value>
+  </data>
+  <data name="cbQuality.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Top, Right</value>
   </data>
-  <data name="label9.AutoSize" type="System.Boolean, mscorlib">
+  <data name="cbFreq.TabIndex" type="System.Int32, mscorlib">
+    <value>19</value>
+  </data>
+  <data name="cbFreq.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Right</value>
+  </data>
+  <data name="&gt;&gt;lblFolder.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="&gt;&gt;btnOpenFolder.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="cbVideoCodec.Items5" xml:space="preserve">
+    <value>H.265</value>
+  </data>
+  <data name="&gt;&gt;label10.Parent" xml:space="preserve">
+    <value>pnlVideo</value>
+  </data>
+  <data name="&gt;&gt;rbVideo.Name" xml:space="preserve">
+    <value>rbVideo</value>
+  </data>
+  <data name="cbInterlaced.Items2" xml:space="preserve">
+    <value>Interlace 0</value>
+  </data>
+  <data name="label1.Text" xml:space="preserve">
+    <value>HDR</value>
+  </data>
+  <data name="$this.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="listSoruceFiles.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 38</value>
+  </data>
+  <data name="&gt;&gt;btnAudioSet.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="cbFreq.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="label6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>60, 13</value>
+  </data>
+  <data name="&gt;&gt;btnStart.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;playToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="btnAdd.ImageIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;label6.Parent" xml:space="preserve">
+    <value>pnlAudio</value>
+  </data>
+  <data name="&gt;&gt;menuItemDelete.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label12.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;playToolStripMenuItem.Name" xml:space="preserve">
+    <value>playToolStripMenuItem</value>
+  </data>
+  <data name="btnOpenFolder.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="rbAudio.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;tbDestFilePath.ZOrder" xml:space="preserve">
+    <value>13</value>
+  </data>
+  <data name="cbAspect.Items5" xml:space="preserve">
+    <value>2.21:1</value>
+  </data>
+  <data name="label7.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
   <data name="label9.Location" type="System.Drawing.Point, System.Drawing">
     <value>9, 14</value>
   </data>
-  <data name="label9.Size" type="System.Drawing.Size, System.Drawing">
-    <value>61, 13</value>
+  <data name="tbDestFilePath.ToolTip" xml:space="preserve">
+    <value />
   </data>
-  <data name="label9.TabIndex" type="System.Int32, mscorlib">
-    <value>23</value>
-  </data>
-  <data name="label9.Text" xml:space="preserve">
-    <value>Frame rate</value>
-  </data>
-  <data name="&gt;&gt;label9.Name" xml:space="preserve">
-    <value>label9</value>
-  </data>
-  <data name="&gt;&gt;label9.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;label9.Parent" xml:space="preserve">
-    <value>pnlVideo</value>
-  </data>
-  <data name="&gt;&gt;label9.ZOrder" xml:space="preserve">
-    <value>6</value>
+  <data name="toolStripSeparator2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>121, 6</value>
   </data>
   <data name="cbFramerate.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Top, Right</value>
   </data>
-  <data name="cbFramerate.Items" xml:space="preserve">
-    <value>Auto</value>
+  <data name="cbLines.TabIndex" type="System.Int32, mscorlib">
+    <value>19</value>
   </data>
-  <data name="cbFramerate.Items1" xml:space="preserve">
-    <value>10</value>
+  <data name="cbVideoCodec.Location" type="System.Drawing.Point, System.Drawing">
+    <value>159, 409</value>
   </data>
-  <data name="cbFramerate.Items2" xml:space="preserve">
-    <value>15</value>
+  <data name="label10.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Right</value>
   </data>
-  <data name="cbFramerate.Items3" xml:space="preserve">
-    <value>20</value>
+  <data name="&gt;&gt;menuItemInfo.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="cbFramerate.Items4" xml:space="preserve">
-    <value>23.976</value>
+  <data name="cbQuality.Location" type="System.Drawing.Point, System.Drawing">
+    <value>79, 9</value>
   </data>
-  <data name="cbFramerate.Items5" xml:space="preserve">
-    <value>24</value>
+  <data name="label2.ToolTip" xml:space="preserve">
+    <value />
   </data>
-  <data name="cbFramerate.Items6" xml:space="preserve">
-    <value>25</value>
+  <data name="cbAudioCodec.Items2" xml:space="preserve">
+    <value>AC3</value>
   </data>
-  <data name="cbFramerate.Items7" xml:space="preserve">
-    <value>29.97</value>
+  <data name="menuItemAdd.Text" xml:space="preserve">
+    <value>Add files</value>
+  </data>
+  <data name="&gt;&gt;openFileDialog.Type" xml:space="preserve">
+    <value>System.Windows.Forms.OpenFileDialog, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="cbFramerate.Items8" xml:space="preserve">
     <value>30</value>
   </data>
-  <data name="cbFramerate.Items9" xml:space="preserve">
-    <value>50</value>
+  <data name="&gt;&gt;btnAudioSet.Name" xml:space="preserve">
+    <value>btnAudioSet</value>
   </data>
-  <data name="cbFramerate.Items10" xml:space="preserve">
-    <value>59.94</value>
-  </data>
-  <data name="cbFramerate.Items11" xml:space="preserve">
-    <value>60</value>
-  </data>
-  <data name="cbFramerate.Location" type="System.Drawing.Point, System.Drawing">
-    <value>99, 11</value>
+  <data name="&gt;&gt;openFileDialog.Name" xml:space="preserve">
+    <value>openFileDialog</value>
   </data>
   <data name="cbFramerate.Size" type="System.Drawing.Size, System.Drawing">
     <value>93, 21</value>
   </data>
-  <data name="cbFramerate.TabIndex" type="System.Int32, mscorlib">
-    <value>22</value>
+  <data name="&gt;&gt;label10.ZOrder" xml:space="preserve">
+    <value>4</value>
   </data>
-  <data name="&gt;&gt;cbFramerate.Name" xml:space="preserve">
-    <value>cbFramerate</value>
+  <data name="&gt;&gt;label2.Name" xml:space="preserve">
+    <value>label2</value>
   </data>
-  <data name="&gt;&gt;cbFramerate.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="tbDestFilePath.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Left, Right</value>
   </data>
-  <data name="&gt;&gt;cbFramerate.Parent" xml:space="preserve">
-    <value>pnlVideo</value>
-  </data>
-  <data name="&gt;&gt;cbFramerate.ZOrder" xml:space="preserve">
-    <value>7</value>
-  </data>
-  <data name="label7.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Top, Right</value>
-  </data>
-  <data name="label7.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="label7.Location" type="System.Drawing.Point, System.Drawing">
-    <value>9, 95</value>
-  </data>
-  <data name="label7.Size" type="System.Drawing.Size, System.Drawing">
-    <value>35, 13</value>
-  </data>
-  <data name="label7.TabIndex" type="System.Int32, mscorlib">
-    <value>21</value>
-  </data>
-  <data name="label7.Text" xml:space="preserve">
-    <value>Rows</value>
-  </data>
-  <data name="&gt;&gt;label7.Name" xml:space="preserve">
-    <value>label7</value>
-  </data>
-  <data name="&gt;&gt;label7.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;label7.Parent" xml:space="preserve">
-    <value>pnlVideo</value>
-  </data>
-  <data name="&gt;&gt;label7.ZOrder" xml:space="preserve">
-    <value>8</value>
-  </data>
-  <data name="label8.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Top, Right</value>
-  </data>
-  <data name="label8.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="label8.Location" type="System.Drawing.Point, System.Drawing">
-    <value>9, 68</value>
-  </data>
-  <data name="label8.Size" type="System.Drawing.Size, System.Drawing">
-    <value>41, 13</value>
-  </data>
-  <data name="label8.TabIndex" type="System.Int32, mscorlib">
-    <value>20</value>
-  </data>
-  <data name="label8.Text" xml:space="preserve">
-    <value>Aspect</value>
-  </data>
-  <data name="&gt;&gt;label8.Name" xml:space="preserve">
-    <value>label8</value>
-  </data>
-  <data name="&gt;&gt;label8.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;label8.Parent" xml:space="preserve">
-    <value>pnlVideo</value>
-  </data>
-  <data name="&gt;&gt;label8.ZOrder" xml:space="preserve">
-    <value>9</value>
-  </data>
-  <data name="cbLines.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Top, Right</value>
-  </data>
-  <data name="cbLines.Items" xml:space="preserve">
-    <value>No change</value>
-  </data>
-  <data name="cbLines.Items1" xml:space="preserve">
-    <value>200</value>
-  </data>
-  <data name="cbLines.Items2" xml:space="preserve">
-    <value>360</value>
-  </data>
-  <data name="cbLines.Items3" xml:space="preserve">
-    <value>720</value>
+  <data name="toolStripSeparator1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>121, 6</value>
   </data>
   <data name="cbLines.Items4" xml:space="preserve">
     <value>1080</value>
   </data>
-  <data name="cbLines.Location" type="System.Drawing.Point, System.Drawing">
-    <value>99, 92</value>
-  </data>
-  <data name="cbLines.Size" type="System.Drawing.Size, System.Drawing">
-    <value>93, 21</value>
-  </data>
-  <data name="cbLines.TabIndex" type="System.Int32, mscorlib">
-    <value>19</value>
-  </data>
-  <data name="&gt;&gt;cbLines.Name" xml:space="preserve">
-    <value>cbLines</value>
-  </data>
-  <data name="&gt;&gt;cbLines.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;cbLines.Parent" xml:space="preserve">
-    <value>pnlVideo</value>
-  </data>
-  <data name="&gt;&gt;cbLines.ZOrder" xml:space="preserve">
-    <value>10</value>
-  </data>
-  <data name="cbAspect.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Top, Right</value>
-  </data>
-  <data name="cbAspect.Items" xml:space="preserve">
-    <value>No change</value>
-  </data>
-  <data name="cbAspect.Items1" xml:space="preserve">
-    <value>1:1</value>
-  </data>
-  <data name="cbAspect.Items2" xml:space="preserve">
-    <value>4:3</value>
-  </data>
-  <data name="cbAspect.Items3" xml:space="preserve">
-    <value>16:9</value>
-  </data>
-  <data name="cbAspect.Items4" xml:space="preserve">
-    <value>16:10</value>
-  </data>
-  <data name="cbAspect.Items5" xml:space="preserve">
-    <value>2.21:1</value>
-  </data>
-  <data name="cbAspect.Items6" xml:space="preserve">
-    <value>2.35:1</value>
-  </data>
-  <data name="cbAspect.Items7" xml:space="preserve">
-    <value>2.39:1</value>
-  </data>
-  <data name="cbAspect.Items8" xml:space="preserve">
-    <value>5:4</value>
-  </data>
-  <data name="cbAspect.Location" type="System.Drawing.Point, System.Drawing">
-    <value>99, 65</value>
-  </data>
-  <data name="cbAspect.Size" type="System.Drawing.Size, System.Drawing">
-    <value>93, 21</value>
-  </data>
-  <data name="cbAspect.TabIndex" type="System.Int32, mscorlib">
-    <value>18</value>
-  </data>
-  <data name="&gt;&gt;cbAspect.Name" xml:space="preserve">
-    <value>cbAspect</value>
-  </data>
-  <data name="&gt;&gt;cbAspect.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;cbAspect.Parent" xml:space="preserve">
-    <value>pnlVideo</value>
-  </data>
-  <data name="&gt;&gt;cbAspect.ZOrder" xml:space="preserve">
-    <value>11</value>
-  </data>
-  <metadata name="statusStrip.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>703, 17</value>
-  </metadata>
-  <data name="statusStrip.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 438</value>
-  </data>
-  <data name="statusStrip.Size" type="System.Drawing.Size, System.Drawing">
-    <value>631, 22</value>
-  </data>
-  <data name="statusStrip.TabIndex" type="System.Int32, mscorlib">
-    <value>26</value>
-  </data>
-  <data name="statusStrip.Text" xml:space="preserve">
-    <value>statusStrip1</value>
-  </data>
-  <data name="&gt;&gt;statusStrip.Name" xml:space="preserve">
-    <value>statusStrip</value>
-  </data>
-  <data name="&gt;&gt;statusStrip.Type" xml:space="preserve">
-    <value>System.Windows.Forms.StatusStrip, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;statusStrip.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;statusStrip.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="statusLabel.Size" type="System.Drawing.Size, System.Drawing">
-    <value>616, 17</value>
-  </data>
-  <data name="statusLabel.Text" xml:space="preserve">
-    <value>Please select source files</value>
-  </data>
-  <data name="statusLabel.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
-    <value>MiddleLeft</value>
-  </data>
-  <data name="lblOutputFormat.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Bottom, Left</value>
-  </data>
-  <data name="lblOutputFormat.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="lblOutputFormat.Location" type="System.Drawing.Point, System.Drawing">
-    <value>12, 358</value>
-  </data>
-  <data name="lblOutputFormat.Size" type="System.Drawing.Size, System.Drawing">
-    <value>84, 13</value>
-  </data>
-  <data name="lblOutputFormat.TabIndex" type="System.Int32, mscorlib">
-    <value>6</value>
-  </data>
-  <data name="lblOutputFormat.Text" xml:space="preserve">
-    <value>Output Format</value>
-  </data>
-  <data name="&gt;&gt;lblOutputFormat.Name" xml:space="preserve">
-    <value>lblOutputFormat</value>
-  </data>
-  <data name="&gt;&gt;lblOutputFormat.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;lblOutputFormat.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;lblOutputFormat.ZOrder" xml:space="preserve">
-    <value>19</value>
-  </data>
-  <data name="cbFormat.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Bottom, Left</value>
-  </data>
-  <data name="cbFormat.Items" xml:space="preserve">
-    <value>AVI</value>
-  </data>
-  <data name="cbFormat.Items1" xml:space="preserve">
-    <value>MOV</value>
-  </data>
-  <data name="cbFormat.Items2" xml:space="preserve">
-    <value>MKV</value>
-  </data>
-  <data name="cbFormat.Location" type="System.Drawing.Point, System.Drawing">
-    <value>159, 355</value>
-  </data>
-  <data name="cbFormat.Size" type="System.Drawing.Size, System.Drawing">
-    <value>115, 21</value>
-  </data>
-  <data name="cbFormat.TabIndex" type="System.Int32, mscorlib">
-    <value>8</value>
-  </data>
-  <data name="&gt;&gt;cbFormat.Name" xml:space="preserve">
-    <value>cbFormat</value>
-  </data>
-  <data name="&gt;&gt;cbFormat.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;cbFormat.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;cbFormat.ZOrder" xml:space="preserve">
-    <value>15</value>
-  </data>
-  <data name="cbTrack.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Bottom, Left</value>
-  </data>
-  <data name="cbTrack.Items" xml:space="preserve">
-    <value>All</value>
-  </data>
-  <data name="cbTrack.Items1" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="cbTrack.Items2" xml:space="preserve">
-    <value>2</value>
-  </data>
-  <data name="cbTrack.Items3" xml:space="preserve">
-    <value>3</value>
-  </data>
-  <data name="cbTrack.Items4" xml:space="preserve">
-    <value>4</value>
-  </data>
-  <data name="cbTrack.Items5" xml:space="preserve">
-    <value>5</value>
-  </data>
-  <data name="cbTrack.Items6" xml:space="preserve">
-    <value>6</value>
-  </data>
-  <data name="cbTrack.Location" type="System.Drawing.Point, System.Drawing">
-    <value>429, 355</value>
-  </data>
-  <data name="cbTrack.Size" type="System.Drawing.Size, System.Drawing">
-    <value>93, 21</value>
-  </data>
-  <data name="cbTrack.TabIndex" type="System.Int32, mscorlib">
-    <value>28</value>
-  </data>
-  <data name="&gt;&gt;cbTrack.Name" xml:space="preserve">
-    <value>cbTrack</value>
-  </data>
-  <data name="&gt;&gt;cbTrack.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;cbTrack.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;cbTrack.ZOrder" xml:space="preserve">
-    <value>23</value>
-  </data>
-  <data name="lblAudioTrack.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Bottom, Left</value>
-  </data>
-  <data name="lblAudioTrack.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="lblAudioTrack.Location" type="System.Drawing.Point, System.Drawing">
-    <value>336, 358</value>
-  </data>
-  <data name="lblAudioTrack.Size" type="System.Drawing.Size, System.Drawing">
-    <value>67, 13</value>
-  </data>
-  <data name="lblAudioTrack.TabIndex" type="System.Int32, mscorlib">
-    <value>27</value>
-  </data>
-  <data name="lblAudioTrack.Text" xml:space="preserve">
-    <value>Audio Track</value>
-  </data>
-  <data name="&gt;&gt;lblAudioTrack.Name" xml:space="preserve">
-    <value>lblAudioTrack</value>
-  </data>
-  <data name="&gt;&gt;lblAudioTrack.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;lblAudioTrack.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;lblAudioTrack.ZOrder" xml:space="preserve">
-    <value>24</value>
-  </data>
-  <data name="btnAdd.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
-    <value>None</value>
-  </data>
-  <data name="btnAdd.ImageIndex" type="System.Int32, mscorlib">
-    <value>7</value>
-  </data>
-  <data name="btnAdd.Location" type="System.Drawing.Point, System.Drawing">
-    <value>21, 47</value>
-  </data>
-  <data name="btnAdd.Size" type="System.Drawing.Size, System.Drawing">
-    <value>48, 48</value>
-  </data>
-  <data name="btnAdd.TabIndex" type="System.Int32, mscorlib">
-    <value>3</value>
-  </data>
-  <metadata name="toolTip1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>812, 17</value>
-  </metadata>
-  <data name="btnAdd.ToolTip" xml:space="preserve">
-    <value>Add Source Files</value>
-  </data>
-  <data name="&gt;&gt;btnAdd.Name" xml:space="preserve">
-    <value>btnAdd</value>
+  <data name="label1.ToolTip" xml:space="preserve">
+    <value />
   </data>
   <data name="&gt;&gt;btnAdd.Type" xml:space="preserve">
     <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;btnAdd.Parent" xml:space="preserve">
-    <value>$this</value>
+  <data name="pnlVideo.TabIndex" type="System.Int32, mscorlib">
+    <value>25</value>
   </data>
-  <data name="&gt;&gt;btnAdd.ZOrder" xml:space="preserve">
-    <value>2</value>
+  <data name="&gt;&gt;statusLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripStatusLabel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="btnVideoSet.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Bottom, Left</value>
-  </data>
-  <data name="btnVideoSet.ImageIndex" type="System.Int32, mscorlib">
-    <value>3</value>
-  </data>
-  <data name="btnVideoSet.Location" type="System.Drawing.Point, System.Drawing">
-    <value>280, 409</value>
-  </data>
-  <data name="btnVideoSet.Size" type="System.Drawing.Size, System.Drawing">
-    <value>28, 21</value>
-  </data>
-  <data name="btnVideoSet.TabIndex" type="System.Int32, mscorlib">
-    <value>12</value>
-  </data>
-  <data name="btnVideoSet.ToolTip" xml:space="preserve">
-    <value>Video Codec Properties</value>
-  </data>
-  <data name="&gt;&gt;btnVideoSet.Name" xml:space="preserve">
-    <value>btnVideoSet</value>
-  </data>
-  <data name="&gt;&gt;btnVideoSet.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;btnVideoSet.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;btnVideoSet.ZOrder" xml:space="preserve">
-    <value>3</value>
-  </data>
-  <data name="btnAudioSet.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Bottom, Left</value>
-  </data>
-  <data name="btnAudioSet.ImageIndex" type="System.Int32, mscorlib">
-    <value>3</value>
-  </data>
-  <data name="btnAudioSet.Location" type="System.Drawing.Point, System.Drawing">
-    <value>280, 382</value>
-  </data>
-  <data name="btnAudioSet.Size" type="System.Drawing.Size, System.Drawing">
-    <value>28, 21</value>
-  </data>
-  <data name="btnAudioSet.TabIndex" type="System.Int32, mscorlib">
-    <value>10</value>
-  </data>
-  <data name="btnAudioSet.ToolTip" xml:space="preserve">
-    <value>Audio Codec Properties</value>
-  </data>
-  <data name="&gt;&gt;btnAudioSet.Name" xml:space="preserve">
-    <value>btnAudioSet</value>
-  </data>
-  <data name="&gt;&gt;btnAudioSet.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;btnAudioSet.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;btnAudioSet.ZOrder" xml:space="preserve">
-    <value>4</value>
-  </data>
-  <data name="btnOpenFolder.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Bottom, Right</value>
-  </data>
-  <data name="btnOpenFolder.ImageIndex" type="System.Int32, mscorlib">
-    <value>1</value>
-  </data>
-  <data name="btnOpenFolder.Location" type="System.Drawing.Point, System.Drawing">
-    <value>591, 327</value>
-  </data>
-  <data name="btnOpenFolder.Size" type="System.Drawing.Size, System.Drawing">
-    <value>28, 22</value>
-  </data>
-  <data name="btnOpenFolder.TabIndex" type="System.Int32, mscorlib">
-    <value>7</value>
-  </data>
-  <data name="btnOpenFolder.ToolTip" xml:space="preserve">
-    <value>Open an output directory</value>
-  </data>
-  <data name="&gt;&gt;btnOpenFolder.Name" xml:space="preserve">
-    <value>btnOpenFolder</value>
-  </data>
-  <data name="&gt;&gt;btnOpenFolder.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;btnOpenFolder.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;btnOpenFolder.ZOrder" xml:space="preserve">
-    <value>7</value>
-  </data>
-  <data name="btnStart.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Bottom, Right</value>
-  </data>
-  <data name="btnStart.ImageIndex" type="System.Int32, mscorlib">
-    <value>8</value>
-  </data>
-  <data name="btnStart.Location" type="System.Drawing.Point, System.Drawing">
-    <value>556, 382</value>
-  </data>
-  <data name="btnStart.Size" type="System.Drawing.Size, System.Drawing">
-    <value>63, 48</value>
-  </data>
-  <data name="btnStart.TabIndex" type="System.Int32, mscorlib">
-    <value>15</value>
-  </data>
-  <data name="btnStart.ToolTip" xml:space="preserve">
-    <value>Run</value>
-  </data>
-  <data name="&gt;&gt;btnStart.Name" xml:space="preserve">
-    <value>btnStart</value>
-  </data>
-  <data name="&gt;&gt;btnStart.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;btnStart.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;btnStart.ZOrder" xml:space="preserve">
-    <value>8</value>
-  </data>
-  <data name="btnFolder.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Bottom, Right</value>
-  </data>
-  <data name="btnFolder.ImageIndex" type="System.Int32, mscorlib">
-    <value>2</value>
-  </data>
-  <data name="btnFolder.Location" type="System.Drawing.Point, System.Drawing">
-    <value>556, 327</value>
-  </data>
-  <data name="btnFolder.Size" type="System.Drawing.Size, System.Drawing">
-    <value>28, 22</value>
-  </data>
-  <data name="btnFolder.TabIndex" type="System.Int32, mscorlib">
+  <data name="cbTrack.Items6" xml:space="preserve">
     <value>6</value>
   </data>
-  <data name="btnFolder.ToolTip" xml:space="preserve">
-    <value>Select an output directory</value>
+  <data name="cbHDR.ToolTip" xml:space="preserve">
+    <value />
   </data>
-  <data name="&gt;&gt;btnFolder.Name" xml:space="preserve">
-    <value>btnFolder</value>
+  <data name="label6.Location" type="System.Drawing.Point, System.Drawing">
+    <value>8, 39</value>
   </data>
-  <data name="&gt;&gt;btnFolder.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="&gt;&gt;cbTrack.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;btnFolder.Parent" xml:space="preserve">
-    <value>$this</value>
+  <data name="label1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
   </data>
-  <data name="&gt;&gt;btnFolder.ZOrder" xml:space="preserve">
-    <value>11</value>
+  <data name="&gt;&gt;cbFreq.ZOrder" xml:space="preserve">
+    <value>2</value>
   </data>
-  <data name="listSoruceFiles.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Top, Bottom, Left, Right</value>
-  </data>
-  <data name="listSoruceFiles.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
-    <value>
-        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
-</value>
-  </data>
-  <data name="listSoruceFiles.Items" mimetype="application/x-microsoft.net.object.binary.base64">
-    <value>
-        AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj00LjAuMC4w
-        LCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkMAwAAAFFTeXN0
-        ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2Vu
-        PWIwM2Y1ZjdmMTFkNTBhM2EFAQAAACFTeXN0ZW0uV2luZG93cy5Gb3Jtcy5MaXN0Vmlld0l0ZW0HAAAA
-        BFRleHQKSW1hZ2VJbmRleAlCYWNrQ29sb3IHQ2hlY2tlZARGb250CUZvcmVDb2xvchdVc2VJdGVtU3R5
-        bGVGb3JTdWJJdGVtcwEABAAEBAAIFFN5c3RlbS5EcmF3aW5nLkNvbG9yAwAAAAETU3lzdGVtLkRyYXdp
-        bmcuRm9udAMAAAAUU3lzdGVtLkRyYXdpbmcuQ29sb3IDAAAAAQIAAAAGBAAAAAExAAAAAAX7////FFN5
-        c3RlbS5EcmF3aW5nLkNvbG9yBAAAAARuYW1lBXZhbHVlCmtub3duQ29sb3IFc3RhdGUBAAAACQcHAwAA
-        AAoAAAAAAAAAABgAAQAACQYAAAAB+f////v///8KAAAAAAAAAAAaAAEAAQUGAAAAE1N5c3RlbS5EcmF3
-        aW5nLkZvbnQEAAAABE5hbWUEU2l6ZQVTdHlsZQRVbml0AQAEBAsYU3lzdGVtLkRyYXdpbmcuRm9udFN0
-        eWxlAwAAABtTeXN0ZW0uRHJhd2luZy5HcmFwaGljc1VuaXQDAAAAAwAAAAYIAAAACFNlZ29lIFVJAAAE
-        QQX3////GFN5c3RlbS5EcmF3aW5nLkZvbnRTdHlsZQEAAAAHdmFsdWVfXwAIAwAAAAAAAAAF9v///xtT
-        eXN0ZW0uRHJhd2luZy5HcmFwaGljc1VuaXQBAAAAB3ZhbHVlX18ACAMAAAADAAAACw==
-</value>
-  </data>
-  <data name="listSoruceFiles.Items1" mimetype="application/x-microsoft.net.object.binary.base64">
-    <value>
-        AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj00LjAuMC4w
-        LCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkMAwAAAFFTeXN0
-        ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2Vu
-        PWIwM2Y1ZjdmMTFkNTBhM2EFAQAAACFTeXN0ZW0uV2luZG93cy5Gb3Jtcy5MaXN0Vmlld0l0ZW0HAAAA
-        BFRleHQKSW1hZ2VJbmRleAlCYWNrQ29sb3IHQ2hlY2tlZARGb250CUZvcmVDb2xvchdVc2VJdGVtU3R5
-        bGVGb3JTdWJJdGVtcwEABAAEBAAIFFN5c3RlbS5EcmF3aW5nLkNvbG9yAwAAAAETU3lzdGVtLkRyYXdp
-        bmcuRm9udAMAAAAUU3lzdGVtLkRyYXdpbmcuQ29sb3IDAAAAAQIAAAAGBAAAAAEyAAAAAAX7////FFN5
-        c3RlbS5EcmF3aW5nLkNvbG9yBAAAAARuYW1lBXZhbHVlCmtub3duQ29sb3IFc3RhdGUBAAAACQcHAwAA
-        AAoAAAAAAAAAABgAAQAACQYAAAAB+f////v///8KAAAAAAAAAAAaAAEAAQUGAAAAE1N5c3RlbS5EcmF3
-        aW5nLkZvbnQEAAAABE5hbWUEU2l6ZQVTdHlsZQRVbml0AQAEBAsYU3lzdGVtLkRyYXdpbmcuRm9udFN0
-        eWxlAwAAABtTeXN0ZW0uRHJhd2luZy5HcmFwaGljc1VuaXQDAAAAAwAAAAYIAAAACFNlZ29lIFVJAAAE
-        QQX3////GFN5c3RlbS5EcmF3aW5nLkZvbnRTdHlsZQEAAAAHdmFsdWVfXwAIAwAAAAAAAAAF9v///xtT
-        eXN0ZW0uRHJhd2luZy5HcmFwaGljc1VuaXQBAAAAB3ZhbHVlX18ACAMAAAADAAAACw==
-</value>
-  </data>
-  <data name="listSoruceFiles.Items2" mimetype="application/x-microsoft.net.object.binary.base64">
-    <value>
-        AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj00LjAuMC4w
-        LCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkMAwAAAFFTeXN0
-        ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2Vu
-        PWIwM2Y1ZjdmMTFkNTBhM2EFAQAAACFTeXN0ZW0uV2luZG93cy5Gb3Jtcy5MaXN0Vmlld0l0ZW0HAAAA
-        BFRleHQKSW1hZ2VJbmRleAlCYWNrQ29sb3IHQ2hlY2tlZARGb250CUZvcmVDb2xvchdVc2VJdGVtU3R5
-        bGVGb3JTdWJJdGVtcwEABAAEBAAIFFN5c3RlbS5EcmF3aW5nLkNvbG9yAwAAAAETU3lzdGVtLkRyYXdp
-        bmcuRm9udAMAAAAUU3lzdGVtLkRyYXdpbmcuQ29sb3IDAAAAAQIAAAAGBAAAAAEzAAAAAAX7////FFN5
-        c3RlbS5EcmF3aW5nLkNvbG9yBAAAAARuYW1lBXZhbHVlCmtub3duQ29sb3IFc3RhdGUBAAAACQcHAwAA
-        AAoAAAAAAAAAABgAAQAACQYAAAAB+f////v///8KAAAAAAAAAAAaAAEAAQUGAAAAE1N5c3RlbS5EcmF3
-        aW5nLkZvbnQEAAAABE5hbWUEU2l6ZQVTdHlsZQRVbml0AQAEBAsYU3lzdGVtLkRyYXdpbmcuRm9udFN0
-        eWxlAwAAABtTeXN0ZW0uRHJhd2luZy5HcmFwaGljc1VuaXQDAAAAAwAAAAYIAAAACFNlZ29lIFVJAAAE
-        QQX3////GFN5c3RlbS5EcmF3aW5nLkZvbnRTdHlsZQEAAAAHdmFsdWVfXwAIAwAAAAAAAAAF9v///xtT
-        eXN0ZW0uRHJhd2luZy5HcmFwaGljc1VuaXQBAAAAB3ZhbHVlX18ACAMAAAADAAAACw==
-</value>
-  </data>
-  <data name="listSoruceFiles.Location" type="System.Drawing.Point, System.Drawing">
-    <value>12, 38</value>
-  </data>
-  <data name="listSoruceFiles.Size" type="System.Drawing.Size, System.Drawing">
-    <value>607, 280</value>
-  </data>
-  <data name="listSoruceFiles.TabIndex" type="System.Int32, mscorlib">
-    <value>4</value>
-  </data>
-  <data name="&gt;&gt;listSoruceFiles.Name" xml:space="preserve">
-    <value>listSoruceFiles</value>
-  </data>
-  <data name="&gt;&gt;listSoruceFiles.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ListView, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;listSoruceFiles.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;listSoruceFiles.ZOrder" xml:space="preserve">
-    <value>18</value>
-  </data>
-  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>True</value>
-  </metadata>
-  <metadata name="$this.TrayHeight" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>62</value>
-  </metadata>
-  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
-    <value>6, 13</value>
-  </data>
-  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
-    <value>631, 460</value>
-  </data>
-  <data name="$this.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Segoe UI, 8.25pt</value>
+  <data name="lblVideoCodec.Text" xml:space="preserve">
+    <value>Video Codec</value>
   </data>
   <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -2708,97 +1802,937 @@
         AAA=
 </value>
   </data>
-  <data name="$this.MinimumSize" type="System.Drawing.Size, System.Drawing">
-    <value>606, 285</value>
+  <data name="labelTitle.Size" type="System.Drawing.Size, System.Drawing">
+    <value>178, 30</value>
   </data>
-  <data name="$this.StartPosition" type="System.Windows.Forms.FormStartPosition, System.Windows.Forms">
-    <value>CenterScreen</value>
+  <data name="&gt;&gt;pnlAudio.Name" xml:space="preserve">
+    <value>pnlAudio</value>
   </data>
-  <data name="$this.Text" xml:space="preserve">
-    <value>Seven Converter</value>
+  <data name="btnAudioSet.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Left</value>
   </data>
-  <data name="&gt;&gt;imageList.Name" xml:space="preserve">
-    <value>imageList</value>
+  <data name="rbAudio.ToolTip" xml:space="preserve">
+    <value />
   </data>
-  <data name="&gt;&gt;imageList.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ImageList, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="&gt;&gt;lblAudioTrack.ZOrder" xml:space="preserve">
+    <value>24</value>
   </data>
-  <data name="&gt;&gt;openFileDialog.Name" xml:space="preserve">
-    <value>openFileDialog</value>
+  <data name="&gt;&gt;btnAdd.Parent" xml:space="preserve">
+    <value>$this</value>
   </data>
-  <data name="&gt;&gt;openFileDialog.Type" xml:space="preserve">
-    <value>System.Windows.Forms.OpenFileDialog, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="cbFreq.Location" type="System.Drawing.Point, System.Drawing">
+    <value>79, 36</value>
   </data>
-  <data name="&gt;&gt;menuItemAdd.Name" xml:space="preserve">
-    <value>menuItemAdd</value>
+  <data name="menuItemDelete.Size" type="System.Drawing.Size, System.Drawing">
+    <value>124, 22</value>
   </data>
-  <data name="&gt;&gt;menuItemAdd.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="lblAudioTrack.Location" type="System.Drawing.Point, System.Drawing">
+    <value>336, 358</value>
   </data>
-  <data name="&gt;&gt;toolStripSeparator2.Name" xml:space="preserve">
-    <value>toolStripSeparator2</value>
+  <data name="lblAudioCodec.ToolTip" xml:space="preserve">
+    <value />
   </data>
-  <data name="&gt;&gt;toolStripSeparator2.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;menuItemInfo.Name" xml:space="preserve">
-    <value>menuItemInfo</value>
-  </data>
-  <data name="&gt;&gt;menuItemInfo.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;playToolStripMenuItem.Name" xml:space="preserve">
-    <value>playToolStripMenuItem</value>
-  </data>
-  <data name="&gt;&gt;playToolStripMenuItem.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;toolStripSeparator1.Name" xml:space="preserve">
-    <value>toolStripSeparator1</value>
-  </data>
-  <data name="&gt;&gt;toolStripSeparator1.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;menuItemDelete.Name" xml:space="preserve">
-    <value>menuItemDelete</value>
-  </data>
-  <data name="&gt;&gt;menuItemDelete.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;menuItemDeleteAll.Name" xml:space="preserve">
-    <value>menuItemDeleteAll</value>
-  </data>
-  <data name="&gt;&gt;menuItemDeleteAll.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;imageListButtons.Name" xml:space="preserve">
-    <value>imageListButtons</value>
+  <data name="lblFolder.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
   </data>
   <data name="&gt;&gt;imageListButtons.Type" xml:space="preserve">
     <value>System.Windows.Forms.ImageList, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;folderBrowserDialog.Name" xml:space="preserve">
-    <value>folderBrowserDialog</value>
+  <data name="playToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>124, 22</value>
   </data>
-  <data name="&gt;&gt;folderBrowserDialog.Type" xml:space="preserve">
-    <value>System.Windows.Forms.FolderBrowserDialog, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="&gt;&gt;cbVideoCodec.Parent" xml:space="preserve">
+    <value>$this</value>
   </data>
-  <data name="&gt;&gt;statusLabel.Name" xml:space="preserve">
-    <value>statusLabel</value>
+  <data name="&gt;&gt;cbBitrate.Parent" xml:space="preserve">
+    <value>pnlVideo</value>
   </data>
-  <data name="&gt;&gt;statusLabel.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripStatusLabel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="label8.Text" xml:space="preserve">
+    <value>Aspect</value>
+  </data>
+  <data name="cbVideoCodec.Items2" xml:space="preserve">
+    <value>H.264</value>
+  </data>
+  <data name="&gt;&gt;pnlAudio.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;lblAudioCodec.Name" xml:space="preserve">
+    <value>lblAudioCodec</value>
+  </data>
+  <data name="&gt;&gt;rbVideo.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="cbInterlaced.Items" xml:space="preserve">
+    <value>Auto</value>
+  </data>
+  <data name="cbAspect.Items1" xml:space="preserve">
+    <value>1:1</value>
+  </data>
+  <data name="&gt;&gt;btnAdd.Name" xml:space="preserve">
+    <value>btnAdd</value>
+  </data>
+  <data name="label6.TabIndex" type="System.Int32, mscorlib">
+    <value>21</value>
+  </data>
+  <data name="labelTitle.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="listSoruceFiles.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Left, Right</value>
+  </data>
+  <data name="lblAudioCodec.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="cbTrack.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Left</value>
+  </data>
+  <data name="listSoruceFiles.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="cbJoin.Location" type="System.Drawing.Point, System.Drawing">
+    <value>339, 412</value>
+  </data>
+  <data name="&gt;&gt;tbDestFilePath.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="cbAspect.Items6" xml:space="preserve">
+    <value>2.35:1</value>
+  </data>
+  <data name="cbFormat.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="cbInterlaced.TabIndex" type="System.Int32, mscorlib">
+    <value>24</value>
+  </data>
+  <data name="cbJoin.Text" xml:space="preserve">
+    <value>Merge Files</value>
+  </data>
+  <data name="cbFramerate.Items6" xml:space="preserve">
+    <value>25</value>
+  </data>
+  <data name="cbBitrate.Size" type="System.Drawing.Size, System.Drawing">
+    <value>93, 21</value>
+  </data>
+  <data name="btnStart.ToolTip" xml:space="preserve">
+    <value>Run</value>
+  </data>
+  <data name="&gt;&gt;cbBitrate.Name" xml:space="preserve">
+    <value>cbBitrate</value>
+  </data>
+  <data name="$this.MinimumSize" type="System.Drawing.Size, System.Drawing">
+    <value>606, 285</value>
+  </data>
+  <data name="&gt;&gt;cbLines.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lblAudioTrack.Text" xml:space="preserve">
+    <value>Audio Track</value>
+  </data>
+  <data name="&gt;&gt;label2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="cbTrack.Items5" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="menuItemDeleteAll.Size" type="System.Drawing.Size, System.Drawing">
+    <value>124, 22</value>
+  </data>
+  <data name="&gt;&gt;btnOpenFolder.Name" xml:space="preserve">
+    <value>btnOpenFolder</value>
+  </data>
+  <data name="label1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>9, 149</value>
+  </data>
+  <data name="btnOpenFolder.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Right</value>
+  </data>
+  <data name="menuItemInfo.Size" type="System.Drawing.Size, System.Drawing">
+    <value>124, 22</value>
+  </data>
+  <data name="&gt;&gt;cbFreq.Name" xml:space="preserve">
+    <value>cbFreq</value>
+  </data>
+  <data name="cbVideoCodec.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Left</value>
+  </data>
+  <data name="lblAudioCodec.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 385</value>
+  </data>
+  <data name="&gt;&gt;listSoruceFiles.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ListView, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="menuItemAdd.Size" type="System.Drawing.Size, System.Drawing">
+    <value>124, 22</value>
+  </data>
+  <data name="labelTitle.Location" type="System.Drawing.Point, System.Drawing">
+    <value>436, 3</value>
+  </data>
+  <data name="&gt;&gt;cbLines.Name" xml:space="preserve">
+    <value>cbLines</value>
+  </data>
+  <data name="lblFolder.Text" xml:space="preserve">
+    <value>Specify an output directory</value>
+  </data>
+  <data name="&gt;&gt;label12.Parent" xml:space="preserve">
+    <value>pnlVideo</value>
+  </data>
+  <data name="&gt;&gt;lblAudioCodec.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="btnStart.Location" type="System.Drawing.Point, System.Drawing">
+    <value>556, 382</value>
+  </data>
+  <data name="&gt;&gt;cbQuality.Name" xml:space="preserve">
+    <value>cbQuality</value>
+  </data>
+  <data name="&gt;&gt;listSoruceFiles.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;btnAudioSet.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="listSoruceFiles.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        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
+</value>
+  </data>
+  <data name="btnAdd.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;label2.Parent" xml:space="preserve">
+    <value>pnlAudio</value>
   </data>
   <data name="&gt;&gt;toolTip1.Name" xml:space="preserve">
     <value>toolTip1</value>
   </data>
-  <data name="&gt;&gt;toolTip1.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolTip, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="&gt;&gt;btnVideoSet.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="cbLines.Items" xml:space="preserve">
+    <value>No change</value>
+  </data>
+  <data name="contextMenuFile.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;cbAspect.Name" xml:space="preserve">
+    <value>cbAspect</value>
   </data>
   <data name="&gt;&gt;$this.Name" xml:space="preserve">
     <value>Main</value>
   </data>
-  <data name="&gt;&gt;$this.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="&gt;&gt;imageList.Name" xml:space="preserve">
+    <value>imageList</value>
   </data>
+  <data name="cbFramerate.Items1" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="cbQuality.TabIndex" type="System.Int32, mscorlib">
+    <value>18</value>
+  </data>
+  <data name="&gt;&gt;menuItemDeleteAll.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lblVideoCodec.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label8.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Right</value>
+  </data>
+  <data name="rbVideo.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnOpenFolder.Size" type="System.Drawing.Size, System.Drawing">
+    <value>28, 22</value>
+  </data>
+  <data name="lblOutputFormat.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Left</value>
+  </data>
+  <data name="&gt;&gt;labelTitle.Name" xml:space="preserve">
+    <value>labelTitle</value>
+  </data>
+  <data name="btnStart.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Right</value>
+  </data>
+  <data name="pnlAudio.TabIndex" type="System.Int32, mscorlib">
+    <value>22</value>
+  </data>
+  <data name="lblAudioTrack.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Left</value>
+  </data>
+  <data name="&gt;&gt;cbVideoCodec.ZOrder" xml:space="preserve">
+    <value>14</value>
+  </data>
+  <data name="cbVideoCodec.Items6" xml:space="preserve">
+    <value>XVID</value>
+  </data>
+  <data name="cbLines.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Right</value>
+  </data>
+  <data name="label2.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Right</value>
+  </data>
+  <data name="&gt;&gt;folderBrowserDialog.Name" xml:space="preserve">
+    <value>folderBrowserDialog</value>
+  </data>
+  <data name="btnAdd.Location" type="System.Drawing.Point, System.Drawing">
+    <value>21, 47</value>
+  </data>
+  <data name="&gt;&gt;btnAdd.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;btnVideoSet.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;statusStrip.Type" xml:space="preserve">
+    <value>System.Windows.Forms.StatusStrip, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="labelTitle.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Right</value>
+  </data>
+  <data name="&gt;&gt;label9.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lblAudioCodec.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="cbVideoCodec.Items3" xml:space="preserve">
+    <value>H.264 (NVIDIA)</value>
+  </data>
+  <data name="&gt;&gt;toolStripSeparator2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;contextMenuFile.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ContextMenuStrip, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;pnlVideo.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="cbInterlaced.Location" type="System.Drawing.Point, System.Drawing">
+    <value>99, 38</value>
+  </data>
+  <data name="label7.Size" type="System.Drawing.Size, System.Drawing">
+    <value>35, 13</value>
+  </data>
+  <data name="statusLabel.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="cbAspect.TabIndex" type="System.Int32, mscorlib">
+    <value>18</value>
+  </data>
+  <data name="cbBitrate.Items2" xml:space="preserve">
+    <value>5000</value>
+  </data>
+  <data name="label2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>43, 13</value>
+  </data>
+  <data name="cbAspect.Items" xml:space="preserve">
+    <value>No change</value>
+  </data>
+  <data name="label6.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="cbHDR.TabIndex" type="System.Int32, mscorlib">
+    <value>34</value>
+  </data>
+  <data name="lblVideoCodec.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Left</value>
+  </data>
+  <data name="&gt;&gt;cbHDR.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;labelTitle.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="statusStrip.Size" type="System.Drawing.Size, System.Drawing">
+    <value>631, 22</value>
+  </data>
+  <data name="cbAspect.Items7" xml:space="preserve">
+    <value>2.39:1</value>
+  </data>
+  <data name="cbTrack.Location" type="System.Drawing.Point, System.Drawing">
+    <value>429, 355</value>
+  </data>
+  <data name="cbAudioCodec.Items1" xml:space="preserve">
+    <value>MP3</value>
+  </data>
+  <data name="cbInterlaced.Items1" xml:space="preserve">
+    <value>Progressive</value>
+  </data>
+  <data name="cbBitrate.Items7" xml:space="preserve">
+    <value>80000</value>
+  </data>
+  <data name="statusStrip.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="cbInterlaced.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="label6.Text" xml:space="preserve">
+    <value>Frequency</value>
+  </data>
+  <data name="cbBitrate.Items3" xml:space="preserve">
+    <value>8000</value>
+  </data>
+  <data name="label2.Text" xml:space="preserve">
+    <value>Quality</value>
+  </data>
+  <data name="&gt;&gt;lblAudioTrack.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="cbTrack.Items2" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;btnFolder.Name" xml:space="preserve">
+    <value>btnFolder</value>
+  </data>
+  <data name="&gt;&gt;cbAspect.Parent" xml:space="preserve">
+    <value>pnlVideo</value>
+  </data>
+  <data name="&gt;&gt;cbFormat.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label7.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;statusLabel.Name" xml:space="preserve">
+    <value>statusLabel</value>
+  </data>
+  <data name="menuItemInfo.Text" xml:space="preserve">
+    <value>File Info</value>
+  </data>
+  <data name="&gt;&gt;cbFramerate.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="labelTitle.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="cbHDR.Size" type="System.Drawing.Size, System.Drawing">
+    <value>93, 21</value>
+  </data>
+  <data name="cbFramerate.Items10" xml:space="preserve">
+    <value>59.94</value>
+  </data>
+  <data name="&gt;&gt;cbAspect.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cbTrack.Name" xml:space="preserve">
+    <value>cbTrack</value>
+  </data>
+  <data name="&gt;&gt;lblAudioTrack.Name" xml:space="preserve">
+    <value>lblAudioTrack</value>
+  </data>
+  <data name="label12.TabIndex" type="System.Int32, mscorlib">
+    <value>31</value>
+  </data>
+  <data name="cbQuality.Items" xml:space="preserve">
+    <value>64k</value>
+  </data>
+  <data name="&gt;&gt;statusStrip.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;toolTip1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolTip, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cbAspect.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="lblVideoCodec.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="lblFolder.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 330</value>
+  </data>
+  <data name="&gt;&gt;label8.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="label8.Location" type="System.Drawing.Point, System.Drawing">
+    <value>9, 68</value>
+  </data>
+  <data name="cbLines.Location" type="System.Drawing.Point, System.Drawing">
+    <value>99, 92</value>
+  </data>
+  <data name="&gt;&gt;lblOutputFormat.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="cbVideoCodec.Items" xml:space="preserve">
+    <value>Source</value>
+  </data>
+  <data name="label12.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="cbHDR.Location" type="System.Drawing.Point, System.Drawing">
+    <value>99, 146</value>
+  </data>
+  <data name="listSoruceFiles.Items2" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>
+        AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj00LjAuMC4w
+        LCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkMAwAAAFFTeXN0
+        ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2Vu
+        PWIwM2Y1ZjdmMTFkNTBhM2EFAQAAACFTeXN0ZW0uV2luZG93cy5Gb3Jtcy5MaXN0Vmlld0l0ZW0HAAAA
+        BFRleHQKSW1hZ2VJbmRleAlCYWNrQ29sb3IHQ2hlY2tlZARGb250CUZvcmVDb2xvchdVc2VJdGVtU3R5
+        bGVGb3JTdWJJdGVtcwEABAAEBAAIFFN5c3RlbS5EcmF3aW5nLkNvbG9yAwAAAAETU3lzdGVtLkRyYXdp
+        bmcuRm9udAMAAAAUU3lzdGVtLkRyYXdpbmcuQ29sb3IDAAAAAQIAAAAGBAAAAAEzAAAAAAX7////FFN5
+        c3RlbS5EcmF3aW5nLkNvbG9yBAAAAARuYW1lBXZhbHVlCmtub3duQ29sb3IFc3RhdGUBAAAACQcHAwAA
+        AAoAAAAAAAAAABgAAQAACQYAAAAB+f////v///8KAAAAAAAAAAAaAAEAAQUGAAAAE1N5c3RlbS5EcmF3
+        aW5nLkZvbnQEAAAABE5hbWUEU2l6ZQVTdHlsZQRVbml0AQAEBAsYU3lzdGVtLkRyYXdpbmcuRm9udFN0
+        eWxlAwAAABtTeXN0ZW0uRHJhd2luZy5HcmFwaGljc1VuaXQDAAAAAwAAAAYIAAAACFNlZ29lIFVJAAAE
+        QQX3////GFN5c3RlbS5EcmF3aW5nLkZvbnRTdHlsZQEAAAAHdmFsdWVfXwAIAwAAAAAAAAAF9v///xtT
+        eXN0ZW0uRHJhd2luZy5HcmFwaGljc1VuaXQBAAAAB3ZhbHVlX18ACAMAAAADAAAACw==
+</value>
+  </data>
+  <data name="cbJoin.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;label1.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="cbVideoCodec.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="label2.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="listSoruceFiles.Size" type="System.Drawing.Size, System.Drawing">
+    <value>607, 280</value>
+  </data>
+  <data name="btnFolder.ImageIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="cbBitrate.Items1" xml:space="preserve">
+    <value>2000</value>
+  </data>
+  <data name="label1.TabIndex" type="System.Int32, mscorlib">
+    <value>33</value>
+  </data>
+  <data name="btnVideoSet.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="statusLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>616, 17</value>
+  </data>
+  <data name="&gt;&gt;pnlAudio.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="listSoruceFiles.Items" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>
+        AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj00LjAuMC4w
+        LCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkMAwAAAFFTeXN0
+        ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2Vu
+        PWIwM2Y1ZjdmMTFkNTBhM2EFAQAAACFTeXN0ZW0uV2luZG93cy5Gb3Jtcy5MaXN0Vmlld0l0ZW0HAAAA
+        BFRleHQKSW1hZ2VJbmRleAlCYWNrQ29sb3IHQ2hlY2tlZARGb250CUZvcmVDb2xvchdVc2VJdGVtU3R5
+        bGVGb3JTdWJJdGVtcwEABAAEBAAIFFN5c3RlbS5EcmF3aW5nLkNvbG9yAwAAAAETU3lzdGVtLkRyYXdp
+        bmcuRm9udAMAAAAUU3lzdGVtLkRyYXdpbmcuQ29sb3IDAAAAAQIAAAAGBAAAAAExAAAAAAX7////FFN5
+        c3RlbS5EcmF3aW5nLkNvbG9yBAAAAARuYW1lBXZhbHVlCmtub3duQ29sb3IFc3RhdGUBAAAACQcHAwAA
+        AAoAAAAAAAAAABgAAQAACQYAAAAB+f////v///8KAAAAAAAAAAAaAAEAAQUGAAAAE1N5c3RlbS5EcmF3
+        aW5nLkZvbnQEAAAABE5hbWUEU2l6ZQVTdHlsZQRVbml0AQAEBAsYU3lzdGVtLkRyYXdpbmcuRm9udFN0
+        eWxlAwAAABtTeXN0ZW0uRHJhd2luZy5HcmFwaGljc1VuaXQDAAAAAwAAAAYIAAAACFNlZ29lIFVJAAAE
+        QQX3////GFN5c3RlbS5EcmF3aW5nLkZvbnRTdHlsZQEAAAAHdmFsdWVfXwAIAwAAAAAAAAAF9v///xtT
+        eXN0ZW0uRHJhd2luZy5HcmFwaGljc1VuaXQBAAAAB3ZhbHVlX18ACAMAAAADAAAACw==
+</value>
+  </data>
+  <data name="&gt;&gt;label6.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="cbQuality.Items3" xml:space="preserve">
+    <value>320k</value>
+  </data>
+  <data name="&gt;&gt;cbBitrate.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="playToolStripMenuItem.Text" xml:space="preserve">
+    <value>Play</value>
+  </data>
+  <data name="cbVideoCodec.Items7" xml:space="preserve">
+    <value>MPEG2</value>
+  </data>
+  <data name="&gt;&gt;btnFolder.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cbTrack.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="cbAspect.Size" type="System.Drawing.Size, System.Drawing">
+    <value>93, 21</value>
+  </data>
+  <data name="menuItemDelete.Text" xml:space="preserve">
+    <value>Delete</value>
+  </data>
+  <data name="&gt;&gt;btnStart.Name" xml:space="preserve">
+    <value>btnStart</value>
+  </data>
+  <data name="cbAspect.Items2" xml:space="preserve">
+    <value>4:3</value>
+  </data>
+  <data name="btnVideoSet.ImageIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;cbFormat.Name" xml:space="preserve">
+    <value>cbFormat</value>
+  </data>
+  <data name="btnAudioSet.ImageIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="cbBitrate.Items6" xml:space="preserve">
+    <value>40000</value>
+  </data>
+  <data name="cbAudioCodec.Location" type="System.Drawing.Point, System.Drawing">
+    <value>159, 382</value>
+  </data>
+  <data name="label2.TabIndex" type="System.Int32, mscorlib">
+    <value>20</value>
+  </data>
+  <data name="label10.Location" type="System.Drawing.Point, System.Drawing">
+    <value>9, 41</value>
+  </data>
+  <data name="rbAudio.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;cbFormat.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="cbTrack.TabIndex" type="System.Int32, mscorlib">
+    <value>28</value>
+  </data>
+  <data name="cbAspect.Items3" xml:space="preserve">
+    <value>16:9</value>
+  </data>
+  <data name="cbAudioCodec.Size" type="System.Drawing.Size, System.Drawing">
+    <value>115, 21</value>
+  </data>
+  <data name="lblFolder.Size" type="System.Drawing.Size, System.Drawing">
+    <value>146, 13</value>
+  </data>
+  <data name="statusLabel.Text" xml:space="preserve">
+    <value>Please select source files</value>
+  </data>
+  <data name="label7.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="listSoruceFiles.Items1" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>
+        AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj00LjAuMC4w
+        LCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkMAwAAAFFTeXN0
+        ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2Vu
+        PWIwM2Y1ZjdmMTFkNTBhM2EFAQAAACFTeXN0ZW0uV2luZG93cy5Gb3Jtcy5MaXN0Vmlld0l0ZW0HAAAA
+        BFRleHQKSW1hZ2VJbmRleAlCYWNrQ29sb3IHQ2hlY2tlZARGb250CUZvcmVDb2xvchdVc2VJdGVtU3R5
+        bGVGb3JTdWJJdGVtcwEABAAEBAAIFFN5c3RlbS5EcmF3aW5nLkNvbG9yAwAAAAETU3lzdGVtLkRyYXdp
+        bmcuRm9udAMAAAAUU3lzdGVtLkRyYXdpbmcuQ29sb3IDAAAAAQIAAAAGBAAAAAEyAAAAAAX7////FFN5
+        c3RlbS5EcmF3aW5nLkNvbG9yBAAAAARuYW1lBXZhbHVlCmtub3duQ29sb3IFc3RhdGUBAAAACQcHAwAA
+        AAoAAAAAAAAAABgAAQAACQYAAAAB+f////v///8KAAAAAAAAAAAaAAEAAQUGAAAAE1N5c3RlbS5EcmF3
+        aW5nLkZvbnQEAAAABE5hbWUEU2l6ZQVTdHlsZQRVbml0AQAEBAsYU3lzdGVtLkRyYXdpbmcuRm9udFN0
+        eWxlAwAAABtTeXN0ZW0uRHJhd2luZy5HcmFwaGljc1VuaXQDAAAAAwAAAAYIAAAACFNlZ29lIFVJAAAE
+        QQX3////GFN5c3RlbS5EcmF3aW5nLkZvbnRTdHlsZQEAAAAHdmFsdWVfXwAIAwAAAAAAAAAF9v///xtT
+        eXN0ZW0uRHJhd2luZy5HcmFwaGljc1VuaXQBAAAAB3ZhbHVlX18ACAMAAAADAAAACw==
+</value>
+  </data>
+  <data name="label10.Text" xml:space="preserve">
+    <value>Scan</value>
+  </data>
+  <data name="&gt;&gt;btnFolder.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="cbFramerate.Location" type="System.Drawing.Point, System.Drawing">
+    <value>99, 11</value>
+  </data>
+  <data name="&gt;&gt;lblVideoCodec.Name" xml:space="preserve">
+    <value>lblVideoCodec</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>631, 460</value>
+  </data>
+  <data name="lblAudioTrack.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="label9.Text" xml:space="preserve">
+    <value>Frame rate</value>
+  </data>
+  <data name="label9.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Right</value>
+  </data>
+  <data name="cbHDR.Items1" xml:space="preserve">
+    <value>Disable</value>
+  </data>
+  <data name="&gt;&gt;menuItemAdd.Name" xml:space="preserve">
+    <value>menuItemAdd</value>
+  </data>
+  <data name="&gt;&gt;btnStart.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="statusStrip.Text" xml:space="preserve">
+    <value>statusStrip1</value>
+  </data>
+  <data name="contextMenuFile.Size" type="System.Drawing.Size, System.Drawing">
+    <value>125, 126</value>
+  </data>
+  <data name="&gt;&gt;lblOutputFormat.Name" xml:space="preserve">
+    <value>lblOutputFormat</value>
+  </data>
+  <data name="lblOutputFormat.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 358</value>
+  </data>
+  <data name="cbAspect.Location" type="System.Drawing.Point, System.Drawing">
+    <value>99, 65</value>
+  </data>
+  <data name="&gt;&gt;cbAudioCodec.Name" xml:space="preserve">
+    <value>cbAudioCodec</value>
+  </data>
+  <data name="cbBitrate.TabIndex" type="System.Int32, mscorlib">
+    <value>32</value>
+  </data>
+  <data name="cbBitrate.Items4" xml:space="preserve">
+    <value>10000</value>
+  </data>
+  <data name="cbFramerate.Items5" xml:space="preserve">
+    <value>24</value>
+  </data>
+  <data name="&gt;&gt;cbInterlaced.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;toolStripSeparator1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cbLines.Parent" xml:space="preserve">
+    <value>pnlVideo</value>
+  </data>
+  <data name="&gt;&gt;label9.Parent" xml:space="preserve">
+    <value>pnlVideo</value>
+  </data>
+  <data name="&gt;&gt;pnlVideo.Name" xml:space="preserve">
+    <value>pnlVideo</value>
+  </data>
+  <data name="cbQuality.Items1" xml:space="preserve">
+    <value>128k</value>
+  </data>
+  <data name="cbLines.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;cbFramerate.Name" xml:space="preserve">
+    <value>cbFramerate</value>
+  </data>
+  <data name="btnAdd.ToolTip" xml:space="preserve">
+    <value>Add Source Files</value>
+  </data>
+  <data name="lblAudioTrack.Size" type="System.Drawing.Size, System.Drawing">
+    <value>67, 13</value>
+  </data>
+  <data name="cbInterlaced.Size" type="System.Drawing.Size, System.Drawing">
+    <value>93, 21</value>
+  </data>
+  <data name="btnFolder.Size" type="System.Drawing.Size, System.Drawing">
+    <value>28, 22</value>
+  </data>
+  <data name="&gt;&gt;menuItemAdd.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cbAudioCodec.ZOrder" xml:space="preserve">
+    <value>17</value>
+  </data>
+  <data name="cbAspect.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;statusStrip.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;listSoruceFiles.Name" xml:space="preserve">
+    <value>listSoruceFiles</value>
+  </data>
+  <data name="&gt;&gt;toolStripSeparator2.Name" xml:space="preserve">
+    <value>toolStripSeparator2</value>
+  </data>
+  <data name="&gt;&gt;label1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="label12.Text" xml:space="preserve">
+    <value>Quality</value>
+  </data>
+  <data name="cbQuality.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;btnOpenFolder.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="rbVideo.Location" type="System.Drawing.Point, System.Drawing">
+    <value>21, 12</value>
+  </data>
+  <data name="&gt;&gt;lblOutputFormat.ZOrder" xml:space="preserve">
+    <value>19</value>
+  </data>
+  <data name="&gt;&gt;rbAudio.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="cbJoin.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnOpenFolder.Location" type="System.Drawing.Point, System.Drawing">
+    <value>591, 327</value>
+  </data>
+  <data name="cbBitrate.Items" xml:space="preserve">
+    <value>Auto</value>
+  </data>
+  <data name="btnAdd.Size" type="System.Drawing.Size, System.Drawing">
+    <value>48, 48</value>
+  </data>
+  <data name="&gt;&gt;btnFolder.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="label7.Location" type="System.Drawing.Point, System.Drawing">
+    <value>9, 95</value>
+  </data>
+  <data name="cbTrack.Items3" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="lblOutputFormat.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="pnlVideo.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="cbFramerate.Items" xml:space="preserve">
+    <value>Auto</value>
+  </data>
+  <data name="cbLines.Items3" xml:space="preserve">
+    <value>720</value>
+  </data>
+  <data name="&gt;&gt;lblAudioCodec.ZOrder" xml:space="preserve">
+    <value>21</value>
+  </data>
+  <data name="cbJoin.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Left</value>
+  </data>
+  <data name="&gt;&gt;imageList.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ImageList, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="pnlAudio.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="statusStrip.TabIndex" type="System.Int32, mscorlib">
+    <value>26</value>
+  </data>
+  <data name="btnAudioSet.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="cbAudioCodec.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="lblFolder.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="cbFramerate.TabIndex" type="System.Int32, mscorlib">
+    <value>22</value>
+  </data>
+  <data name="&gt;&gt;cbQuality.Parent" xml:space="preserve">
+    <value>pnlAudio</value>
+  </data>
+  <data name="label12.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;btnVideoSet.Name" xml:space="preserve">
+    <value>btnVideoSet</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="openFileDialog.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <metadata name="folderBrowserDialog.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>395, 17</value>
+  </metadata>
+  <metadata name="contextMenuFile.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>253, 17</value>
+  </metadata>
+  <metadata name="$this.TrayHeight" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>62</value>
+  </metadata>
+  <metadata name="toolTip1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>812, 17</value>
+  </metadata>
+  <metadata name="imageListButtons.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>558, 17</value>
+  </metadata>
+  <metadata name="statusStrip.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>703, 17</value>
+  </metadata>
+  <metadata name="imageList.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>150, 17</value>
+  </metadata>
 </root>
