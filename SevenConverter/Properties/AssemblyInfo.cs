@@ -5,7 +5,7 @@ using System.Runtime.InteropServices;
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
 [assembly: AssemblyTitle("Seven Converter")]
-[assembly: AssemblyDescription("Multi-format converter")]
+[assembly: AssemblyDescription("Free multi-format converter for Video and Audio files")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("Sevenbytes Software")]
 [assembly: AssemblyProduct("Seven Converter")]
