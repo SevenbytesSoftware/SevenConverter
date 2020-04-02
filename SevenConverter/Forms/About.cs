@@ -14,10 +14,8 @@ namespace SevenConverter
         {
             InitializeComponent();
             this.Text = String.Format(Properties.strings.About, AssemblyTitle);
-            this.labelProductName.Text = AssemblyProduct;
             this.labelVersion.Text = String.Format(Properties.strings.Version, AssemblyVersion);
             this.labelCopyright.Text = AssemblyCopyright;
-            this.textBoxDescription.Text = Properties.strings.AssemblyDescription;
         }
 
         #endregion Public Constructors
