@@ -42,7 +42,7 @@
 ## Requirements
 
 - Microsoft Windows x64 operating system.
-- Installed Microsoft .NET Framework 4.0.
+- Installed Microsoft .NET Framework 4.5.
 
 ## Download and Install
 
