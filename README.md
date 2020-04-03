@@ -16,11 +16,11 @@
 ## Video conversion
 
 - Source Video File Formats: `*.avi; *.mov; *.mkv; *.mpg; *.3gp; *.flv; *.vob; *.mp4; *.ts; *.m2ts`.
-- Convert to Video Formats: AVI, MOV, MKV, TS, MP4.
-- Video Codecs: H.265, H.264, MJPEG, XVID, MPEG2.
+- Convert to Video Formats: `AVI, MOV, MKV, TS, MP4`.
+- Video Codecs: `H.265, H.264, MJPEG, XVID, MPEG2`.
 - Adaptive video bitrate.
 - Ability to manually adjust the video bitrate (to reduce the size of the output file).
-- Audio Codecs: MP3, AC3, PCM.
+- Audio Codecs: `MP3, AC3, PCM`.
 - Change the bitrate and sample rate of audio.
 - Ability to use source video and audio streams without transcoding.
 - Video without sound.
@@ -36,13 +36,13 @@
 ## Audio conversion
 
 - Source Audio File Formats: `*.mp3; *.m4a; *.wav; *.flac; *.ogg; *.ape; *.amr; *.acc`.
-- Convert to audio formats: MP3, OGG Vorbis, FLAC, WAV.
+- Convert to audio formats: `MP3, OGG Vorbis, FLAC, WAV`.
 - Change the bitrate and sample rate of audio.
 
 ## Requirements
 
 - Microsoft Windows x64 operating system.
-- Installed Microsoft .NET Framework 4.5.
+- Installed Microsoft [.NET Framework 4.5](https://www.microsoft.com/en-US/download/details.aspx?id=30653).
 
 ## Download and Install
 
