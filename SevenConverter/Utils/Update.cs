@@ -1,7 +1,5 @@
 ﻿using System;
-using System.IO;
 using System.Net;
-using System.Text;
 
 namespace SevenConverter.Utils
 {
@@ -21,7 +19,7 @@ namespace SevenConverter.Utils
             ServicePointManager.Expect100Continue = true;
             ServicePointManager.SecurityProtocol |= SecurityProtocolType.Tls12;
             using (WebClient web = new WebClient())
-            {                
+            {
                 string page = web.DownloadString(URL);
                 string startPattern = "/releases/tag/";
                 int loc1 = page.IndexOf(startPattern, 0);
@@ -33,9 +31,9 @@ namespace SevenConverter.Utils
                     if (loc2 != -1)
                     {
                         AvailableVersion = page.Substring(loc1, loc2 - loc1);
-                        return String.Compare(AvailableVersion, currentVersion) < 0;
+                        return String.Compare(AvailableVersion, currentVersion) <= 0;
                     }
-                    else 
+                    else
                         throw new Exception(Properties.strings.ErrorOnVersionLookup);
                 }
                 else

@@ -64,7 +64,6 @@ namespace SevenConverter
                         quoted ? String.Concat("\"", sourceFile, "\"") : sourceFile,
                         videoCodec[cbVideoCodec.SelectedIndex]);
 
- 
                     // TS format
                     if (cbFormat.SelectedIndex == 3)
                     {
@@ -122,7 +121,7 @@ namespace SevenConverter
                     {
                         string rows = String.Empty;
                         string delim = String.Empty;
-                        
+
                         // scale
                         if (cbLines.SelectedIndex > 0)
                         {

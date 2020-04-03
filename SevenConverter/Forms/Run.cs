@@ -112,6 +112,7 @@ namespace SevenConverter.Forms
             else
                 action();
         }
+
         private void RunForm_FormClosed(object sender, FormClosedEventArgs e)
         {
             if (!String.IsNullOrEmpty(app.StartInfo.FileName) && !app.HasExited)

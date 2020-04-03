@@ -132,7 +132,7 @@ namespace SevenConverter
                 if (checkResult)
                 {
                     MessageBox.Show(
-                        Properties.strings.SevenConverterIsUpToDate, 
+                        Properties.strings.SevenConverterIsUpToDate,
                         Properties.strings.UpToDate);
                 }
                 else
@@ -147,7 +147,7 @@ namespace SevenConverter
                         Process.Start(latestURL);
                     }
                 }
-            } 
+            }
             catch (Exception exception)
             {
                 MessageBox.Show(exception.Message);
