@@ -33,6 +33,7 @@
             this.labelCopyright = new System.Windows.Forms.Label();
             this.labelVersion = new System.Windows.Forms.Label();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.btnUpdates = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -65,12 +66,19 @@
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.TabStop = false;
             // 
+            // btnUpdates
+            // 
+            resources.ApplyResources(this.btnUpdates, "btnUpdates");
+            this.btnUpdates.Name = "btnUpdates";
+            this.btnUpdates.Click += new System.EventHandler(this.btnUpdates_Click);
+            // 
             // About
             // 
             this.AcceptButton = this.okButton;
             resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
+            this.Controls.Add(this.btnUpdates);
             this.Controls.Add(this.labelCopyright);
             this.Controls.Add(this.labelVersion);
             this.Controls.Add(this.pictureBox1);
@@ -94,5 +102,6 @@
         private System.Windows.Forms.Label labelCopyright;
         private System.Windows.Forms.Label labelVersion;
         private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.Button btnUpdates;
     }
 }

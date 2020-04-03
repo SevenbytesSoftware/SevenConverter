@@ -10,7 +10,7 @@
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>SevenConverter</RootNamespace>
     <AssemblyName>SevenConverter</AssemblyName>
-    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <IsWebBootstrapper>false</IsWebBootstrapper>
     <TargetFrameworkProfile />
@@ -150,6 +150,7 @@
     <Compile Include="Utils\Files.cs" />
     <Compile Include="Settings\Settings.cs" />
     <Compile Include="Utils\Tools.cs" />
+    <Compile Include="Utils\Update.cs" />
     <EmbeddedResource Include="Forms\About.resx">
       <DependentUpon>About.cs</DependentUpon>
     </EmbeddedResource>

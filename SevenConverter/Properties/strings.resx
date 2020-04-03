@@ -135,6 +135,9 @@
   <data name="Error" xml:space="preserve">
     <value>Error</value>
   </data>
+  <data name="ErrorOnVersionLookup" xml:space="preserve">
+    <value>Error on version lookup</value>
+  </data>
   <data name="FFMPEGNotFound" xml:space="preserve">
     <value>Error: FFMPEG not found!</value>
   </data>
@@ -147,11 +150,30 @@
   <data name="FolderDoesNotExistParam" xml:space="preserve">
     <value>Folder {0} does not exist!</value>
   </data>
+  <data name="NewVersionIsAvailable" xml:space="preserve">
+    <value>New version {0} is available</value>
+  </data>
   <data name="Play" xml:space="preserve">
     <value>Play</value>
   </data>
+  <data name="SevenConverterIsAvailable" xml:space="preserve">
+    <value>Seven Converter {0} is available.
+
+Do you want to update now?
+
+We recommend that you always use the latest version in order to enjoy all the latest features.</value>
+  </data>
+  <data name="SevenConverterIsUpToDate" xml:space="preserve">
+    <value>Seven Converter is up to date!</value>
+  </data>
+  <data name="UpToDate" xml:space="preserve">
+    <value>Up to date</value>
+  </data>
   <data name="Version" xml:space="preserve">
     <value>Version {0}</value>
+  </data>
+  <data name="VersionNotFound" xml:space="preserve">
+    <value>Version not found</value>
   </data>
   <data name="VideoFileFilter" xml:space="preserve">
     <value>Video Files|*.avi; *.mov; *.mkv; *.mpg; *.3gp; *.flv; *.vob; *.mp4; *.mts; *.ts; *.m2ts|All Files|*.*</value>

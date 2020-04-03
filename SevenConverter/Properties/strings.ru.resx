@@ -135,6 +135,9 @@
   <data name="Error" xml:space="preserve">
     <value>Ошибка</value>
   </data>
+  <data name="ErrorOnVersionLookup" xml:space="preserve">
+    <value>Ошибка при проверке версии</value>
+  </data>
   <data name="FFMPEGNotFound" xml:space="preserve">
     <value>Ошибка: FFMPEG не найден!</value>
   </data>
@@ -147,11 +150,30 @@
   <data name="FolderDoesNotExistParam" xml:space="preserve">
     <value>Папка {0} не существует!</value>
   </data>
+  <data name="NewVersionIsAvailable" xml:space="preserve">
+    <value>Новая версия  {0} доступна для скачивания</value>
+  </data>
   <data name="Play" xml:space="preserve">
     <value>Воспроизведение</value>
   </data>
+  <data name="SevenConverterIsAvailable" xml:space="preserve">
+    <value>Seven Converter {0} доступен для скачивания.
+
+Вы хотите обновиться сейчас?
+
+Мы рекомендуем это сделать, так как в новой версии доступны новые возможности.</value>
+  </data>
+  <data name="SevenConverterIsUpToDate" xml:space="preserve">
+    <value>У вас последняя версия Seven Converter!</value>
+  </data>
+  <data name="UpToDate" xml:space="preserve">
+    <value>Последняя версия</value>
+  </data>
   <data name="Version" xml:space="preserve">
     <value>Версия {0}</value>
+  </data>
+  <data name="VersionNotFound" xml:space="preserve">
+    <value>Версия не найдена</value>
   </data>
   <data name="VideoFileFilter" xml:space="preserve">
     <value>Видео файлы|*.avi; *.mov; *.mkv; *.mpg; *.3gp; *.flv; *.vob; *.mp4; *.mts; *.ts; *.m2ts|Все файлы|*.*</value>

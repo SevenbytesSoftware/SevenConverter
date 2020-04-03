@@ -10,6 +10,8 @@ namespace SevenConverter
     {
         #region Public Constructors
 
+        private const string latestURL = "https://github.com/SevenbytesSoftware/SevenConverter/releases/latest";
+
         public About()
         {
             InitializeComponent();
@@ -105,9 +107,51 @@ namespace SevenConverter
 
         private void LinkLabel1_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
-            Process.Start("explorer.exe", linkLabel1.Text);
+            Process.Start(linkLabel1.Text);
         }
 
         #endregion Private Methods
+
+        private void btnUpdates_Click(object sender, EventArgs e)
+        {
+            Update update = new Update(latestURL);
+            bool checkResult = false;
+            try
+            {
+                try
+                {
+                    this.Cursor = Cursors.WaitCursor;
+                    checkResult = update.Check(
+                        AssemblyVersion.Substring(0, AssemblyVersion.LastIndexOf('.')));
+                }
+                finally
+                {
+                    this.Cursor = Cursors.Default;
+                }
+
+                if (checkResult)
+                {
+                    MessageBox.Show(
+                        Properties.strings.SevenConverterIsUpToDate, 
+                        Properties.strings.UpToDate);
+                }
+                else
+                {
+                    if (MessageBox.Show(
+                        String.Format(Properties.strings.SevenConverterIsAvailable, update.AvailableVersion),
+                        String.Format(Properties.strings.NewVersionIsAvailable, update.AvailableVersion),
+                        MessageBoxButtons.YesNo,
+                        MessageBoxIcon.Information,
+                        MessageBoxDefaultButton.Button1) == DialogResult.Yes)
+                    {
+                        Process.Start(latestURL);
+                    }
+                }
+            } 
+            catch (Exception exception)
+            {
+                MessageBox.Show(exception.Message);
+            }
+        }
     }
 }
