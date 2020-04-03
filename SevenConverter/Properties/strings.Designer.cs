@@ -115,6 +115,15 @@ namespace SevenConverter.Properties {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Error on version lookup.
+        /// </summary>
+        internal static string ErrorOnVersionLookup {
+            get {
+                return ResourceManager.GetString("ErrorOnVersionLookup", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Error: FFMPEG not found!.
         /// </summary>
         internal static string FFMPEGNotFound {
@@ -151,6 +160,15 @@ namespace SevenConverter.Properties {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to New version {0} is available.
+        /// </summary>
+        internal static string NewVersionIsAvailable {
+            get {
+                return ResourceManager.GetString("NewVersionIsAvailable", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Play.
         /// </summary>
         internal static string Play {
@@ -160,11 +178,51 @@ namespace SevenConverter.Properties {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Seven Converter {0} is available.
+        ///
+        ///Do you want to update now?
+        ///
+        ///We recommend that you always use the latest version in order to enjoy all the latest features..
+        /// </summary>
+        internal static string SevenConverterIsAvailable {
+            get {
+                return ResourceManager.GetString("SevenConverterIsAvailable", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Seven Converter is up to date!.
+        /// </summary>
+        internal static string SevenConverterIsUpToDate {
+            get {
+                return ResourceManager.GetString("SevenConverterIsUpToDate", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Up to date.
+        /// </summary>
+        internal static string UpToDate {
+            get {
+                return ResourceManager.GetString("UpToDate", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Version {0}.
         /// </summary>
         internal static string Version {
             get {
                 return ResourceManager.GetString("Version", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Version not found.
+        /// </summary>
+        internal static string VersionNotFound {
+            get {
+                return ResourceManager.GetString("VersionNotFound", resourceCulture);
             }
         }
         
