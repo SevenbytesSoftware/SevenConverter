@@ -36,6 +36,8 @@ namespace SevenConverter.Forms
         {
             if (!String.IsNullOrEmpty(Command))
             {
+                tbCommandLine.Text = String.Concat(Command, " ", Args);
+
                 app.StartInfo.FileName = Command;
                 app.StartInfo.Arguments = Args;
                 app.StartInfo.UseShellExecute = false;
@@ -130,5 +132,10 @@ namespace SevenConverter.Forms
         }
 
         #endregion Private Methods
+
+        private void copyToClipboardToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Clipboard.SetText(tbCommandLine.Text);
+        }
     }
 }

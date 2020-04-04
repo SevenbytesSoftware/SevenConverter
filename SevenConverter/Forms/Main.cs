@@ -66,6 +66,8 @@ namespace SevenConverter
             TurnOffPanels();
             SaveConfig();
 
+            bool result = false;
+
             if (listSoruceFiles.Items.Count > 0)
             {
                 if (!String.IsNullOrEmpty(tbDestFilePath.Text)
@@ -96,7 +98,7 @@ namespace SevenConverter
                             tbDestFilePath.Text,
                             cbFormat.Text.ToLower());
 
-                        Convert(inputFiles, outputFile, false, rbVideo.Checked);
+                        result = Convert(inputFiles, outputFile, false, rbVideo.Checked);
                     }
                     else
                     {
@@ -108,7 +110,9 @@ namespace SevenConverter
                                 tbDestFilePath.Text,
                                 cbFormat.Text.ToLower());
 
-                            if (!Convert(item.Text, outputFile, true, rbVideo.Checked))
+                            result = Convert(item.Text, outputFile, true, rbVideo.Checked);
+
+                            if (!result)
                                 break;
 
                             // paint green if all ok
@@ -117,7 +121,8 @@ namespace SevenConverter
                     }
 
                     // done!
-                    SystemSounds.Exclamation.Play();
+                    if (result)
+                        SystemSounds.Exclamation.Play();
                 }
                 else
                     MessageBox.Show(Properties.strings.FolderDoesNotExist);
