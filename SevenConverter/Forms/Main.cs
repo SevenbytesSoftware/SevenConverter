@@ -14,8 +14,8 @@ namespace SevenConverter
         public Main()
         {
             // localization debug
-            System.Threading.Thread.CurrentThread.CurrentUICulture =
-                System.Globalization.CultureInfo.GetCultureInfo("ru-RU");
+            //System.Threading.Thread.CurrentThread.CurrentUICulture =
+            //    System.Globalization.CultureInfo.GetCultureInfo("ru-RU");
             InitializeComponent();
         }
 
