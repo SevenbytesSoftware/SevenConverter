@@ -36,7 +36,6 @@
             this.lblVideoCodec = new System.Windows.Forms.Label();
             this.lblAudioCodec = new System.Windows.Forms.Label();
             this.cbAudioCodec = new System.Windows.Forms.ComboBox();
-            this.labelTitle = new System.Windows.Forms.Label();
             this.openFileDialog = new System.Windows.Forms.OpenFileDialog();
             this.contextMenuFile = new System.Windows.Forms.ContextMenuStrip(this.components);
             this.menuItemAdd = new System.Windows.Forms.ToolStripMenuItem();
@@ -55,6 +54,12 @@
             this.cbFreq = new System.Windows.Forms.ComboBox();
             this.cbJoin = new System.Windows.Forms.CheckBox();
             this.pnlAudio = new System.Windows.Forms.Panel();
+            this.label5 = new System.Windows.Forms.Label();
+            this.cbLowpass = new System.Windows.Forms.ComboBox();
+            this.label4 = new System.Windows.Forms.Label();
+            this.cbHighpass = new System.Windows.Forms.ComboBox();
+            this.label3 = new System.Windows.Forms.Label();
+            this.cbLoudness = new System.Windows.Forms.ComboBox();
             this.label6 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.pnlVideo = new System.Windows.Forms.Panel();
@@ -84,6 +89,7 @@
             this.btnFolder = new System.Windows.Forms.Button();
             this.listSoruceFiles = new System.Windows.Forms.ListView();
             this.toolTip1 = new System.Windows.Forms.ToolTip(this.components);
+            this.btnAbout = new System.Windows.Forms.Button();
             this.contextMenuFile.SuspendLayout();
             this.pnlAudio.SuspendLayout();
             this.pnlVideo.SuspendLayout();
@@ -154,15 +160,6 @@
             this.cbAudioCodec.Name = "cbAudioCodec";
             this.toolTip1.SetToolTip(this.cbAudioCodec, resources.GetString("cbAudioCodec.ToolTip"));
             this.cbAudioCodec.SelectedIndexChanged += new System.EventHandler(this.CbAudioCodec_SelectedIndexChanged);
-            // 
-            // labelTitle
-            // 
-            resources.ApplyResources(this.labelTitle, "labelTitle");
-            this.labelTitle.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.labelTitle.ForeColor = System.Drawing.Color.Silver;
-            this.labelTitle.Name = "labelTitle";
-            this.toolTip1.SetToolTip(this.labelTitle, resources.GetString("labelTitle.ToolTip"));
-            this.labelTitle.Click += new System.EventHandler(this.LabelTitle_Click);
             // 
             // openFileDialog
             // 
@@ -298,6 +295,12 @@
             resources.ApplyResources(this.pnlAudio, "pnlAudio");
             this.pnlAudio.BackColor = System.Drawing.SystemColors.ControlLight;
             this.pnlAudio.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pnlAudio.Controls.Add(this.label5);
+            this.pnlAudio.Controls.Add(this.cbLowpass);
+            this.pnlAudio.Controls.Add(this.label4);
+            this.pnlAudio.Controls.Add(this.cbHighpass);
+            this.pnlAudio.Controls.Add(this.label3);
+            this.pnlAudio.Controls.Add(this.cbLoudness);
             this.pnlAudio.Controls.Add(this.label6);
             this.pnlAudio.Controls.Add(this.label2);
             this.pnlAudio.Controls.Add(this.cbFreq);
@@ -305,6 +308,75 @@
             this.pnlAudio.Name = "pnlAudio";
             this.toolTip1.SetToolTip(this.pnlAudio, resources.GetString("pnlAudio.ToolTip"));
             this.pnlAudio.Click += new System.EventHandler(this.PnlAudio_Click);
+            // 
+            // label5
+            // 
+            resources.ApplyResources(this.label5, "label5");
+            this.label5.Name = "label5";
+            this.toolTip1.SetToolTip(this.label5, resources.GetString("label5.ToolTip"));
+            // 
+            // cbLowpass
+            // 
+            resources.ApplyResources(this.cbLowpass, "cbLowpass");
+            this.cbLowpass.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.cbLowpass.FormattingEnabled = true;
+            this.cbLowpass.Items.AddRange(new object[] {
+            resources.GetString("cbLowpass.Items"),
+            resources.GetString("cbLowpass.Items1"),
+            resources.GetString("cbLowpass.Items2"),
+            resources.GetString("cbLowpass.Items3"),
+            resources.GetString("cbLowpass.Items4"),
+            resources.GetString("cbLowpass.Items5"),
+            resources.GetString("cbLowpass.Items6"),
+            resources.GetString("cbLowpass.Items7"),
+            resources.GetString("cbLowpass.Items8"),
+            resources.GetString("cbLowpass.Items9")});
+            this.cbLowpass.Name = "cbLowpass";
+            this.toolTip1.SetToolTip(this.cbLowpass, resources.GetString("cbLowpass.ToolTip"));
+            // 
+            // label4
+            // 
+            resources.ApplyResources(this.label4, "label4");
+            this.label4.Name = "label4";
+            this.toolTip1.SetToolTip(this.label4, resources.GetString("label4.ToolTip"));
+            // 
+            // cbHighpass
+            // 
+            resources.ApplyResources(this.cbHighpass, "cbHighpass");
+            this.cbHighpass.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.cbHighpass.FormattingEnabled = true;
+            this.cbHighpass.Items.AddRange(new object[] {
+            resources.GetString("cbHighpass.Items"),
+            resources.GetString("cbHighpass.Items1"),
+            resources.GetString("cbHighpass.Items2"),
+            resources.GetString("cbHighpass.Items3"),
+            resources.GetString("cbHighpass.Items4"),
+            resources.GetString("cbHighpass.Items5"),
+            resources.GetString("cbHighpass.Items6"),
+            resources.GetString("cbHighpass.Items7"),
+            resources.GetString("cbHighpass.Items8")});
+            this.cbHighpass.Name = "cbHighpass";
+            this.toolTip1.SetToolTip(this.cbHighpass, resources.GetString("cbHighpass.ToolTip"));
+            // 
+            // label3
+            // 
+            resources.ApplyResources(this.label3, "label3");
+            this.label3.Name = "label3";
+            this.toolTip1.SetToolTip(this.label3, resources.GetString("label3.ToolTip"));
+            // 
+            // cbLoudness
+            // 
+            resources.ApplyResources(this.cbLoudness, "cbLoudness");
+            this.cbLoudness.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.cbLoudness.FormattingEnabled = true;
+            this.cbLoudness.Items.AddRange(new object[] {
+            resources.GetString("cbLoudness.Items"),
+            resources.GetString("cbLoudness.Items1"),
+            resources.GetString("cbLoudness.Items2"),
+            resources.GetString("cbLoudness.Items3"),
+            resources.GetString("cbLoudness.Items4")});
+            this.cbLoudness.Name = "cbLoudness";
+            this.toolTip1.SetToolTip(this.cbLoudness, resources.GetString("cbLoudness.ToolTip"));
             // 
             // label6
             // 
@@ -605,10 +677,19 @@
             this.listSoruceFiles.DragEnter += new System.Windows.Forms.DragEventHandler(this.ListSoruceFiles_DragEnter);
             this.listSoruceFiles.MouseClick += new System.Windows.Forms.MouseEventHandler(this.Main_MouseClick);
             // 
+            // btnAbout
+            // 
+            resources.ApplyResources(this.btnAbout, "btnAbout");
+            this.btnAbout.Name = "btnAbout";
+            this.toolTip1.SetToolTip(this.btnAbout, resources.GetString("btnAbout.ToolTip"));
+            this.btnAbout.UseVisualStyleBackColor = true;
+            this.btnAbout.Click += new System.EventHandler(this.btnAbout_Click);
+            // 
             // Main
             // 
             resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.Controls.Add(this.btnAbout);
             this.Controls.Add(this.statusStrip);
             this.Controls.Add(this.btnAdd);
             this.Controls.Add(this.btnVideoSet);
@@ -620,7 +701,6 @@
             this.Controls.Add(this.rbVideo);
             this.Controls.Add(this.lblFolder);
             this.Controls.Add(this.btnFolder);
-            this.Controls.Add(this.labelTitle);
             this.Controls.Add(this.tbDestFilePath);
             this.Controls.Add(this.cbVideoCodec);
             this.Controls.Add(this.cbFormat);
@@ -659,7 +739,6 @@
         private System.Windows.Forms.Label lblVideoCodec;
         private System.Windows.Forms.Label lblAudioCodec;
         private System.Windows.Forms.ComboBox cbAudioCodec;
-        private System.Windows.Forms.Label labelTitle;
         private System.Windows.Forms.OpenFileDialog openFileDialog;
         private System.Windows.Forms.ListView listSoruceFiles;
         private System.Windows.Forms.ImageList imageList;
@@ -707,6 +786,13 @@
         private System.Windows.Forms.ToolTip toolTip1;
         private System.Windows.Forms.ComboBox cbHDR;
         private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.ComboBox cbLowpass;
+        private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.ComboBox cbHighpass;
+        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.ComboBox cbLoudness;
+        private System.Windows.Forms.Button btnAbout;
     }
 }
 

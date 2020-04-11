@@ -14,8 +14,8 @@ namespace SevenConverter
         public Main()
         {
             // localization debug
-            //System.Threading.Thread.CurrentThread.CurrentUICulture =
-            //    System.Globalization.CultureInfo.GetCultureInfo("ru-RU");
+            System.Threading.Thread.CurrentThread.CurrentUICulture =
+                System.Globalization.CultureInfo.GetCultureInfo("ru-RU");
             InitializeComponent();
         }
 
@@ -57,8 +57,13 @@ namespace SevenConverter
 
         private void BtnAudioSet_Click(object sender, EventArgs e)
         {
-            TurnOffPanels();
-            Tools.ShowPanel(btnAudioSet, pnlAudio, !pnlAudio.Visible, audioPanelHeight);
+            if (pnlAudio.Visible)
+                TurnOffPanels();
+            else
+            {
+                TurnOffPanels();
+                Tools.ShowPanel(btnAudioSet, pnlAudio, !pnlAudio.Visible, audioPanelHeight);
+            }
         }
 
         private void BtnStart_Click(object sender, EventArgs e)
@@ -141,8 +146,13 @@ namespace SevenConverter
 
         private void BtnVideoSet_Click(object sender, EventArgs e)
         {
-            TurnOffPanels();
-            Tools.ShowPanel(btnVideoSet, pnlVideo, !pnlVideo.Visible, videoPanelHeight);
+            if (pnlVideo.Visible)
+                TurnOffPanels();
+            else
+            {
+                TurnOffPanels();
+                Tools.ShowPanel(btnVideoSet, pnlVideo, !pnlVideo.Visible, videoPanelHeight);
+            }
         }
 
         private void BtnFolder_Click(object sender, EventArgs e)
@@ -200,14 +210,6 @@ namespace SevenConverter
             foreach (ListViewItem item in listSoruceFiles.SelectedItems)
                 listSoruceFiles.Items.Remove(item);
             btnAdd.Visible = (listSoruceFiles.Items.Count == 0);
-        }
-
-        private void LabelTitle_Click(object sender, EventArgs e)
-        {
-            using (About about = new About())
-            {
-                about.ShowDialog();
-            }
         }
 
         private void ListSoruceFiles_DragDrop(object sender, DragEventArgs e)
@@ -304,6 +306,14 @@ namespace SevenConverter
                 Tools.ShowPanel(btnAudioSet, pnlAudio, false, audioPanelHeight);
             if (pnlVideo.Visible)
                 Tools.ShowPanel(btnVideoSet, pnlVideo, false, videoPanelHeight);
+        }
+
+        private void btnAbout_Click(object sender, EventArgs e)
+        {
+            using (About about = new About())
+            {
+                about.ShowDialog();
+            }
         }
 
         private void Main_MouseClick(object sender, MouseEventArgs e)
