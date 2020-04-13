@@ -139,6 +139,8 @@ namespace SevenConverter
                         command.AppendFormat(" -vf {0}{1}{2}", rows, delim, hdr);
                     }
 
+                    command.Append(GetAudioFilters());
+
                     // bitrate
                     if (cbBitrate.SelectedIndex > 0)
                     {
@@ -208,6 +210,10 @@ namespace SevenConverter
             cbHDR.SelectedIndex = 0;
 
             btnVideoSet.Visible = true;
+
+            cbLoudness.SelectedIndex = 0;
+            cbLowpass.SelectedIndex = 0;
+            cbHighpass.SelectedIndex = 0;
 
             cbAudioCodec.SelectedIndex = settings.outputAudioCodec;
             cbVideoCodec.SelectedIndex = settings.outputVideoCodec;

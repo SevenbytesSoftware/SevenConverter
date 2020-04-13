@@ -88,7 +88,7 @@ namespace SevenConverter.Properties {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Audio Files|*.mp3; *.m4a; *.wav; *.flac; *.ogg; *.ape; *.amr; *.aac|All Files|*.*.
+        ///   Looks up a localized string similar to Audio and Video Files|*.mp3; *.m4a; *.wav; *.flac; *.ogg; *.ape; *.amr; *.aac; *.avi; *.mov; *.mkv; *.mpg; *.3gp; *.flv; *.vob; *.mp4; *.mts; *.ts; *.m2ts|All Files|*.*.
         /// </summary>
         internal static string AudioFileFilter {
             get {

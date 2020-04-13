@@ -100,7 +100,6 @@
             // 
             resources.ApplyResources(this.tbDestFilePath, "tbDestFilePath");
             this.tbDestFilePath.Name = "tbDestFilePath";
-            this.toolTip1.SetToolTip(this.tbDestFilePath, resources.GetString("tbDestFilePath.ToolTip"));
             // 
             // imageList
             // 
@@ -131,20 +130,17 @@
             resources.GetString("cbVideoCodec.Items6"),
             resources.GetString("cbVideoCodec.Items7")});
             this.cbVideoCodec.Name = "cbVideoCodec";
-            this.toolTip1.SetToolTip(this.cbVideoCodec, resources.GetString("cbVideoCodec.ToolTip"));
             this.cbVideoCodec.SelectedIndexChanged += new System.EventHandler(this.CbVideoCodec_SelectedIndexChanged);
             // 
             // lblVideoCodec
             // 
             resources.ApplyResources(this.lblVideoCodec, "lblVideoCodec");
             this.lblVideoCodec.Name = "lblVideoCodec";
-            this.toolTip1.SetToolTip(this.lblVideoCodec, resources.GetString("lblVideoCodec.ToolTip"));
             // 
             // lblAudioCodec
             // 
             resources.ApplyResources(this.lblAudioCodec, "lblAudioCodec");
             this.lblAudioCodec.Name = "lblAudioCodec";
-            this.toolTip1.SetToolTip(this.lblAudioCodec, resources.GetString("lblAudioCodec.ToolTip"));
             // 
             // cbAudioCodec
             // 
@@ -158,16 +154,10 @@
             resources.GetString("cbAudioCodec.Items3"),
             resources.GetString("cbAudioCodec.Items4")});
             this.cbAudioCodec.Name = "cbAudioCodec";
-            this.toolTip1.SetToolTip(this.cbAudioCodec, resources.GetString("cbAudioCodec.ToolTip"));
             this.cbAudioCodec.SelectedIndexChanged += new System.EventHandler(this.CbAudioCodec_SelectedIndexChanged);
-            // 
-            // openFileDialog
-            // 
-            resources.ApplyResources(this.openFileDialog, "openFileDialog");
             // 
             // contextMenuFile
             // 
-            resources.ApplyResources(this.contextMenuFile, "contextMenuFile");
             this.contextMenuFile.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.menuItemAdd,
             this.toolStripSeparator2,
@@ -177,47 +167,47 @@
             this.menuItemDelete,
             this.menuItemDeleteAll});
             this.contextMenuFile.Name = "contextMenuFile";
-            this.toolTip1.SetToolTip(this.contextMenuFile, resources.GetString("contextMenuFile.ToolTip"));
+            resources.ApplyResources(this.contextMenuFile, "contextMenuFile");
             this.contextMenuFile.Opened += new System.EventHandler(this.ContextMenuFile_Opened);
             // 
             // menuItemAdd
             // 
-            resources.ApplyResources(this.menuItemAdd, "menuItemAdd");
             this.menuItemAdd.Name = "menuItemAdd";
+            resources.ApplyResources(this.menuItemAdd, "menuItemAdd");
             this.menuItemAdd.Click += new System.EventHandler(this.MenuItemAdd_Click);
             // 
             // toolStripSeparator2
             // 
-            resources.ApplyResources(this.toolStripSeparator2, "toolStripSeparator2");
             this.toolStripSeparator2.Name = "toolStripSeparator2";
+            resources.ApplyResources(this.toolStripSeparator2, "toolStripSeparator2");
             // 
             // menuItemInfo
             // 
-            resources.ApplyResources(this.menuItemInfo, "menuItemInfo");
             this.menuItemInfo.Name = "menuItemInfo";
+            resources.ApplyResources(this.menuItemInfo, "menuItemInfo");
             this.menuItemInfo.Click += new System.EventHandler(this.MenuItemInfo_Click);
             // 
             // playToolStripMenuItem
             // 
-            resources.ApplyResources(this.playToolStripMenuItem, "playToolStripMenuItem");
             this.playToolStripMenuItem.Name = "playToolStripMenuItem";
+            resources.ApplyResources(this.playToolStripMenuItem, "playToolStripMenuItem");
             this.playToolStripMenuItem.Click += new System.EventHandler(this.PlayToolStripMenuItem_Click);
             // 
             // toolStripSeparator1
             // 
-            resources.ApplyResources(this.toolStripSeparator1, "toolStripSeparator1");
             this.toolStripSeparator1.Name = "toolStripSeparator1";
+            resources.ApplyResources(this.toolStripSeparator1, "toolStripSeparator1");
             // 
             // menuItemDelete
             // 
-            resources.ApplyResources(this.menuItemDelete, "menuItemDelete");
             this.menuItemDelete.Name = "menuItemDelete";
+            resources.ApplyResources(this.menuItemDelete, "menuItemDelete");
             this.menuItemDelete.Click += new System.EventHandler(this.DeleteSelected);
             // 
             // menuItemDeleteAll
             // 
-            resources.ApplyResources(this.menuItemDeleteAll, "menuItemDeleteAll");
             this.menuItemDeleteAll.Name = "menuItemDeleteAll";
+            resources.ApplyResources(this.menuItemDeleteAll, "menuItemDeleteAll");
             this.menuItemDeleteAll.Click += new System.EventHandler(this.DeleteAll);
             // 
             // imageListButtons
@@ -233,7 +223,6 @@
             // 
             resources.ApplyResources(this.lblFolder, "lblFolder");
             this.lblFolder.Name = "lblFolder";
-            this.toolTip1.SetToolTip(this.lblFolder, resources.GetString("lblFolder.ToolTip"));
             // 
             // rbVideo
             // 
@@ -253,10 +242,6 @@
             this.rbAudio.UseVisualStyleBackColor = true;
             this.rbAudio.Click += new System.EventHandler(this.RbAudio_Click);
             // 
-            // folderBrowserDialog
-            // 
-            resources.ApplyResources(this.folderBrowserDialog, "folderBrowserDialog");
-            // 
             // cbQuality
             // 
             resources.ApplyResources(this.cbQuality, "cbQuality");
@@ -268,7 +253,6 @@
             resources.GetString("cbQuality.Items2"),
             resources.GetString("cbQuality.Items3")});
             this.cbQuality.Name = "cbQuality";
-            this.toolTip1.SetToolTip(this.cbQuality, resources.GetString("cbQuality.ToolTip"));
             // 
             // cbFreq
             // 
@@ -281,7 +265,6 @@
             resources.GetString("cbFreq.Items2"),
             resources.GetString("cbFreq.Items3")});
             this.cbFreq.Name = "cbFreq";
-            this.toolTip1.SetToolTip(this.cbFreq, resources.GetString("cbFreq.ToolTip"));
             // 
             // cbJoin
             // 
@@ -292,7 +275,6 @@
             // 
             // pnlAudio
             // 
-            resources.ApplyResources(this.pnlAudio, "pnlAudio");
             this.pnlAudio.BackColor = System.Drawing.SystemColors.ControlLight;
             this.pnlAudio.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.pnlAudio.Controls.Add(this.label5);
@@ -305,15 +287,14 @@
             this.pnlAudio.Controls.Add(this.label2);
             this.pnlAudio.Controls.Add(this.cbFreq);
             this.pnlAudio.Controls.Add(this.cbQuality);
+            resources.ApplyResources(this.pnlAudio, "pnlAudio");
             this.pnlAudio.Name = "pnlAudio";
-            this.toolTip1.SetToolTip(this.pnlAudio, resources.GetString("pnlAudio.ToolTip"));
             this.pnlAudio.Click += new System.EventHandler(this.PnlAudio_Click);
             // 
             // label5
             // 
             resources.ApplyResources(this.label5, "label5");
             this.label5.Name = "label5";
-            this.toolTip1.SetToolTip(this.label5, resources.GetString("label5.ToolTip"));
             // 
             // cbLowpass
             // 
@@ -332,13 +313,11 @@
             resources.GetString("cbLowpass.Items8"),
             resources.GetString("cbLowpass.Items9")});
             this.cbLowpass.Name = "cbLowpass";
-            this.toolTip1.SetToolTip(this.cbLowpass, resources.GetString("cbLowpass.ToolTip"));
             // 
             // label4
             // 
             resources.ApplyResources(this.label4, "label4");
             this.label4.Name = "label4";
-            this.toolTip1.SetToolTip(this.label4, resources.GetString("label4.ToolTip"));
             // 
             // cbHighpass
             // 
@@ -356,13 +335,11 @@
             resources.GetString("cbHighpass.Items7"),
             resources.GetString("cbHighpass.Items8")});
             this.cbHighpass.Name = "cbHighpass";
-            this.toolTip1.SetToolTip(this.cbHighpass, resources.GetString("cbHighpass.ToolTip"));
             // 
             // label3
             // 
             resources.ApplyResources(this.label3, "label3");
             this.label3.Name = "label3";
-            this.toolTip1.SetToolTip(this.label3, resources.GetString("label3.ToolTip"));
             // 
             // cbLoudness
             // 
@@ -376,25 +353,21 @@
             resources.GetString("cbLoudness.Items3"),
             resources.GetString("cbLoudness.Items4")});
             this.cbLoudness.Name = "cbLoudness";
-            this.toolTip1.SetToolTip(this.cbLoudness, resources.GetString("cbLoudness.ToolTip"));
             // 
             // label6
             // 
             resources.ApplyResources(this.label6, "label6");
             this.label6.Name = "label6";
-            this.toolTip1.SetToolTip(this.label6, resources.GetString("label6.ToolTip"));
             this.label6.MouseClick += new System.Windows.Forms.MouseEventHandler(this.Main_MouseClick);
             // 
             // label2
             // 
             resources.ApplyResources(this.label2, "label2");
             this.label2.Name = "label2";
-            this.toolTip1.SetToolTip(this.label2, resources.GetString("label2.ToolTip"));
             this.label2.MouseClick += new System.Windows.Forms.MouseEventHandler(this.Main_MouseClick);
             // 
             // pnlVideo
             // 
-            resources.ApplyResources(this.pnlVideo, "pnlVideo");
             this.pnlVideo.BackColor = System.Drawing.SystemColors.ControlLight;
             this.pnlVideo.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.pnlVideo.Controls.Add(this.cbHDR);
@@ -409,30 +382,27 @@
             this.pnlVideo.Controls.Add(this.label8);
             this.pnlVideo.Controls.Add(this.cbLines);
             this.pnlVideo.Controls.Add(this.cbAspect);
+            resources.ApplyResources(this.pnlVideo, "pnlVideo");
             this.pnlVideo.Name = "pnlVideo";
-            this.toolTip1.SetToolTip(this.pnlVideo, resources.GetString("pnlVideo.ToolTip"));
             this.pnlVideo.Click += new System.EventHandler(this.PnlVideo_Click);
             // 
             // cbHDR
             // 
-            resources.ApplyResources(this.cbHDR, "cbHDR");
             this.cbHDR.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cbHDR.FormattingEnabled = true;
             this.cbHDR.Items.AddRange(new object[] {
             resources.GetString("cbHDR.Items"),
             resources.GetString("cbHDR.Items1")});
+            resources.ApplyResources(this.cbHDR, "cbHDR");
             this.cbHDR.Name = "cbHDR";
-            this.toolTip1.SetToolTip(this.cbHDR, resources.GetString("cbHDR.ToolTip"));
             // 
             // label1
             // 
             resources.ApplyResources(this.label1, "label1");
             this.label1.Name = "label1";
-            this.toolTip1.SetToolTip(this.label1, resources.GetString("label1.ToolTip"));
             // 
             // cbBitrate
             // 
-            resources.ApplyResources(this.cbBitrate, "cbBitrate");
             this.cbBitrate.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cbBitrate.FormattingEnabled = true;
             this.cbBitrate.Items.AddRange(new object[] {
@@ -444,21 +414,19 @@
             resources.GetString("cbBitrate.Items5"),
             resources.GetString("cbBitrate.Items6"),
             resources.GetString("cbBitrate.Items7")});
+            resources.ApplyResources(this.cbBitrate, "cbBitrate");
             this.cbBitrate.Name = "cbBitrate";
-            this.toolTip1.SetToolTip(this.cbBitrate, resources.GetString("cbBitrate.ToolTip"));
             // 
             // label12
             // 
             resources.ApplyResources(this.label12, "label12");
             this.label12.Name = "label12";
-            this.toolTip1.SetToolTip(this.label12, resources.GetString("label12.ToolTip"));
             this.label12.MouseClick += new System.Windows.Forms.MouseEventHandler(this.Main_MouseClick);
             // 
             // label10
             // 
             resources.ApplyResources(this.label10, "label10");
             this.label10.Name = "label10";
-            this.toolTip1.SetToolTip(this.label10, resources.GetString("label10.ToolTip"));
             this.label10.MouseClick += new System.Windows.Forms.MouseEventHandler(this.Main_MouseClick);
             // 
             // cbInterlaced
@@ -472,13 +440,11 @@
             resources.GetString("cbInterlaced.Items2"),
             resources.GetString("cbInterlaced.Items3")});
             this.cbInterlaced.Name = "cbInterlaced";
-            this.toolTip1.SetToolTip(this.cbInterlaced, resources.GetString("cbInterlaced.ToolTip"));
             // 
             // label9
             // 
             resources.ApplyResources(this.label9, "label9");
             this.label9.Name = "label9";
-            this.toolTip1.SetToolTip(this.label9, resources.GetString("label9.ToolTip"));
             this.label9.MouseClick += new System.Windows.Forms.MouseEventHandler(this.Main_MouseClick);
             // 
             // cbFramerate
@@ -500,20 +466,17 @@
             resources.GetString("cbFramerate.Items10"),
             resources.GetString("cbFramerate.Items11")});
             this.cbFramerate.Name = "cbFramerate";
-            this.toolTip1.SetToolTip(this.cbFramerate, resources.GetString("cbFramerate.ToolTip"));
             // 
             // label7
             // 
             resources.ApplyResources(this.label7, "label7");
             this.label7.Name = "label7";
-            this.toolTip1.SetToolTip(this.label7, resources.GetString("label7.ToolTip"));
             this.label7.MouseClick += new System.Windows.Forms.MouseEventHandler(this.Main_MouseClick);
             // 
             // label8
             // 
             resources.ApplyResources(this.label8, "label8");
             this.label8.Name = "label8";
-            this.toolTip1.SetToolTip(this.label8, resources.GetString("label8.ToolTip"));
             this.label8.MouseClick += new System.Windows.Forms.MouseEventHandler(this.Main_MouseClick);
             // 
             // cbLines
@@ -528,7 +491,6 @@
             resources.GetString("cbLines.Items3"),
             resources.GetString("cbLines.Items4")});
             this.cbLines.Name = "cbLines";
-            this.toolTip1.SetToolTip(this.cbLines, resources.GetString("cbLines.ToolTip"));
             // 
             // cbAspect
             // 
@@ -546,27 +508,24 @@
             resources.GetString("cbAspect.Items7"),
             resources.GetString("cbAspect.Items8")});
             this.cbAspect.Name = "cbAspect";
-            this.toolTip1.SetToolTip(this.cbAspect, resources.GetString("cbAspect.ToolTip"));
             // 
             // statusStrip
             // 
-            resources.ApplyResources(this.statusStrip, "statusStrip");
             this.statusStrip.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.statusLabel});
+            resources.ApplyResources(this.statusStrip, "statusStrip");
             this.statusStrip.Name = "statusStrip";
-            this.toolTip1.SetToolTip(this.statusStrip, resources.GetString("statusStrip.ToolTip"));
             // 
             // statusLabel
             // 
-            resources.ApplyResources(this.statusLabel, "statusLabel");
             this.statusLabel.Name = "statusLabel";
+            resources.ApplyResources(this.statusLabel, "statusLabel");
             this.statusLabel.Spring = true;
             // 
             // lblOutputFormat
             // 
             resources.ApplyResources(this.lblOutputFormat, "lblOutputFormat");
             this.lblOutputFormat.Name = "lblOutputFormat";
-            this.toolTip1.SetToolTip(this.lblOutputFormat, resources.GetString("lblOutputFormat.ToolTip"));
             // 
             // cbFormat
             // 
@@ -578,7 +537,6 @@
             resources.GetString("cbFormat.Items1"),
             resources.GetString("cbFormat.Items2")});
             this.cbFormat.Name = "cbFormat";
-            this.toolTip1.SetToolTip(this.cbFormat, resources.GetString("cbFormat.ToolTip"));
             this.cbFormat.SelectedIndexChanged += new System.EventHandler(this.CbFormat_SelectedIndexChanged);
             // 
             // cbTrack
@@ -595,17 +553,17 @@
             resources.GetString("cbTrack.Items5"),
             resources.GetString("cbTrack.Items6")});
             this.cbTrack.Name = "cbTrack";
-            this.toolTip1.SetToolTip(this.cbTrack, resources.GetString("cbTrack.ToolTip"));
             // 
             // lblAudioTrack
             // 
             resources.ApplyResources(this.lblAudioTrack, "lblAudioTrack");
             this.lblAudioTrack.Name = "lblAudioTrack";
-            this.toolTip1.SetToolTip(this.lblAudioTrack, resources.GetString("lblAudioTrack.ToolTip"));
             // 
             // btnAdd
             // 
             resources.ApplyResources(this.btnAdd, "btnAdd");
+            this.btnAdd.FlatAppearance.BorderColor = System.Drawing.Color.Silver;
+            this.btnAdd.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
             this.btnAdd.ImageList = this.imageList;
             this.btnAdd.Name = "btnAdd";
             this.toolTip1.SetToolTip(this.btnAdd, resources.GetString("btnAdd.ToolTip"));
@@ -659,8 +617,8 @@
             // 
             // listSoruceFiles
             // 
-            resources.ApplyResources(this.listSoruceFiles, "listSoruceFiles");
             this.listSoruceFiles.AllowDrop = true;
+            resources.ApplyResources(this.listSoruceFiles, "listSoruceFiles");
             this.listSoruceFiles.BackgroundImageTiled = true;
             this.listSoruceFiles.ContextMenuStrip = this.contextMenuFile;
             this.listSoruceFiles.HideSelection = false;
@@ -671,7 +629,6 @@
             this.listSoruceFiles.LargeImageList = this.imageList;
             this.listSoruceFiles.Name = "listSoruceFiles";
             this.listSoruceFiles.SmallImageList = this.imageList;
-            this.toolTip1.SetToolTip(this.listSoruceFiles, resources.GetString("listSoruceFiles.ToolTip"));
             this.listSoruceFiles.UseCompatibleStateImageBehavior = false;
             this.listSoruceFiles.DragDrop += new System.Windows.Forms.DragEventHandler(this.ListSoruceFiles_DragDrop);
             this.listSoruceFiles.DragEnter += new System.Windows.Forms.DragEventHandler(this.ListSoruceFiles_DragEnter);
@@ -680,10 +637,14 @@
             // btnAbout
             // 
             resources.ApplyResources(this.btnAbout, "btnAbout");
+            this.btnAbout.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.btnAbout.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnAbout.FlatAppearance.BorderSize = 0;
+            this.btnAbout.FlatAppearance.MouseOverBackColor = System.Drawing.Color.PaleTurquoise;
             this.btnAbout.Name = "btnAbout";
             this.toolTip1.SetToolTip(this.btnAbout, resources.GetString("btnAbout.ToolTip"));
-            this.btnAbout.UseVisualStyleBackColor = true;
-            this.btnAbout.Click += new System.EventHandler(this.btnAbout_Click);
+            this.btnAbout.UseVisualStyleBackColor = false;
+            this.btnAbout.Click += new System.EventHandler(this.BtnAbout_Click);
             // 
             // Main
             // 
@@ -715,7 +676,6 @@
             this.Controls.Add(this.lblAudioTrack);
             this.KeyPreview = true;
             this.Name = "Main";
-            this.toolTip1.SetToolTip(this, resources.GetString("$this.ToolTip"));
             this.Load += new System.EventHandler(this.Main_Load);
             this.Click += new System.EventHandler(this.Main_Click);
             this.MouseClick += new System.Windows.Forms.MouseEventHandler(this.Main_MouseClick);

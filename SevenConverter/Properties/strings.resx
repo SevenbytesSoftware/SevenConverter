@@ -127,7 +127,7 @@
     <value>Multi-format converter for the media files</value>
   </data>
   <data name="AudioFileFilter" xml:space="preserve">
-    <value>Audio Files|*.mp3; *.m4a; *.wav; *.flac; *.ogg; *.ape; *.amr; *.aac|All Files|*.*</value>
+    <value>Audio and Video Files|*.mp3; *.m4a; *.wav; *.flac; *.ogg; *.ape; *.amr; *.aac; *.avi; *.mov; *.mkv; *.mpg; *.3gp; *.flv; *.vob; *.mp4; *.mts; *.ts; *.m2ts|All Files|*.*</value>
   </data>
   <data name="Close" xml:space="preserve">
     <value>CLOSE</value>

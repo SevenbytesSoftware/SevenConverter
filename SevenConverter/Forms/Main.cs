@@ -13,9 +13,22 @@ namespace SevenConverter
 
         public Main()
         {
-            // localization debug
-            System.Threading.Thread.CurrentThread.CurrentUICulture =
-                System.Globalization.CultureInfo.GetCultureInfo("ru-RU");
+            // switch of localization
+            string[] args = Environment.GetCommandLineArgs();
+            if (args.Length > 1)
+            {
+                try
+                {
+                    string arg = args[1].Replace("/", "");
+                    System.Threading.Thread.CurrentThread.CurrentUICulture =
+                        System.Globalization.CultureInfo.GetCultureInfo(arg);
+                }
+                catch
+                {
+                    System.Threading.Thread.CurrentThread.CurrentUICulture =
+                        System.Globalization.CultureInfo.GetCultureInfo("en-US");
+                }
+            }
             InitializeComponent();
         }
 
@@ -50,6 +63,14 @@ namespace SevenConverter
             btnAdd.Visible = false;
         }
 
+        private void BtnAbout_Click(object sender, EventArgs e)
+        {
+            using (About about = new About())
+            {
+                about.ShowDialog();
+            }
+        }
+
         private void BtnAdd_Click(object sender, EventArgs e)
         {
             MenuItemAdd_Click(sender, e);
@@ -64,6 +85,14 @@ namespace SevenConverter
                 TurnOffPanels();
                 Tools.ShowPanel(btnAudioSet, pnlAudio, !pnlAudio.Visible, audioPanelHeight);
             }
+        }
+
+        private void BtnFolder_Click(object sender, EventArgs e)
+        {
+            if (String.IsNullOrEmpty(folderBrowserDialog.SelectedPath))
+                folderBrowserDialog.SelectedPath = settings.lastSourcePath;
+            if (folderBrowserDialog.ShowDialog() == DialogResult.OK)
+                tbDestFilePath.Text = folderBrowserDialog.SelectedPath;
         }
 
         private void BtnStart_Click(object sender, EventArgs e)
@@ -130,18 +159,16 @@ namespace SevenConverter
                         SystemSounds.Exclamation.Play();
                 }
                 else
-                    MessageBox.Show(Properties.strings.FolderDoesNotExist);
+                    MessageBox.Show(Properties.strings.FolderDoesNotExist,
+                        Properties.strings.FolderDoesNotExist,
+                        MessageBoxButtons.OK,
+                        MessageBoxIcon.Warning);
             }
             else
-                MessageBox.Show(Properties.strings.YouMustSelectSourceFile);
-        }
-
-        private bool Convert(string inputFiles, string outputFile, bool quote, bool video)
-        {
-            if (video)
-                return ConvertVideo(inputFiles, outputFile, quote);
-            else
-                return ConvertAudio(inputFiles, outputFile, quote);
+                MessageBox.Show(Properties.strings.YouMustSelectSourceFile,
+                    Properties.strings.YouMustSelectSourceFile,
+                        MessageBoxButtons.OK,
+                        MessageBoxIcon.Warning);
         }
 
         private void BtnVideoSet_Click(object sender, EventArgs e)
@@ -155,18 +182,10 @@ namespace SevenConverter
             }
         }
 
-        private void BtnFolder_Click(object sender, EventArgs e)
-        {
-            if (String.IsNullOrEmpty(folderBrowserDialog.SelectedPath))
-                folderBrowserDialog.SelectedPath = settings.lastSourcePath;
-            if (folderBrowserDialog.ShowDialog() == DialogResult.OK)
-                tbDestFilePath.Text = folderBrowserDialog.SelectedPath;
-        }
-
         private void CbAudioCodec_SelectedIndexChanged(object sender, EventArgs e)
         {
             TurnOffPanels();
-            cbFreq.Enabled = cbAudioCodec.SelectedIndex != 0 && cbAudioCodec.SelectedIndex != 4;
+            //cbFreq.Enabled = cbAudioCodec.SelectedIndex != 0 && cbAudioCodec.SelectedIndex != 4;
             cbQuality.Enabled = cbFreq.Enabled;
             btnAudioSet.Enabled = cbFreq.Enabled;
         }
@@ -196,6 +215,14 @@ namespace SevenConverter
             contextMenuFile.Items[2].Visible = (listSoruceFiles.SelectedItems.Count == 1);
             contextMenuFile.Items[3].Visible = contextMenuFile.Items[5].Visible;
             contextMenuFile.Items[4].Visible = contextMenuFile.Items[5].Visible;
+        }
+
+        private bool Convert(string inputFiles, string outputFile, bool quote, bool video)
+        {
+            if (video)
+                return ConvertVideo(inputFiles, outputFile, quote);
+            else
+                return ConvertAudio(inputFiles, outputFile, quote);
         }
 
         private void DeleteAll(object sender, EventArgs e)
@@ -240,6 +267,11 @@ namespace SevenConverter
             videoPanelHeight = pnlVideo.Height;
             listSoruceFiles.Clear();
             this.LoadConfig();
+        }
+
+        private void Main_MouseClick(object sender, MouseEventArgs e)
+        {
+            TurnOffPanels();
         }
 
         private void MenuItemAdd_Click(object sender, EventArgs e)
@@ -306,19 +338,6 @@ namespace SevenConverter
                 Tools.ShowPanel(btnAudioSet, pnlAudio, false, audioPanelHeight);
             if (pnlVideo.Visible)
                 Tools.ShowPanel(btnVideoSet, pnlVideo, false, videoPanelHeight);
-        }
-
-        private void btnAbout_Click(object sender, EventArgs e)
-        {
-            using (About about = new About())
-            {
-                about.ShowDialog();
-            }
-        }
-
-        private void Main_MouseClick(object sender, MouseEventArgs e)
-        {
-            TurnOffPanels();
         }
 
         #endregion Private Methods

@@ -127,7 +127,7 @@
     <value>Мультформатный конвертер медиа-файлов</value>
   </data>
   <data name="AudioFileFilter" xml:space="preserve">
-    <value>Аудио файлы|*.mp3; *.m4a; *.wav; *.flac; *.ogg; *.ape; *.amr; *.aac|Все файлы|*.*</value>
+    <value>Аудио и видео файлы|*.mp3; *.m4a; *.wav; *.flac; *.ogg; *.ape; *.amr; *.aac; *.avi; *.mov; *.mkv; *.mpg; *.3gp; *.flv; *.vob; *.mp4; *.mts; *.ts; *.m2ts|Все файлы|*.*</value>
   </data>
   <data name="Close" xml:space="preserve">
     <value>ЗАКРЫТЬ</value>
