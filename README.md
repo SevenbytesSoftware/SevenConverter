@@ -40,6 +40,8 @@
 - Source Video File Formats: `*.avi; *.mov; *.mkv; *.mpg; *.3gp; *.flv; *.vob; *.mp4; *.ts; *.m2ts`.
 - Convert to audio formats: `MP3, OGG Vorbis, FLAC, WAV`.
 - Change the bitrate and sample rate of audio.
+- Loudness: US Broadcast (ATSC A/A85), EU Broadcast (EBU R128), Podcasts, Dynamic
+- Low-pass, High-pass filters.
 
 ## Requirements
 
