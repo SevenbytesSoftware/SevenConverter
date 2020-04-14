@@ -6,6 +6,7 @@
 
 ## Features
 
+- Converting Video to Audio.
 - Sequential processing of multiple files.
 - Joining several files into one (videos must be with the same resolution).
 - Automatically determine the number of threads to encode based on the number of CPU cores.
@@ -36,8 +37,11 @@
 ## Audio conversion
 
 - Source Audio File Formats: `*.mp3; *.m4a; *.wav; *.flac; *.ogg; *.ape; *.amr; *.acc`.
+- Source Video File Formats: `*.avi; *.mov; *.mkv; *.mpg; *.3gp; *.flv; *.vob; *.mp4; *.ts; *.m2ts`.
 - Convert to audio formats: `MP3, OGG Vorbis, FLAC, WAV`.
 - Change the bitrate and sample rate of audio.
+- Loudness: US Broadcast (ATSC A/A85), EU Broadcast (EBU R128), Podcasts, Dynamic
+- Low-pass, High-pass filters.
 
 ## Requirements
 

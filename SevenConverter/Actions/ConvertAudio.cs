@@ -1,6 +1,7 @@
 ﻿using SevenConverter.Forms;
 using SevenConverter.Utils;
 using System;
+using System.Collections.Generic;
 using System.IO;
 using System.Text;
 using System.Windows.Forms;
@@ -19,6 +20,18 @@ namespace SevenConverter
             "WAV"
         };
 
+        private readonly string[] LoudnessTypes =
+        {
+            //US Broadcast (ATSC A/A85)
+            "loudnorm=I=-24:TP=-2:LRA=7",
+            //EU Broadcast (EBU R128)
+            "loudnorm=I=-23:TP=-1.5:LRA=16",
+            //Podcasts
+            "loudnorm=I=-10:TP=-0:LRA=16",
+            //Dynamic
+            "dynaudnorm"
+        };
+
         private bool ConvertAudio(string sourceFile, string destFile, bool quoted = true)
         {
             bool result = false;
@@ -33,6 +46,8 @@ namespace SevenConverter
 
                     if (cbFormat.SelectedIndex == 1)
                         command.Append(" -acodec libvorbis");
+
+                    command.Append(GetAudioFilters());
 
                     if (cbFormat.SelectedIndex == 0 || cbFormat.SelectedIndex == 1)
                         command.AppendFormat(" -ab {0} -ar {1}", cbQuality.Text, cbFreq.Text);
@@ -51,6 +66,31 @@ namespace SevenConverter
                     MessageBox.Show(String.Format(Properties.strings.FolderDoesNotExistParam, dest_path));
             }
             return result;
+        }
+
+        private string GetAudioFilters()
+        {
+            List<string> filters = new List<string>();
+
+            if (cbLoudness.SelectedIndex > 0)
+            {
+                filters.Add(LoudnessTypes[cbLoudness.SelectedIndex - 1]);
+            }
+
+            if (cbLowpass.SelectedIndex > 0)
+            {
+                filters.Add(String.Concat("lowpass=", cbLowpass.Text));
+            }
+
+            if (cbHighpass.SelectedIndex > 0)
+            {
+                filters.Add(String.Concat("highpass=", cbHighpass.Text));
+            }
+
+            if (filters.Count > 0)
+                return String.Concat(" -af \"", String.Join(",", filters), "\"");
+            else
+                return String.Empty;
         }
 
         private void TurnAudio()

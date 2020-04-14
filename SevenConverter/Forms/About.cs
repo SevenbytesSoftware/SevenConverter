@@ -133,7 +133,9 @@ namespace SevenConverter
                 {
                     MessageBox.Show(
                         Properties.strings.SevenConverterIsUpToDate,
-                        Properties.strings.UpToDate);
+                        Properties.strings.UpToDate,
+                        MessageBoxButtons.OK,
+                        MessageBoxIcon.Information);
                 }
                 else
                 {
