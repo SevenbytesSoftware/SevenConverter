@@ -7,6 +7,7 @@
 ## Features
 
 - Converting Video to Audio.
+- Converting Video to GIF.
 - Sequential processing of multiple files.
 - Joining several files into one (videos must be with the same resolution).
 - Automatically determine the number of threads to encode based on the number of CPU cores.
@@ -16,8 +17,8 @@
 
 ## Video conversion
 
-- Source Video File Formats: `*.avi; *.mov; *.mkv; *.mpg; *.3gp; *.flv; *.vob; *.mp4; *.ts; *.m2ts`.
-- Convert to Video Formats: `AVI, MOV, MKV, TS, MP4`.
+- Source Video File Formats: `*.avi; *.mov; *.mkv; *.mpg; *.3gp; *.flv; *.vob; *.mp4; *.ts; *.m2ts; *.gif`.
+- Convert to Video Formats: `AVI, MOV, MKV, TS, MP4, GIF`.
 - Video Codecs: `H.265, H.264, MJPEG, XVID, MPEG2`.
 - Adaptive video bitrate.
 - Ability to manually adjust the video bitrate (to reduce the size of the output file).
@@ -33,6 +34,7 @@
 - Change the type of scan - progressive / interlaced.
 - Selects a specific or all source audio tracks.
 - Conversion HDR to SDR.
+- Creation GIF images.
 
 ## Audio conversion
 

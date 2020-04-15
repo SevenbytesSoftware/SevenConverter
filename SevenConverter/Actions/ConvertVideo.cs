@@ -47,7 +47,8 @@ namespace SevenConverter
             "MOV",
             "MKV",
             "TS",
-            "MP4"
+            "MP4",
+            "GIF"
         };
 
         private bool ConvertVideo(string sourceFile, string destFile, bool quoted = true)
@@ -59,107 +60,123 @@ namespace SevenConverter
                 if (Directory.Exists(dest_path))
                 {
                     StringBuilder command = new StringBuilder();
-                    // input file and video codec
-                    command.AppendFormat("-hwaccel auto -i {0} -y -v error -vcodec {1}",
-                        quoted ? String.Concat("\"", sourceFile, "\"") : sourceFile,
-                        videoCodec[cbVideoCodec.SelectedIndex]);
 
-                    // TS format
-                    if (cbFormat.SelectedIndex == 3)
+                    if (cbFormat.SelectedIndex == 5)
                     {
-                        command.Append(" -f mpegts ");
-                        // copy
-                        if (cbVideoCodec.SelectedIndex == 0)
-                        {
-                            command.Append(" -bsf:v h264_mp4toannexb");
-                        }
-                    }
-
-                    // framerate
-                    if (cbFramerate.SelectedIndex > 0)
-                    {
-                        command.Append(" -r ").Append(cbFramerate.Text);
-                    }
-
-                    // interlace
-                    if (cbInterlaced.SelectedIndex > 0)
-                    {
-                        command.Append(interlaced[cbInterlaced.SelectedIndex - 1]);
-                    }
-
-                    // audio codec
-                    switch (cbAudioCodec.SelectedIndex)
-                    {
-                        case 0:
-                            command.Append(" -acodec copy");
-                            break;
-
-                        case 1:
-                            command.AppendFormat(" -acodec libmp3lame -ab {0} -ar {1} -ac 2", cbQuality.Text, cbFreq.Text);
-                            break;
-
-                        case 2:
-                            command.AppendFormat(" -acodec ac3 -ab {0} -ar {1}", cbQuality.Text, cbFreq.Text);
-                            break;
-
-                        case 3:
-                            command.AppendFormat(" -acodec pcm_s16be -ar {0}", cbFreq.Text);
-                            break;
-
-                        default:
-                            command.Append(" -an");
-                            break;
-                    }
-
-                    // aspect
-                    if (cbAspect.SelectedIndex > 0)
-                    {
-                        command.AppendFormat(" -aspect {0}", cbAspect.Text);
-                    }
-
-                    if (cbLines.SelectedIndex > 0 || cbHDR.SelectedIndex > 0)
-                    {
-                        string rows = String.Empty;
-                        string delim = String.Empty;
-
-                        // scale
-                        if (cbLines.SelectedIndex > 0)
-                        {
-                            rows = String.Format("scale=-1:{0}", cbLines.Text);
-                        }
-
-                        string hdr = String.Empty;
-                        if (cbHDR.SelectedIndex == 1)
-                        {
-                            if (cbLines.SelectedIndex > 0)
-                                delim = ",";
-                            hdr = "zscale=t=linear:npl=100,format=gbrpf32le,zscale=p=bt709,tonemap=tonemap=hable:desat=0,zscale=t=bt709:m=bt709:r=tv,format=yuv420p";
-                        }
-
-                        command.AppendFormat(" -vf {0}{1}{2}", rows, delim, hdr);
-                    }
-
-                    command.Append(GetAudioFilters());
-
-                    // bitrate
-                    if (cbBitrate.SelectedIndex > 0)
-                    {
-                        command.Append(bitRate[cbBitrate.SelectedIndex - 1]);
-                    }
-
-                    // select track
-                    if (cbTrack.SelectedIndex > 0)
-                    {
-                        command.AppendFormat(" -map 0:v? -map 0:s? -map 0:a:{0}", (cbTrack.SelectedIndex - 1).ToString());
+                        // GIF 
+                        command.AppendFormat(
+                            "-ss {0} -t {1} -i {2} -vf \"fps={3},scale={4}:-1:flags=lanczos,split[s0][s1];[s0]palettegen[p];[s1][p]paletteuse\" -loop 0",
+                            tbGIFStart.Text,
+                            tbGIFDuration.Text,
+                            quoted ? String.Concat("\"", sourceFile, "\"") : sourceFile,
+                            tbGIFFPS.Text,
+                            tbGIFWidth.Text
+                            );
+                        command.AppendFormat(" -stats -threads 0 \"{0}\"", destFile);
                     }
                     else
                     {
-                        command.Append(" -map 0:v? -map 0:s? -map 0:a?");
+                        // input file and video codec
+                        command.AppendFormat("-hwaccel auto -i {0} -y -v error -vcodec {1}",
+                            quoted ? String.Concat("\"", sourceFile, "\"") : sourceFile,
+                            videoCodec[cbVideoCodec.SelectedIndex]);
+
+                        // TS format
+                        if (cbFormat.SelectedIndex == 3)
+                        {
+                            command.Append(" -f mpegts ");
+                            // copy
+                            if (cbVideoCodec.SelectedIndex == 0)
+                            {
+                                command.Append(" -bsf:v h264_mp4toannexb");
+                            }
+                        }
+
+                        // framerate
+                        if (cbFramerate.SelectedIndex > 0)
+                        {
+                            command.Append(" -r ").Append(cbFramerate.Text);
+                        }
+
+                        // interlace
+                        if (cbInterlaced.SelectedIndex > 0)
+                        {
+                            command.Append(interlaced[cbInterlaced.SelectedIndex - 1]);
+                        }
+
+                        // audio codec
+                        switch (cbAudioCodec.SelectedIndex)
+                        {
+                            case 0:
+                                command.Append(" -acodec copy");
+                                break;
+
+                            case 1:
+                                command.AppendFormat(" -acodec libmp3lame -ab {0} -ar {1} -ac 2", cbQuality.Text, cbFreq.Text);
+                                break;
+
+                            case 2:
+                                command.AppendFormat(" -acodec ac3 -ab {0} -ar {1}", cbQuality.Text, cbFreq.Text);
+                                break;
+
+                            case 3:
+                                command.AppendFormat(" -acodec pcm_s16be -ar {0}", cbFreq.Text);
+                                break;
+
+                            default:
+                                command.Append(" -an");
+                                break;
+                        }
+
+                        // aspect
+                        if (cbAspect.SelectedIndex > 0)
+                        {
+                            command.AppendFormat(" -aspect {0}", cbAspect.Text);
+                        }
+
+                        if (cbLines.SelectedIndex > 0 || cbHDR.SelectedIndex > 0)
+                        {
+                            string rows = String.Empty;
+                            string delim = String.Empty;
+
+                            // scale
+                            if (cbLines.SelectedIndex > 0)
+                            {
+                                rows = String.Format("scale=-1:{0}", cbLines.Text);
+                            }
+
+                            string hdr = String.Empty;
+                            if (cbHDR.SelectedIndex == 1)
+                            {
+                                if (cbLines.SelectedIndex > 0)
+                                    delim = ",";
+                                hdr = "zscale=t=linear:npl=100,format=gbrpf32le,zscale=p=bt709,tonemap=tonemap=hable:desat=0,zscale=t=bt709:m=bt709:r=tv,format=yuv420p";
+                            }
+
+                            command.AppendFormat(" -vf {0}{1}{2}", rows, delim, hdr);
+                        }
+
+                        command.Append(GetAudioFilters());
+
+                        // bitrate
+                        if (cbBitrate.SelectedIndex > 0)
+                        {
+                            command.Append(bitRate[cbBitrate.SelectedIndex - 1]);
+                        }
+
+                        // select track
+                        if (cbTrack.SelectedIndex > 0)
+                        {
+                            command.AppendFormat(" -map 0:v? -map 0:s? -map 0:a:{0}", (cbTrack.SelectedIndex - 1).ToString());
+                        }
+                        else
+                        {
+                            command.Append(" -map 0:v? -map 0:s? -map 0:a?");
+                        }
+
+                        // multithreads
+                        command.AppendFormat(" -stats -scodec copy -threads 0 \"{0}\"", destFile);
                     }
-
-                    // multithreads
-                    command.AppendFormat(" -stats -scodec copy -threads 0 \"{0}\"", destFile);
-
                     // run ffmpeg
                     using (RunForm runForm = new RunForm())
                     {
@@ -215,9 +232,21 @@ namespace SevenConverter
             cbLowpass.SelectedIndex = 0;
             cbHighpass.SelectedIndex = 0;
 
-            cbAudioCodec.SelectedIndex = settings.outputAudioCodec;
-            cbVideoCodec.SelectedIndex = settings.outputVideoCodec;
-            cbFormat.SelectedIndex = settings.outputVideoFormat;
+            if (cbAudioCodec.Items.Count > settings.outputAudioCodec)
+                cbAudioCodec.SelectedIndex = settings.outputAudioCodec;
+            else
+                cbAudioCodec.SelectedIndex = 0;
+
+            if (cbVideoCodec.Items.Count > settings.outputVideoCodec)
+                cbVideoCodec.SelectedIndex = settings.outputVideoCodec;
+            else
+                cbVideoCodec.SelectedIndex = 0;
+
+            if (cbFormat.Items.Count > settings.outputVideoFormat)
+                cbFormat.SelectedIndex = settings.outputVideoFormat;
+            else
+                cbFormat.SelectedIndex = 0;
+
             cbFreq.Text = "44100";
             cbQuality.Text = "320k";
             cbFramerate.SelectedIndex = 0;

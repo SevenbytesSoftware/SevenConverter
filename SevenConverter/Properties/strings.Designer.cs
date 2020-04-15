@@ -227,7 +227,7 @@ namespace SevenConverter.Properties {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Video Files|*.avi; *.mov; *.mkv; *.mpg; *.3gp; *.flv; *.vob; *.mp4; *.mts; *.ts; *.m2ts|All Files|*.*.
+        ///   Looks up a localized string similar to Video Files|*.avi; *.mov; *.mkv; *.mpg; *.3gp; *.flv; *.vob; *.mp4; *.mts; *.ts; *.m2ts; *.gif|All Files|*.*.
         /// </summary>
         internal static string VideoFileFilter {
             get {

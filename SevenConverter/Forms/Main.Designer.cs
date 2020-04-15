@@ -90,10 +90,21 @@
             this.listSoruceFiles = new System.Windows.Forms.ListView();
             this.toolTip1 = new System.Windows.Forms.ToolTip(this.components);
             this.btnAbout = new System.Windows.Forms.Button();
+            this.btnGIF = new System.Windows.Forms.Button();
+            this.pnlGIF = new System.Windows.Forms.Panel();
+            this.tbGIFWidth = new System.Windows.Forms.TextBox();
+            this.label13 = new System.Windows.Forms.Label();
+            this.tbGIFFPS = new System.Windows.Forms.TextBox();
+            this.label11 = new System.Windows.Forms.Label();
+            this.tbGIFDuration = new System.Windows.Forms.TextBox();
+            this.tbGIFStart = new System.Windows.Forms.TextBox();
+            this.label14 = new System.Windows.Forms.Label();
+            this.label15 = new System.Windows.Forms.Label();
             this.contextMenuFile.SuspendLayout();
             this.pnlAudio.SuspendLayout();
             this.pnlVideo.SuspendLayout();
             this.statusStrip.SuspendLayout();
+            this.pnlGIF.SuspendLayout();
             this.SuspendLayout();
             // 
             // tbDestFilePath
@@ -646,10 +657,81 @@
             this.btnAbout.UseVisualStyleBackColor = false;
             this.btnAbout.Click += new System.EventHandler(this.BtnAbout_Click);
             // 
+            // btnGIF
+            // 
+            resources.ApplyResources(this.btnGIF, "btnGIF");
+            this.btnGIF.ImageList = this.imageListButtons;
+            this.btnGIF.Name = "btnGIF";
+            this.toolTip1.SetToolTip(this.btnGIF, resources.GetString("btnGIF.ToolTip"));
+            this.btnGIF.UseVisualStyleBackColor = true;
+            this.btnGIF.Click += new System.EventHandler(this.btnGIF_Click);
+            // 
+            // pnlGIF
+            // 
+            this.pnlGIF.BackColor = System.Drawing.SystemColors.ControlLight;
+            this.pnlGIF.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pnlGIF.Controls.Add(this.tbGIFWidth);
+            this.pnlGIF.Controls.Add(this.label13);
+            this.pnlGIF.Controls.Add(this.tbGIFFPS);
+            this.pnlGIF.Controls.Add(this.label11);
+            this.pnlGIF.Controls.Add(this.tbGIFDuration);
+            this.pnlGIF.Controls.Add(this.tbGIFStart);
+            this.pnlGIF.Controls.Add(this.label14);
+            this.pnlGIF.Controls.Add(this.label15);
+            resources.ApplyResources(this.pnlGIF, "pnlGIF");
+            this.pnlGIF.Name = "pnlGIF";
+            this.pnlGIF.Click += new System.EventHandler(this.pnlGIF_Click);
+            // 
+            // tbGIFWidth
+            // 
+            resources.ApplyResources(this.tbGIFWidth, "tbGIFWidth");
+            this.tbGIFWidth.Name = "tbGIFWidth";
+            this.tbGIFWidth.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.tbGIFStart_KeyPress);
+            // 
+            // label13
+            // 
+            resources.ApplyResources(this.label13, "label13");
+            this.label13.Name = "label13";
+            // 
+            // tbGIFFPS
+            // 
+            resources.ApplyResources(this.tbGIFFPS, "tbGIFFPS");
+            this.tbGIFFPS.Name = "tbGIFFPS";
+            this.tbGIFFPS.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.tbGIFStart_KeyPress);
+            // 
+            // label11
+            // 
+            resources.ApplyResources(this.label11, "label11");
+            this.label11.Name = "label11";
+            // 
+            // tbGIFDuration
+            // 
+            resources.ApplyResources(this.tbGIFDuration, "tbGIFDuration");
+            this.tbGIFDuration.Name = "tbGIFDuration";
+            this.tbGIFDuration.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.tbGIFStart_KeyPress);
+            // 
+            // tbGIFStart
+            // 
+            resources.ApplyResources(this.tbGIFStart, "tbGIFStart");
+            this.tbGIFStart.Name = "tbGIFStart";
+            this.tbGIFStart.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.tbGIFStart_KeyPress);
+            // 
+            // label14
+            // 
+            resources.ApplyResources(this.label14, "label14");
+            this.label14.Name = "label14";
+            // 
+            // label15
+            // 
+            resources.ApplyResources(this.label15, "label15");
+            this.label15.Name = "label15";
+            // 
             // Main
             // 
             resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.Controls.Add(this.pnlGIF);
+            this.Controls.Add(this.btnGIF);
             this.Controls.Add(this.btnAbout);
             this.Controls.Add(this.statusStrip);
             this.Controls.Add(this.btnAdd);
@@ -686,6 +768,8 @@
             this.pnlVideo.PerformLayout();
             this.statusStrip.ResumeLayout(false);
             this.statusStrip.PerformLayout();
+            this.pnlGIF.ResumeLayout(false);
+            this.pnlGIF.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -753,6 +837,16 @@
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.ComboBox cbLoudness;
         private System.Windows.Forms.Button btnAbout;
+        private System.Windows.Forms.Button btnGIF;
+        private System.Windows.Forms.Panel pnlGIF;
+        private System.Windows.Forms.TextBox tbGIFStart;
+        private System.Windows.Forms.Label label14;
+        private System.Windows.Forms.Label label15;
+        private System.Windows.Forms.TextBox tbGIFWidth;
+        private System.Windows.Forms.Label label13;
+        private System.Windows.Forms.TextBox tbGIFFPS;
+        private System.Windows.Forms.Label label11;
+        private System.Windows.Forms.TextBox tbGIFDuration;
     }
 }
 

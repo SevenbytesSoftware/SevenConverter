@@ -43,6 +43,7 @@ namespace SevenConverter
         #region Private Fields
 
         private int audioPanelHeight;
+        private int gifPanelHeight;
         private string config_path;
         private string ffmpeg_path, currentPath;
 
@@ -199,6 +200,22 @@ namespace SevenConverter
                 cbQuality.Enabled = cbFreq.Enabled;
                 btnAudioSet.Enabled = cbFreq.Enabled;
             }
+            else
+            {
+                bool gifSelected = (cbFormat.SelectedIndex == 5);
+                
+                lblAudioCodec.Visible = !gifSelected;
+                cbAudioCodec.Visible = !gifSelected;
+                btnAudioSet.Visible = !gifSelected;
+                lblVideoCodec.Visible = !gifSelected;
+                cbVideoCodec.Visible = !gifSelected;
+                btnVideoSet.Visible = !gifSelected;
+                lblAudioTrack.Visible = !gifSelected;
+                cbTrack.Visible = !gifSelected;
+                cbJoin.Visible = !gifSelected;
+
+                btnGIF.Visible = gifSelected;
+            }
         }
 
         private void CbVideoCodec_SelectedIndexChanged(object sender, EventArgs e)
@@ -265,6 +282,7 @@ namespace SevenConverter
             this.Text = this.Text + " " + Tools.GetProgramVersion();
             audioPanelHeight = pnlAudio.Height;
             videoPanelHeight = pnlVideo.Height;
+            gifPanelHeight = pnlGIF.Height;
             listSoruceFiles.Clear();
             this.LoadConfig();
         }
@@ -332,12 +350,39 @@ namespace SevenConverter
             TurnVideo();
         }
 
+        private void btnGIF_Click(object sender, EventArgs e)
+        {
+            if (pnlGIF.Visible)
+                TurnOffPanels();
+            else
+            {
+                TurnOffPanels();
+                Tools.ShowPanel(btnGIF, pnlGIF, !pnlGIF.Visible, gifPanelHeight);
+            }
+        }
+
+        private void tbGIFStart_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            if (!char.IsControl(e.KeyChar) && !char.IsDigit(e.KeyChar))
+            {
+                e.Handled = true;
+            }
+        }
+
+        private void pnlGIF_Click(object sender, EventArgs e)
+        {
+            TurnOffPanels();
+            Tools.ShowPanel(btnGIF, pnlGIF, false, gifPanelHeight);
+        }
+
         private void TurnOffPanels()
         {
             if (pnlAudio.Visible)
                 Tools.ShowPanel(btnAudioSet, pnlAudio, false, audioPanelHeight);
             if (pnlVideo.Visible)
                 Tools.ShowPanel(btnVideoSet, pnlVideo, false, videoPanelHeight);
+            if (pnlGIF.Visible)
+                Tools.ShowPanel(btnGIF, pnlGIF, false, gifPanelHeight);
         }
 
         #endregion Private Methods
