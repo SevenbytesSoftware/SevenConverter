@@ -11,6 +11,7 @@ namespace SevenConverter
         #region Public Constructors
 
         private const string latestURL = "https://github.com/SevenbytesSoftware/SevenConverter/releases/latest";
+        private const string updateURL = "http://converter.sevenbytes.com/download/";
 
         public About()
         {
@@ -146,7 +147,7 @@ namespace SevenConverter
                         MessageBoxIcon.Information,
                         MessageBoxDefaultButton.Button1) == DialogResult.Yes)
                     {
-                        Process.Start(latestURL);
+                        Process.Start(updateURL);
                     }
                 }
             }
