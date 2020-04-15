@@ -232,9 +232,21 @@ namespace SevenConverter
             cbLowpass.SelectedIndex = 0;
             cbHighpass.SelectedIndex = 0;
 
-            cbAudioCodec.SelectedIndex = settings.outputAudioCodec;
-            cbVideoCodec.SelectedIndex = settings.outputVideoCodec;
-            cbFormat.SelectedIndex = settings.outputVideoFormat;
+            if (cbAudioCodec.Items.Count > settings.outputAudioCodec)
+                cbAudioCodec.SelectedIndex = settings.outputAudioCodec;
+            else
+                cbAudioCodec.SelectedIndex = 0;
+
+            if (cbVideoCodec.Items.Count > settings.outputVideoCodec)
+                cbVideoCodec.SelectedIndex = settings.outputVideoCodec;
+            else
+                cbVideoCodec.SelectedIndex = 0;
+
+            if (cbFormat.Items.Count > settings.outputVideoFormat)
+                cbFormat.SelectedIndex = settings.outputVideoFormat;
+            else
+                cbFormat.SelectedIndex = 0;
+
             cbFreq.Text = "44100";
             cbQuality.Text = "320k";
             cbFramerate.SelectedIndex = 0;

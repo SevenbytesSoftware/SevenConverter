@@ -176,7 +176,7 @@ We recommend that you always use the latest version in order to enjoy all the la
     <value>Version not found</value>
   </data>
   <data name="VideoFileFilter" xml:space="preserve">
-    <value>Video Files|*.avi; *.mov; *.mkv; *.mpg; *.3gp; *.flv; *.vob; *.mp4; *.mts; *.ts; *.m2ts|All Files|*.*</value>
+    <value>Video Files|*.avi; *.mov; *.mkv; *.mpg; *.3gp; *.flv; *.vob; *.mp4; *.mts; *.ts; *.m2ts; *.gif|All Files|*.*</value>
   </data>
   <data name="YouMustSelectSourceFile" xml:space="preserve">
     <value>You must select a source file!</value>

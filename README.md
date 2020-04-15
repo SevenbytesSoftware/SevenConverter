@@ -17,7 +17,7 @@
 
 ## Video conversion
 
-- Source Video File Formats: `*.avi; *.mov; *.mkv; *.mpg; *.3gp; *.flv; *.vob; *.mp4; *.ts; *.m2ts`.
+- Source Video File Formats: `*.avi; *.mov; *.mkv; *.mpg; *.3gp; *.flv; *.vob; *.mp4; *.ts; *.m2ts; *.gif`.
 - Convert to Video Formats: `AVI, MOV, MKV, TS, MP4, GIF`.
 - Video Codecs: `H.265, H.264, MJPEG, XVID, MPEG2`.
 - Adaptive video bitrate.
@@ -34,6 +34,7 @@
 - Change the type of scan - progressive / interlaced.
 - Selects a specific or all source audio tracks.
 - Conversion HDR to SDR.
+- Creation GIF images.
 
 ## Audio conversion
 

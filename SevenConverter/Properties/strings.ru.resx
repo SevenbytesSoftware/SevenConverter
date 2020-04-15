@@ -176,7 +176,7 @@
     <value>Версия не найдена</value>
   </data>
   <data name="VideoFileFilter" xml:space="preserve">
-    <value>Видео файлы|*.avi; *.mov; *.mkv; *.mpg; *.3gp; *.flv; *.vob; *.mp4; *.mts; *.ts; *.m2ts|Все файлы|*.*</value>
+    <value>Видео файлы|*.avi; *.mov; *.mkv; *.mpg; *.3gp; *.flv; *.vob; *.mp4; *.mts; *.ts; *.m2ts; *.gif|Все файлы|*.*</value>
   </data>
   <data name="YouMustSelectSourceFile" xml:space="preserve">
     <value>Нужно выбрать исходные файлы!</value>
