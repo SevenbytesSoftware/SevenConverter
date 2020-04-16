@@ -14,6 +14,7 @@
 - Automatically rename a file when matching names.
 - Getting file information.
 - Play one or more files.
+- Prevents power sleep on converting.
 
 ## Video conversion
 

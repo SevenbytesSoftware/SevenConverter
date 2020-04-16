@@ -105,6 +105,8 @@ namespace SevenConverter
 
             if (listSoruceFiles.Items.Count > 0)
             {
+                Tools.PreventSleep();
+
                 if (!String.IsNullOrEmpty(tbDestFilePath.Text)
                     && !Directory.Exists(tbDestFilePath.Text))
                 {
@@ -158,6 +160,8 @@ namespace SevenConverter
                     // done!
                     if (result)
                         SystemSounds.Exclamation.Play();
+
+                    Tools.AllowSleep();
                 }
                 else
                     MessageBox.Show(Properties.strings.FolderDoesNotExist,
