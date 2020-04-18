@@ -92,4 +92,6 @@ You may also see the license in the file [LICENSE](https://github.com/Sevenbytes
 
 ## Contact
 
-You can contact the developers using the [Issues](https://github.com/SevenbytesSoftware/SevenConverter/issues).
+- You can contact the developers using the [Issues](https://github.com/SevenbytesSoftware/SevenConverter/issues).
+- Seven Converter channel in Telegram: [https://t.me/sevenconverter](https://t.me/sevenconverter)
+- Seven Converter channel in Telegram for russian speaking users [https://t.me/sevenconverter_ru](https://t.me/sevenconverter_ru)
