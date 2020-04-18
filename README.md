@@ -90,7 +90,7 @@ Unless required by applicable law or agreed to in writing, software distributed 
 
 You may also see the license in the file [LICENSE](https://github.com/SevenbytesSoftware/SevenConverter/blob/master/LICENSE) in the source distribution.
 
-## Resiurces
+## Resources
 
 - Seven Converter Site [http://converter.sevenbytes.com](http://converter.sevenbytes.com)
 - Seven Converter Russian Site [http://converter.sevenbytes.ru](http://converter.sevenbytes.ru)
