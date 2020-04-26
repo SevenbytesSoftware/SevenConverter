@@ -6,8 +6,7 @@
 
 ## Features
 
-- Converting Video to Audio.
-- Converting Video to GIF.
+- Converting Video to Video, Video to Audio and Video to GIF.
 - Sequential processing of multiple files.
 - Joining several files into one (videos must be with the same resolution).
 - Automatically determine the number of threads to encode based on the number of CPU cores.
