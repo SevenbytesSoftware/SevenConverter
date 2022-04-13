@@ -139,7 +139,11 @@
             resources.GetString("cbVideoCodec.Items4"),
             resources.GetString("cbVideoCodec.Items5"),
             resources.GetString("cbVideoCodec.Items6"),
-            resources.GetString("cbVideoCodec.Items7")});
+            resources.GetString("cbVideoCodec.Items7"),
+            resources.GetString("cbVideoCodec.Items8"),
+            resources.GetString("cbVideoCodec.Items9"),
+            resources.GetString("cbVideoCodec.Items10"),
+            resources.GetString("cbVideoCodec.Items11")});
             this.cbVideoCodec.Name = "cbVideoCodec";
             this.cbVideoCodec.SelectedIndexChanged += new System.EventHandler(this.CbVideoCodec_SelectedIndexChanged);
             // 
@@ -169,6 +173,7 @@
             // 
             // contextMenuFile
             // 
+            this.contextMenuFile.ImageScalingSize = new System.Drawing.Size(20, 20);
             this.contextMenuFile.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.menuItemAdd,
             this.toolStripSeparator2,
@@ -522,6 +527,7 @@
             // 
             // statusStrip
             // 
+            this.statusStrip.ImageScalingSize = new System.Drawing.Size(20, 20);
             this.statusStrip.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.statusLabel});
             resources.ApplyResources(this.statusStrip, "statusStrip");

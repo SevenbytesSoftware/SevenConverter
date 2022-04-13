@@ -36,7 +36,11 @@ namespace SevenConverter
             "libx264",
             "h264_nvenc -global_quality 25",
             "h264_qsv -global_quality 25",
+            "h264_amf -global_quality 25",
             "libx265",
+            "hevc_nvenc -global_quality 25",
+            "hevc_qsv -global_quality 25",
+            "hevc_amf -global_quality 25",
             "libxvid",
             "mpeg2video"
         };
@@ -48,7 +52,7 @@ namespace SevenConverter
             "MKV",
             "TS",
             "MP4",
-            "GIF"
+            "GIF"            
         };
 
         private bool ConvertVideo(string sourceFile, string destFile, bool quoted = true)

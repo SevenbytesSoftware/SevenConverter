@@ -2,7 +2,7 @@
  
  ![SevenConverter](https://raw.githubusercontent.com/SevenbytesSoftware/SevenConverter/master/assets/SevenConverter.PNG)
 
-**Seven Converter** is a simple tool for converting media files into various formats. The program is distributed for free under the Apache 2.0 license. It uses an open source libraries FFMPEG (build by http://ffmpeg.zeranoe.com/). The main goal of the program was to create an easy-to-use interface over FFMPEG console utilities with a minimum of additional settings. 
+**Seven Converter** is a simple tool for converting media files into various formats. The program is distributed for free under the Apache 2.0 license. It uses an open source libraries FFMPEG (build by https://www.gyan.dev/ffmpeg/). The main goal of the program was to create an easy-to-use interface over FFMPEG console utilities with a minimum of additional settings. 
 
 ## Features
 
@@ -17,9 +17,10 @@
 
 ## Video conversion
 
-- Source Video File Formats: `*.avi; *.mov; *.mkv; *.mpg; *.3gp; *.flv; *.vob; *.mp4; *.ts; *.m2ts; *.gif`.
+- Source Video File Formats: `*.avi; *.mov; *.mkv; *.mpg; *.3gp; *.flv; *.vob; *.mp4; *.ts; *.m2ts; *.gif; *.webm`.
 - Convert to Video Formats: `AVI, MOV, MKV, TS, MP4, GIF`.
 - Video Codecs: `H.265, H.264, MJPEG, XVID, MPEG2`.
+- Hardware encoding acceleration for H.265 and H.264: NVIDIA, Intel QSV, AMD AMF/VCE.
 - Adaptive video bitrate.
 - Ability to manually adjust the video bitrate (to reduce the size of the output file).
 - Audio Codecs: `MP3, AC3, PCM`.
@@ -39,16 +40,16 @@
 ## Audio conversion
 
 - Source Audio File Formats: `*.mp3; *.m4a; *.wav; *.flac; *.ogg; *.ape; *.amr; *.acc`.
-- Source Video File Formats: `*.avi; *.mov; *.mkv; *.mpg; *.3gp; *.flv; *.vob; *.mp4; *.ts; *.m2ts`.
+- Source Video File Formats: `*.avi; *.mov; *.mkv; *.mpg; *.3gp; *.flv; *.vob; *.mp4; *.ts; *.m2ts; *.webm`.
 - Convert to audio formats: `MP3, OGG Vorbis, FLAC, WAV`.
 - Change the bitrate and sample rate of audio.
-- Loudness: US Broadcast (ATSC A/A85), EU Broadcast (EBU R128), Podcasts, Dynamic
+- Loudness: US Broadcast (ATSC A/A85), EU Broadcast (EBU R128), Podcasts, Dynamic.
 - Low-pass, High-pass filters.
 
 ## Requirements
 
 - Microsoft Windows x64 operating system.
-- Installed Microsoft [.NET Framework 4.5](https://www.microsoft.com/en-US/download/details.aspx?id=30653).
+- Installed Microsoft [.NET Framework 4.8](https://dotnet.microsoft.com/en-us/download/dotnet-framework/net48).
 
 ## Download and Install
 
@@ -68,7 +69,7 @@
 
 1. First of all, you need to download or clone the source from the link https://github.com/SevenbytesSoftware/SevenConverter
 2. To compile you need to open the file `SevenConverter\Seven Converter.sln` in the Visual Studio 2019 and run the Build.
-3. Then you need to download the latest build of `FFMPEG` from site http://ffmpeg.zeranoe.com/builds/ and put the files in the `ffmpeg` subfolder next to the file obtained in the previous step `SevenConverter.exe`.
+3. Then you need to download the latest build of `FFMPEG` from site https://www.gyan.dev/ffmpeg/builds/ and put the files in the `ffmpeg` subfolder next to the file obtained in the previous step `SevenConverter.exe`.
 4. The program checks the presence of `FFMPEG` at startup and throws an error if they are absent.
 
 ## Localization
@@ -79,7 +80,7 @@ The language of the program interface is determined automatically depending on t
 
 ## Copyright, License
 
-Seven Converter is copyright (c) 2013-2020 Sevenbytes Software.
+Seven Converter is copyright (c) 2013-2022 Sevenbytes Software.
 
 Licensed under the Apache License, Version 2.0 (the "License"); you may not use this file except in compliance with the License. You may obtain a copy of the License at
 
