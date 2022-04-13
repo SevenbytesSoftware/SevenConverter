@@ -19,7 +19,7 @@ namespace SevenConverter.Properties {
     // class via a tool like ResGen or Visual Studio.
     // To add or remove a member, edit your .ResX file then rerun ResGen
     // with the /str option, or rebuild your VS project.
-    [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Resources.Tools.StronglyTypedResourceBuilder", "16.0.0.0")]
+    [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Resources.Tools.StronglyTypedResourceBuilder", "17.0.0.0")]
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
     [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
     internal class strings {
@@ -88,7 +88,7 @@ namespace SevenConverter.Properties {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Audio and Video Files|*.mp3; *.m4a; *.wav; *.flac; *.ogg; *.ape; *.amr; *.aac; *.avi; *.mov; *.mkv; *.mpg; *.3gp; *.flv; *.vob; *.mp4; *.mts; *.ts; *.m2ts|All Files|*.*.
+        ///   Looks up a localized string similar to Audio and Video Files|*.mp3; *.m4a; *.wav; *.flac; *.ogg; *.ape; *.amr; *.aac; *.avi; *.mov; *.mkv; *.mpg; *.3gp; *.flv; *.vob; *.mp4; *.mts; *.ts; *.m2ts; *.webm|All Files|*.*.
         /// </summary>
         internal static string AudioFileFilter {
             get {
@@ -227,7 +227,7 @@ namespace SevenConverter.Properties {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Video Files|*.avi; *.mov; *.mkv; *.mpg; *.3gp; *.flv; *.vob; *.mp4; *.mts; *.ts; *.m2ts; *.gif|All Files|*.*.
+        ///   Looks up a localized string similar to Video Files|*.avi; *.mov; *.mkv; *.mpg; *.3gp; *.flv; *.vob; *.mp4; *.mts; *.ts; *.m2ts; *.gif; *.webm|All Files|*.*.
         /// </summary>
         internal static string VideoFileFilter {
             get {

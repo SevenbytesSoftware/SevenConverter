@@ -126,7 +126,10 @@
     <value>Consolas, 9.75pt</value>
   </data>
   <data name="tbConsole.Location" type="System.Drawing.Point, System.Drawing">
-    <value>12, 12</value>
+    <value>16, 18</value>
+  </data>
+  <data name="tbConsole.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
   </data>
   <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="tbConsole.Multiline" type="System.Boolean, mscorlib">
@@ -136,7 +139,7 @@
     <value>Both</value>
   </data>
   <data name="tbConsole.Size" type="System.Drawing.Size, System.Drawing">
-    <value>828, 375</value>
+    <value>1103, 546</value>
   </data>
   <data name="tbConsole.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
@@ -163,10 +166,13 @@ Line3
     <value>Bottom</value>
   </data>
   <data name="btnStop.Location" type="System.Drawing.Point, System.Drawing">
-    <value>365, 419</value>
+    <value>487, 612</value>
+  </data>
+  <data name="btnStop.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
   </data>
   <data name="btnStop.Size" type="System.Drawing.Size, System.Drawing">
-    <value>122, 46</value>
+    <value>163, 67</value>
   </data>
   <data name="btnStop.TabIndex" type="System.Int32, mscorlib">
     <value>1</value>
@@ -187,19 +193,19 @@ Line3
     <value>2</value>
   </data>
   <data name="tbCommandLine.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Top, Left, Right</value>
+    <value>Bottom, Left, Right</value>
   </data>
   <metadata name="contextMenuStrip1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>17, 17</value>
   </metadata>
   <data name="copyToClipboardToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>171, 22</value>
+    <value>200, 24</value>
   </data>
   <data name="copyToClipboardToolStripMenuItem.Text" xml:space="preserve">
     <value>Copy to Clipboard</value>
   </data>
   <data name="contextMenuStrip1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>172, 26</value>
+    <value>201, 28</value>
   </data>
   <data name="&gt;&gt;contextMenuStrip1.Name" xml:space="preserve">
     <value>contextMenuStrip1</value>
@@ -211,10 +217,13 @@ Line3
     <value>Lucida Console, 9.75pt</value>
   </data>
   <data name="tbCommandLine.Location" type="System.Drawing.Point, System.Drawing">
-    <value>12, 393</value>
+    <value>16, 574</value>
+  </data>
+  <data name="tbCommandLine.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
   </data>
   <data name="tbCommandLine.Size" type="System.Drawing.Size, System.Drawing">
-    <value>828, 20</value>
+    <value>1103, 24</value>
   </data>
   <data name="tbCommandLine.TabIndex" type="System.Int32, mscorlib">
     <value>2</value>
@@ -238,10 +247,10 @@ Line3
     <value>True</value>
   </metadata>
   <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
-    <value>6, 13</value>
+    <value>8, 19</value>
   </data>
   <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
-    <value>852, 478</value>
+    <value>1136, 699</value>
   </data>
   <data name="$this.Font" type="System.Drawing.Font, System.Drawing">
     <value>Segoe UI, 8.25pt</value>
@@ -411,6 +420,9 @@ Line3
         AAB//wAA4AAAAH//AADgAAAAf/8AAOAAAAB//wAA4AAAAH//AADgAAAAf/8AAP///////wAA////////
         AAA=
 </value>
+  </data>
+  <data name="$this.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
   </data>
   <data name="$this.StartPosition" type="System.Windows.Forms.FormStartPosition, System.Windows.Forms">
     <value>CenterScreen</value>
