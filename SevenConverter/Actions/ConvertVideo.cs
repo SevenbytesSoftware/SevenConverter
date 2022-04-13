@@ -52,7 +52,7 @@ namespace SevenConverter
             "MKV",
             "TS",
             "MP4",
-            "GIF"            
+            "GIF"
         };
 
         private bool ConvertVideo(string sourceFile, string destFile, bool quoted = true)
@@ -67,7 +67,7 @@ namespace SevenConverter
 
                     if (cbFormat.SelectedIndex == 5)
                     {
-                        // GIF 
+                        // GIF
                         command.AppendFormat(
                             "-ss {0} -t {1} -i {2} -vf \"fps={3},scale={4}:-1:flags=lanczos,split[s0][s1];[s0]palettegen[p];[s1][p]paletteuse\" -loop 0",
                             tbGIFStart.Text,

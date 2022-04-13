@@ -207,7 +207,7 @@ namespace SevenConverter
             else
             {
                 bool gifSelected = (cbFormat.SelectedIndex == 5);
-                
+
                 lblAudioCodec.Visible = !gifSelected;
                 cbAudioCodec.Visible = !gifSelected;
                 btnAudioSet.Visible = !gifSelected;

@@ -6,7 +6,7 @@ using System.Windows.Forms;
 
 namespace SevenConverter
 {
-    partial class About : Form
+    internal partial class About : Form
     {
         #region Public Constructors
 
