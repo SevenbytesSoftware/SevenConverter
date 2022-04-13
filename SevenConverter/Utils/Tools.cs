@@ -35,7 +35,6 @@ namespace SevenConverter.Utils
             return Assembly.GetExecutingAssembly().GetName().Version.ToString();
         }
 
-
         public static void ShowPanel(Control toggleControl, Panel panel, bool show, int height)
         {
             panel.Left = toggleControl.Left + toggleControl.Width;
