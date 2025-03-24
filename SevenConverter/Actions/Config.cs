@@ -26,10 +26,18 @@ namespace SevenConverter
             config_path = Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.ApplicationData), Files.Config_Folder);
             if (File.Exists(Path.Combine(config_path, Files.Config_Filename)))
             {
-                using (FileStream file = new FileStream(Path.Combine(config_path, Files.Config_Filename), FileMode.Open))
+                try
                 {
-                    XmlSerializer xml = new XmlSerializer(typeof(Settings));
-                    settings = xml.Deserialize(file) as Settings;
+                    using (FileStream file = new FileStream(Path.Combine(config_path, Files.Config_Filename), FileMode.Open))
+                    {
+                        XmlSerializer xml = new XmlSerializer(typeof(Settings));
+                        settings = xml.Deserialize(file) as Settings;
+                    }
+                }
+                catch (Exception ex)
+                {
+                    MessageBox.Show($"Error loading config file: {ex.Message}. A new default config will be created.");
+                    settings = new Settings();
                 }
             }
             else
